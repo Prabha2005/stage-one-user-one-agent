@@ -1,0 +1,98 @@
+{
+  "user_id": "U-04280",
+  "arm": "holdout",
+  "subscription_status": "lapsed",
+  "signup_at": "2026-09-21T05:17:16.624Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 5,
+  "total_completions": 4,
+  "completed_episodes_count": 4,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Comedy",
+    "Drama",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:02:03.268Z",
+    "deadline": "2026-10-04T15:02:03.268Z",
+    "window_hours": 72,
+    "target_slug": "koni-lapi-d2",
+    "evidence": [
+      "slug_progress:koni-lapi-d2",
+      "days_inactive:4.3"
+    ],
+    "assumptions": [
+      "Viewer has 10 unwatched episodes remaining in koni-lapi-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-21T05:17:16.624Z",
+      "source": "event:1e7aa3d8-9ca8-4944-9b03-41bbb007a321",
+      "timestamp": "2026-09-21T05:17:16.624Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "event:65b5f7e0-e851-48b1-8a34-73469a844e7e",
+      "timestamp": "2026-09-24T05:17:15.823Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T07:10:16.903Z",
+      "timestamp": "2026-09-29T07:10:16.903Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T07:10:16.903Z",
+      "timestamp": "2026-09-29T07:10:16.903Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T07:10:16.903Z",
+      "timestamp": "2026-09-29T07:10:16.903Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:0cb0a7c7-f35f-4576-84fa-7ae047cb07f0",
+      "timestamp": "2026-10-01T15:02:03.268Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:02:03.268Z",
+      "source": "event:0cb0a7c7-f35f-4576-84fa-7ae047cb07f0",
+      "timestamp": "2026-10-01T15:02:03.268Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T13:21:01.402Z",
+      "source": "event:b4f4e336-24e4-4330-a5a8-bffc5bf6a5cc",
+      "timestamp": "2026-09-29T13:21:01.402Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

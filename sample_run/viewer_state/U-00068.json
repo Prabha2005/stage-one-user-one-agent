@@ -1,0 +1,150 @@
+{
+  "user_id": "U-00068",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-08-12T23:06:33.859Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 14,
+  "total_completions": 7,
+  "completed_episodes_count": 6,
+  "active_series_in_progress": 6,
+  "top_genres": [
+    "Devotional",
+    "Romance",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T09:55:41.292Z",
+    "deadline": "2026-10-04T09:55:41.292Z",
+    "window_hours": 72,
+    "target_slug": "bagi-baya-d4",
+    "evidence": [
+      "slug_progress:bagi-baya-d4",
+      "days_inactive:30.2"
+    ],
+    "assumptions": [
+      "Viewer has 40 unwatched episodes remaining in bagi-baya-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-08-12T23:06:33.859Z",
+      "source": "profile:2026-09-29T14:35:43.044Z",
+      "timestamp": "2026-08-12T23:06:33.859Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:99d58319-42ae-4f4a-a649-401701f735d4",
+      "timestamp": "2026-09-25T14:18:35.742Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T14:35:43.044Z",
+      "timestamp": "2026-09-29T14:35:43.044Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T14:35:43.044Z",
+      "timestamp": "2026-09-29T14:35:43.044Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T14:35:43.044Z",
+      "timestamp": "2026-09-29T14:35:43.044Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T14:35:43.044Z",
+      "timestamp": "2026-09-29T14:35:43.044Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:dde073e8-89f2-40ea-a86b-7894d123bb67",
+      "timestamp": "2026-10-01T09:55:41.292Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T09:55:41.292Z",
+      "source": "event:dde073e8-89f2-40ea-a86b-7894d123bb67",
+      "timestamp": "2026-10-01T09:55:41.292Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T17:34:53.413Z",
+      "source": "event:825e7885-00a8-465e-8f5e-13f55fedbab8",
+      "timestamp": "2026-09-30T17:34:53.413Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-03T02:52:16.539Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:99db3ef7-1d78-4a5c-a4ad-2e3a71cb5a84 (latest user app setting)",
+      "timestamp": "2026-09-08T06:38:15.853Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-08T06:38:15.853Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:2bc14008-cad7-430a-bc95-2332b417d56e (latest user app setting)",
+      "timestamp": "2026-09-08T06:38:21.198Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-28T10:14:12.949Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

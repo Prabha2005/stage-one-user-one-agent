@@ -1,0 +1,113 @@
+{
+  "user_id": "U-02896",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2025-04-11T19:49:17.492Z",
+  "resolved_dialect": "d6",
+  "app_dialect": "d6",
+  "profile_dialect": "d6",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Thriller",
+    "Action"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T03:41:11.653Z",
+    "deadline": "2026-10-04T03:41:11.653Z",
+    "window_hours": 72,
+    "target_slug": "suchumo-yadi-d6",
+    "evidence": [
+      "slug_progress:suchumo-yadi-d6",
+      "days_inactive:12.9"
+    ],
+    "assumptions": [
+      "Viewer has 53 unwatched episodes remaining in suchumo-yadi-d6",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-04-11T19:49:17.492Z",
+      "source": "profile:2026-09-29T08:52:35.391Z",
+      "timestamp": "2025-04-11T19:49:17.492Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T08:52:35.391Z",
+      "timestamp": "2026-09-29T08:52:35.391Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "profile:2026-09-29T08:52:35.391Z",
+      "timestamp": "2026-09-29T08:52:35.391Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T08:52:35.391Z",
+      "timestamp": "2026-09-29T08:52:35.391Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T08:52:35.391Z",
+      "timestamp": "2026-09-29T08:52:35.391Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T08:52:35.391Z",
+      "timestamp": "2026-09-29T08:52:35.391Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:44433a8b-4e77-4bf0-a5e1-1274c2eb772c",
+      "timestamp": "2026-10-01T03:41:11.653Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T03:41:11.653Z",
+      "source": "event:44433a8b-4e77-4bf0-a5e1-1274c2eb772c",
+      "timestamp": "2026-10-01T03:41:11.653Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-18T06:49:35.489Z",
+      "source": "event:9cc97908-6eff-447f-9d89-312bda0a6cd6",
+      "timestamp": "2026-09-18T06:49:35.489Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-10T15:03:07.811Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

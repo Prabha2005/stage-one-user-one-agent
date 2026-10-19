@@ -1,0 +1,79 @@
+{
+  "user_id": "U-00496",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2026-10-01T11:58:18.347Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": null,
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 0,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 0,
+  "top_genres": [],
+  "active_goal": {
+    "id": "G01",
+    "name": "first_play_24h",
+    "started_at": "2026-10-01T11:58:44.873Z",
+    "deadline": "2026-10-02T11:58:44.873Z",
+    "window_hours": 24,
+    "target_slug": null,
+    "evidence": [
+      "signup_at:2026-10-01T11:58:18.347Z",
+      "total_plays:0"
+    ],
+    "assumptions": [
+      "Viewer is a newly registered user who has not activated playback"
+    ],
+    "confidence": 0.85,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 2,
+  "facts": {
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:fbf79561-9362-41d3-8467-a64e666763ac",
+      "timestamp": "2026-10-01T11:58:47.437Z",
+      "confidence": 1.0
+    },
+    "signup_at": {
+      "value": "2026-10-01T11:58:18.347Z",
+      "source": "event:746db95c-5c9b-4263-af9d-3bfec8b54eac",
+      "timestamp": "2026-10-01T11:58:18.347Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "event:746db95c-5c9b-4263-af9d-3bfec8b54eac",
+      "timestamp": "2026-10-01T11:58:18.347Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T11:58:47.437Z",
+      "source": "event:fbf79561-9362-41d3-8467-a64e666763ac",
+      "timestamp": "2026-10-01T11:58:47.437Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-10-01T11:58:47.437Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

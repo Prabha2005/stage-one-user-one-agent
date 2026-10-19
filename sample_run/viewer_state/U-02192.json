@@ -1,0 +1,132 @@
+{
+  "user_id": "U-02192",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-10-15T08:54:11.372Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 10,
+  "total_completions": 8,
+  "completed_episodes_count": 8,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Devotional",
+    "Romance",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:28:25.243Z",
+    "deadline": "2026-10-04T15:28:25.243Z",
+    "window_hours": 72,
+    "target_slug": "gubava-gihaya-d5",
+    "evidence": [
+      "slug_progress:gubava-gihaya-d5",
+      "days_inactive:4.5"
+    ],
+    "assumptions": [
+      "Viewer has 26 unwatched episodes remaining in gubava-gihaya-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-10-15T08:54:11.372Z",
+      "source": "profile:2026-09-29T11:46:14.778Z",
+      "timestamp": "2025-10-15T08:54:11.372Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:f755c54a-5def-4a03-879f-6ec410a64458",
+      "timestamp": "2026-09-02T03:29:07.943Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-29T11:46:14.778Z",
+      "timestamp": "2026-09-29T11:46:14.778Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T11:46:14.778Z",
+      "timestamp": "2026-09-29T11:46:14.778Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T11:46:14.778Z",
+      "timestamp": "2026-09-29T11:46:14.778Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T11:46:14.778Z",
+      "timestamp": "2026-09-29T11:46:14.778Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:0bac73f7-6c57-43b3-9f9d-d8dc95a4fb9c",
+      "timestamp": "2026-10-01T15:28:25.243Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:28:25.243Z",
+      "source": "event:0bac73f7-6c57-43b3-9f9d-d8dc95a4fb9c",
+      "timestamp": "2026-10-01T15:28:25.243Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T16:42:11.547Z",
+      "source": "event:5bc1edef-5a21-4c7b-9224-39a75d99fd98",
+      "timestamp": "2026-09-30T16:42:11.547Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-11T09:29:46.871Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d5",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:1ec803c3-4110-4181-9077-942e41014d99 (latest user app setting)",
+      "timestamp": "2026-09-23T03:33:05.681Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d5"
+      },
+      "resolution": "Switched to d5 from event:9a29ed73-fc2e-4d31-928f-8d803270c62c (latest user app setting)",
+      "timestamp": "2026-09-23T03:33:25.579Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

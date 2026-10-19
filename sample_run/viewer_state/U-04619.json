@@ -1,0 +1,98 @@
+{
+  "user_id": "U-04619",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-04-22T13:10:18.276Z",
+  "resolved_dialect": "NA",
+  "app_dialect": "NA",
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 9,
+  "total_completions": 4,
+  "completed_episodes_count": 4,
+  "active_series_in_progress": 5,
+  "top_genres": [
+    "Family",
+    "Devotional",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T11:09:37.259Z",
+    "deadline": "2026-10-04T11:09:37.259Z",
+    "window_hours": 72,
+    "target_slug": "chugu-d2",
+    "evidence": [
+      "slug_progress:chugu-d2",
+      "days_inactive:29.2"
+    ],
+    "assumptions": [
+      "Viewer has 13 unwatched episodes remaining in chugu-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 3,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-04-22T13:10:18.276Z",
+      "source": "profile:2026-09-29T06:07:32.830Z",
+      "timestamp": "2026-04-22T13:10:18.276Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:e6e82e40-f06e-4073-8e4b-613e4a0b0681",
+      "timestamp": "2026-09-06T08:50:15.425Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T06:07:32.830Z",
+      "timestamp": "2026-09-29T06:07:32.830Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T06:07:32.830Z",
+      "timestamp": "2026-09-29T06:07:32.830Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T06:07:32.830Z",
+      "timestamp": "2026-09-29T06:07:32.830Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:27:43.777Z",
+      "source": "event:2bf9b320-930c-49a6-b2dd-0d3fd75f607d",
+      "timestamp": "2026-10-01T14:27:43.777Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T16:34:07.366Z",
+      "source": "event:cbe0280d-25c2-47da-b4f2-b7a66f9a05cb",
+      "timestamp": "2026-09-29T16:34:07.366Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "NA",
+      "source": "event:c3cdde5b-7221-44bb-a4ff-204d161fd370",
+      "timestamp": "2026-09-13T10:38:26.118Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

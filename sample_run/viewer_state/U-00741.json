@@ -1,0 +1,150 @@
+{
+  "user_id": "U-00741",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-01-21T02:27:38.839Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 14,
+  "total_completions": 5,
+  "completed_episodes_count": 5,
+  "active_series_in_progress": 5,
+  "top_genres": [
+    "Devotional",
+    "Romance",
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:49:54.570Z",
+    "deadline": "2026-10-04T15:49:54.570Z",
+    "window_hours": 72,
+    "target_slug": "digi-mone-d3",
+    "evidence": [
+      "slug_progress:digi-mone-d3",
+      "days_inactive:18.4"
+    ],
+    "assumptions": [
+      "Viewer has 32 unwatched episodes remaining in digi-mone-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-01-21T02:27:38.839Z",
+      "source": "profile:2026-09-28T20:04:01.257Z",
+      "timestamp": "2026-01-21T02:27:38.839Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:87bd4ba9-1e10-4d61-85fe-d42ec4f23108",
+      "timestamp": "2026-09-03T19:49:01.444Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-28T20:04:01.257Z",
+      "timestamp": "2026-09-28T20:04:01.257Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T20:04:01.257Z",
+      "timestamp": "2026-09-28T20:04:01.257Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T20:04:01.257Z",
+      "timestamp": "2026-09-28T20:04:01.257Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T20:04:01.257Z",
+      "timestamp": "2026-09-28T20:04:01.257Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:4357af36-2a4b-49f7-bc2a-9a835710ed39",
+      "timestamp": "2026-10-01T15:49:54.570Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:49:54.570Z",
+      "source": "event:4357af36-2a4b-49f7-bc2a-9a835710ed39",
+      "timestamp": "2026-10-01T15:49:54.570Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T17:19:53.233Z",
+      "source": "event:1a8c0fd5-92c6-4eed-87df-9513c8ae34da",
+      "timestamp": "2026-09-30T17:19:53.233Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-02T13:23:07.555Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-07T07:54:43.305Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d3",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:9b49c8c6-53b7-41ea-8001-d97e1a9854d2 (latest user app setting)",
+      "timestamp": "2026-09-23T12:48:36.921Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d3"
+      },
+      "resolution": "Switched to d3 from event:4aaa5fd2-3d6d-4605-8ad9-9167fde853a2 (latest user app setting)",
+      "timestamp": "2026-09-23T12:48:58.055Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-26T14:35:13.575Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

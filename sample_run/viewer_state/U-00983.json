@@ -1,0 +1,150 @@
+{
+  "user_id": "U-00983",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-08-13T10:56:00.919Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 13,
+  "total_completions": 9,
+  "completed_episodes_count": 7,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Drama",
+    "Thriller",
+    "Comedy"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:32:17.421Z",
+    "deadline": "2026-10-04T05:32:17.421Z",
+    "window_hours": 72,
+    "target_slug": "hama-chudibha-d1",
+    "evidence": [
+      "slug_progress:hama-chudibha-d1",
+      "days_inactive:22.5"
+    ],
+    "assumptions": [
+      "Viewer has 36 unwatched episodes remaining in hama-chudibha-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-08-13T10:56:00.919Z",
+      "source": "profile:2026-09-28T21:18:02.738Z",
+      "timestamp": "2025-08-13T10:56:00.919Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:acaffc88-7e81-4ee7-b10d-4d3b2ad7cc47",
+      "timestamp": "2026-09-26T08:11:22.678Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-28T21:18:02.738Z",
+      "timestamp": "2026-09-28T21:18:02.738Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T21:18:02.738Z",
+      "timestamp": "2026-09-28T21:18:02.738Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T21:18:02.738Z",
+      "timestamp": "2026-09-28T21:18:02.738Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T21:18:02.738Z",
+      "timestamp": "2026-09-28T21:18:02.738Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:e4edffd5-e107-4e48-ac8c-71f050e3ce6c",
+      "timestamp": "2026-10-01T05:32:18.132Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T05:32:18.132Z",
+      "source": "event:e4edffd5-e107-4e48-ac8c-71f050e3ce6c",
+      "timestamp": "2026-10-01T05:32:18.132Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T19:06:43.296Z",
+      "source": "event:23d0c3c4-db96-43ca-b1ff-58bcaf87cffc",
+      "timestamp": "2026-09-29T19:06:43.296Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-10T02:13:28.608Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-13T02:51:28.475Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-13T15:51:19.292Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-17T11:47:36.042Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-10-01T05:32:18.132Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

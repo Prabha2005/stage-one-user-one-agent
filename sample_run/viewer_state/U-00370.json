@@ -1,0 +1,121 @@
+{
+  "user_id": "U-00370",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2024-10-10T00:03:00.162Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T01:42:28.138Z",
+    "deadline": "2026-10-04T01:42:28.138Z",
+    "window_hours": 72,
+    "target_slug": "dhapipa-gini-d2",
+    "evidence": [
+      "slug_progress:dhapipa-gini-d2",
+      "days_inactive:13.1"
+    ],
+    "assumptions": [
+      "Viewer has 54 unwatched episodes remaining in dhapipa-gini-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2024-10-10T00:03:00.162Z",
+      "source": "profile:2026-09-29T12:16:21.267Z",
+      "timestamp": "2024-10-10T00:03:00.162Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T12:16:21.267Z",
+      "timestamp": "2026-09-29T12:16:21.267Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-29T12:16:21.267Z",
+      "timestamp": "2026-09-29T12:16:21.267Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T12:16:21.267Z",
+      "timestamp": "2026-09-29T12:16:21.267Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T12:16:21.267Z",
+      "timestamp": "2026-09-29T12:16:21.267Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T12:16:21.267Z",
+      "timestamp": "2026-09-29T12:16:21.267Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:c2c4fa79-1278-4e0f-b0a2-f32dfec12cd0",
+      "timestamp": "2026-10-01T15:07:43.639Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:07:43.639Z",
+      "source": "event:c2c4fa79-1278-4e0f-b0a2-f32dfec12cd0",
+      "timestamp": "2026-10-01T15:07:43.639Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-17T22:51:20.481Z",
+      "source": "event:5a75a827-e17d-42ab-9f40-e8808da60817",
+      "timestamp": "2026-09-17T22:51:20.481Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d2",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA because the client UI renders in app_dialect",
+      "timestamp": "2026-09-01T15:16:20.368Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:69dbd4aa-29e9-4a76-854c-265f7e5e72d0 (latest user app setting)",
+      "timestamp": "2026-09-01T15:16:40.333Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "user_id": "U-00739",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-01-20T08:52:50.779Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 8,
+  "total_completions": 7,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Drama",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G09",
+    "name": "weekly_habit_14d",
+    "started_at": "2026-10-01T15:01:31.758Z",
+    "deadline": "2026-10-15T15:01:31.758Z",
+    "window_hours": 336,
+    "target_slug": null,
+    "evidence": [
+      "subscription_status:active",
+      "recent_play_days_in_14d:1"
+    ],
+    "assumptions": [
+      "Active subscriber showing low engagement (plays on <=1 day in last 14d)"
+    ],
+    "confidence": 0.82,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-01-20T08:52:50.779Z",
+      "source": "profile:2026-09-29T08:41:09.823Z",
+      "timestamp": "2026-01-20T08:52:50.779Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:f9247752-7e11-41ea-b2f3-6bca94e9e81a",
+      "timestamp": "2026-09-19T03:23:31.091Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T08:41:09.823Z",
+      "timestamp": "2026-09-29T08:41:09.823Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T08:41:09.823Z",
+      "timestamp": "2026-09-29T08:41:09.823Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T08:41:09.823Z",
+      "timestamp": "2026-09-29T08:41:09.823Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T08:41:09.823Z",
+      "timestamp": "2026-09-29T08:41:09.823Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:24d703f2-f148-4d4f-b603-1154aff625b4",
+      "timestamp": "2026-10-01T15:57:26.856Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:57:26.856Z",
+      "source": "event:24d703f2-f148-4d4f-b603-1154aff625b4",
+      "timestamp": "2026-10-01T15:57:26.856Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T11:14:40.656Z",
+      "source": "event:dd574a98-0ea7-4e95-98be-fd47b1da3690",
+      "timestamp": "2026-09-30T11:14:40.656Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d1",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:3a9b0790-1a4e-4175-a596-511f0285d544 (latest user app setting)",
+      "timestamp": "2026-09-23T06:34:36.633Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d1"
+      },
+      "resolution": "Switched to d1 from event:2991b48c-13e0-41f2-a14a-f921015f5f55 (latest user app setting)",
+      "timestamp": "2026-09-23T14:14:00.464Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

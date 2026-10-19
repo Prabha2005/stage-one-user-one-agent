@@ -1,0 +1,104 @@
+{
+  "user_id": "U-02201",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-03-25T09:21:10.731Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 9,
+  "total_completions": 4,
+  "completed_episodes_count": 4,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Comedy",
+    "Thriller",
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:15:33.941Z",
+    "deadline": "2026-10-04T14:15:33.941Z",
+    "window_hours": 72,
+    "target_slug": "dhateha-d1",
+    "evidence": [
+      "slug_progress:dhateha-d1",
+      "days_inactive:17.2"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in dhateha-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-03-25T09:21:10.731Z",
+      "source": "profile:2026-09-29T00:10:16.526Z",
+      "timestamp": "2026-03-25T09:21:10.731Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:a3a6514d-181a-4d57-bb68-b52c72b8d18a",
+      "timestamp": "2026-09-08T18:10:03.564Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T00:10:16.526Z",
+      "timestamp": "2026-09-29T00:10:16.526Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T00:10:16.526Z",
+      "timestamp": "2026-09-29T00:10:16.526Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T00:10:16.526Z",
+      "timestamp": "2026-09-29T00:10:16.526Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T00:10:16.526Z",
+      "timestamp": "2026-09-29T00:10:16.526Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:515bf2b7-5758-40de-aa67-cff4ac9f5644",
+      "timestamp": "2026-10-01T14:15:33.941Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:15:33.941Z",
+      "source": "event:515bf2b7-5758-40de-aa67-cff4ac9f5644",
+      "timestamp": "2026-10-01T14:15:33.941Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T13:23:29.520Z",
+      "source": "event:3a895af7-19b7-48f3-8b63-bedfd8dc624d",
+      "timestamp": "2026-09-29T13:23:29.520Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

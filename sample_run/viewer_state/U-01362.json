@@ -1,0 +1,141 @@
+{
+  "user_id": "U-01362",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-12-29T14:06:47.681Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 21,
+  "total_completions": 17,
+  "completed_episodes_count": 17,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Romance",
+    "Crime",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:27:14.965Z",
+    "deadline": "2026-10-04T16:27:14.965Z",
+    "window_hours": 72,
+    "target_slug": "jamo-hasa-d5",
+    "evidence": [
+      "slug_progress:jamo-hasa-d5",
+      "days_inactive:4.0"
+    ],
+    "assumptions": [
+      "Viewer has 21 unwatched episodes remaining in jamo-hasa-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-12-29T14:06:47.681Z",
+      "source": "profile:2026-09-29T14:01:52.338Z",
+      "timestamp": "2025-12-29T14:06:47.681Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:e7efaba7-12e9-43bd-939b-b4f3ff68e81d",
+      "timestamp": "2026-09-14T07:28:16.355Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-29T14:01:52.338Z",
+      "timestamp": "2026-09-29T14:01:52.338Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T14:01:52.338Z",
+      "timestamp": "2026-09-29T14:01:52.338Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T14:01:52.338Z",
+      "timestamp": "2026-09-29T14:01:52.338Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T14:01:52.338Z",
+      "timestamp": "2026-09-29T14:01:52.338Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:041d10de-9229-4e19-8e2b-5d4d49cd44e4",
+      "timestamp": "2026-10-01T16:27:14.965Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:27:14.965Z",
+      "source": "event:041d10de-9229-4e19-8e2b-5d4d49cd44e4",
+      "timestamp": "2026-10-01T16:27:14.965Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-27T15:57:04.600Z",
+      "source": "event:8c3dca7b-c922-4de1-81b1-39f20a88d96e",
+      "timestamp": "2026-09-27T15:57:04.600Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-13T17:08:11.229Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-16T15:38:03.970Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d5",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:86f7966e-86f4-4920-8a5e-21130fb0a067 (latest user app setting)",
+      "timestamp": "2026-09-27T15:56:00.910Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d5"
+      },
+      "resolution": "Switched to d5 from event:da79608b-b968-4a87-b0e3-d8e112443e9e (latest user app setting)",
+      "timestamp": "2026-09-27T15:56:11.802Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

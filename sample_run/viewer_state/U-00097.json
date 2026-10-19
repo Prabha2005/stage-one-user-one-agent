@@ -1,0 +1,348 @@
+{
+  "user_id": "U-00097",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2024-11-07T20:37:34.952Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Drama",
+    "Thriller",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:27:23.429Z",
+    "deadline": "2026-10-04T15:27:23.429Z",
+    "window_hours": 72,
+    "target_slug": "rava-baya-d1",
+    "evidence": [
+      "slug_progress:rava-baya-d1",
+      "days_inactive:26.5"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in rava-baya-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2024-11-07T20:37:34.952Z",
+      "source": "profile:2026-09-28T19:51:25.445Z",
+      "timestamp": "2024-11-07T20:37:34.952Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:3f3bada7-b131-4c75-be3b-0366bcaf14ac",
+      "timestamp": "2026-09-27T03:17:23.132Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-28T19:51:25.445Z",
+      "timestamp": "2026-09-28T19:51:25.445Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T19:51:25.445Z",
+      "timestamp": "2026-09-28T19:51:25.445Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T19:51:25.445Z",
+      "timestamp": "2026-09-28T19:51:25.445Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T19:51:25.445Z",
+      "timestamp": "2026-09-28T19:51:25.445Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:a288c916-bd8e-45b3-aefd-e1276d925648",
+      "timestamp": "2026-10-01T15:27:23.429Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:27:23.429Z",
+      "source": "event:a288c916-bd8e-45b3-aefd-e1276d925648",
+      "timestamp": "2026-10-01T15:27:23.429Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-26T15:35:09.808Z",
+      "source": "event:bd65c36a-0e9f-4985-91a2-241059dc2dc3",
+      "timestamp": "2026-09-26T15:35:09.808Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-01T15:20:15.217Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-01T15:20:19.301Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-02T07:51:43.246Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-02T07:51:46.775Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-02T07:51:55.116Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-05T02:50:58.398Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-05T02:51:20.244Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-05T02:53:18.244Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-05T03:23:20.353Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-05T03:53:18.592Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-05T08:15:11.649Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-05T08:15:34.423Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-17T13:23:26.775Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-17T13:23:44.433Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-23T18:14:44.459Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-23T18:15:13.594Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-23T18:16:11.800Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-25T17:10:50.291Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-25T17:11:18.745Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T15:32:09.116Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T15:32:31.904Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T15:33:08.289Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T15:33:25.644Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T15:35:09.808Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T16:01:53.933Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-27T03:17:23.132Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T15:27:23.429Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

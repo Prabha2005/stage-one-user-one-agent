@@ -1,0 +1,114 @@
+{
+  "user_id": "U-00023",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2026-03-20T22:59:52.968Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 3,
+  "total_completions": 3,
+  "completed_episodes_count": 3,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Action",
+    "Romance",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T02:12:27.469Z",
+    "deadline": "2026-10-04T02:12:27.469Z",
+    "window_hours": 72,
+    "target_slug": "gula-tete-d3",
+    "evidence": [
+      "slug_progress:gula-tete-d3",
+      "days_inactive:22.7"
+    ],
+    "assumptions": [
+      "Viewer has 20 unwatched episodes remaining in gula-tete-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 3,
+  "actions_count": 3,
+  "facts": {
+    "signup_at": {
+      "value": "2026-03-20T22:59:52.968Z",
+      "source": "profile:2026-09-29T06:32:57.402Z",
+      "timestamp": "2026-03-20T22:59:52.968Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T06:32:57.402Z",
+      "timestamp": "2026-09-29T06:32:57.402Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T06:32:57.402Z",
+      "timestamp": "2026-09-29T06:32:57.402Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T06:32:57.402Z",
+      "timestamp": "2026-09-29T06:32:57.402Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T06:32:57.402Z",
+      "timestamp": "2026-09-29T06:32:57.402Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T06:32:57.402Z",
+      "timestamp": "2026-09-29T06:32:57.402Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:6750b3a3-f964-41f0-b0a4-eccab78a91f7",
+      "timestamp": "2026-10-01T15:08:06.699Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:08:06.699Z",
+      "source": "event:6750b3a3-f964-41f0-b0a4-eccab78a91f7",
+      "timestamp": "2026-10-01T15:08:06.699Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-08T09:03:38.254Z",
+      "source": "event:6e600f3d-96b5-4fc0-a743-7fb75e79ac96",
+      "timestamp": "2026-09-08T09:03:38.254Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-08T09:02:15.147Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

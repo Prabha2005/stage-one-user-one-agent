@@ -1,0 +1,149 @@
+{
+  "user_id": "U-00992",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2024-10-29T03:55:59.460Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d1",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Drama",
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:11:34.736Z",
+    "deadline": "2026-10-04T16:11:34.736Z",
+    "window_hours": 72,
+    "target_slug": "gineni-d4",
+    "evidence": [
+      "slug_progress:gineni-d4",
+      "days_inactive:13.5"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in gineni-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2024-10-29T03:55:59.460Z",
+      "source": "profile:2026-09-29T08:27:10.851Z",
+      "timestamp": "2024-10-29T03:55:59.460Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T08:27:10.851Z",
+      "timestamp": "2026-09-29T08:27:10.851Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T08:27:10.851Z",
+      "timestamp": "2026-09-29T08:27:10.851Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T08:27:10.851Z",
+      "timestamp": "2026-09-29T08:27:10.851Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T08:27:10.851Z",
+      "timestamp": "2026-09-29T08:27:10.851Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T08:27:10.851Z",
+      "timestamp": "2026-09-29T08:27:10.851Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:2bbc52ab-3c55-403c-85a9-cace694c17f9",
+      "timestamp": "2026-10-01T16:11:34.736Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:11:34.736Z",
+      "source": "event:2bbc52ab-3c55-403c-85a9-cace694c17f9",
+      "timestamp": "2026-10-01T16:11:34.736Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-18T04:55:35.884Z",
+      "source": "event:72e28748-22da-4af7-a2a8-bd17e6af1e2f",
+      "timestamp": "2026-09-18T04:55:35.884Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-18T04:52:20.203Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-18T04:52:35.890Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-18T04:53:34.973Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-18T04:55:35.884Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T16:11:34.736Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

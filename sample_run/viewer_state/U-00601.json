@@ -1,0 +1,158 @@
+{
+  "user_id": "U-00601",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2026-03-09T20:35:37.176Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Drama",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T08:41:31.876Z",
+    "deadline": "2026-10-04T08:41:31.876Z",
+    "window_hours": 72,
+    "target_slug": "rava-baya-d1",
+    "evidence": [
+      "slug_progress:rava-baya-d1",
+      "days_inactive:25.7"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in rava-baya-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-03-09T20:35:37.176Z",
+      "source": "profile:2026-09-29T10:03:52.167Z",
+      "timestamp": "2026-03-09T20:35:37.176Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T10:03:52.167Z",
+      "timestamp": "2026-09-29T10:03:52.167Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T10:03:52.167Z",
+      "timestamp": "2026-09-29T10:03:52.167Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T10:03:52.167Z",
+      "timestamp": "2026-09-29T10:03:52.167Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T10:03:52.167Z",
+      "timestamp": "2026-09-29T10:03:52.167Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T10:03:52.167Z",
+      "timestamp": "2026-09-29T10:03:52.167Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:0958906f-9e76-454f-ba78-d6f76687c606",
+      "timestamp": "2026-10-01T08:41:31.876Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T08:41:31.876Z",
+      "source": "event:0958906f-9e76-454f-ba78-d6f76687c606",
+      "timestamp": "2026-10-01T08:41:31.876Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-05T14:45:42.126Z",
+      "source": "event:68e7bc30-d9e3-4e5d-9777-9ca14ff6629b",
+      "timestamp": "2026-09-05T14:45:42.126Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d1",
+        "current_app_dialect": "d3"
+      },
+      "resolution": "Switched to d3 from event:d673783b-eaa9-4750-b0c7-2c0432b1c6cf (latest user app setting)",
+      "timestamp": "2026-09-23T12:30:20.973Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-24T02:12:50.542Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-24T02:12:58.969Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-30T15:57:45.806Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-30T15:58:06.965Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T08:41:31.876Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "user_id": "U-04635",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-04-08T01:24:03.926Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:57:53.855Z",
+    "deadline": "2026-10-04T05:57:53.855Z",
+    "window_hours": 72,
+    "target_slug": "haja-d3",
+    "evidence": [
+      "slug_progress:haja-d3",
+      "days_inactive:14.7"
+    ],
+    "assumptions": [
+      "Viewer has 49 unwatched episodes remaining in haja-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 4,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-04-08T01:24:03.926Z",
+      "source": "profile:2026-09-29T10:05:05.138Z",
+      "timestamp": "2025-04-08T01:24:03.926Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:5f900eef-91d1-4e7e-aa09-402578250afc",
+      "timestamp": "2026-09-06T01:26:09.572Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T10:05:05.138Z",
+      "timestamp": "2026-09-29T10:05:05.138Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T10:05:05.138Z",
+      "timestamp": "2026-09-29T10:05:05.138Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T10:05:05.138Z",
+      "timestamp": "2026-09-29T10:05:05.138Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T10:05:05.138Z",
+      "timestamp": "2026-09-29T10:05:05.138Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:3b6458ea-7983-409f-b2b3-b58a634baf0d",
+      "timestamp": "2026-10-01T11:37:47.164Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T11:37:47.164Z",
+      "source": "event:3b6458ea-7983-409f-b2b3-b58a634baf0d",
+      "timestamp": "2026-10-01T11:37:47.164Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-16T12:39:27.477Z",
+      "source": "event:3cbe03ca-39bc-44df-8900-4eae8924df1f",
+      "timestamp": "2026-09-16T12:39:27.477Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T12:03:56.757Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

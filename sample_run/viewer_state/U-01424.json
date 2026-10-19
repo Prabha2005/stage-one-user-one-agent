@@ -1,0 +1,114 @@
+{
+  "user_id": "U-01424",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-03-02T20:40:09.543Z",
+  "resolved_dialect": "d6",
+  "app_dialect": "d6",
+  "profile_dialect": "d6",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 8,
+  "total_completions": 4,
+  "completed_episodes_count": 4,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Thriller",
+    "Devotional",
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T12:04:27.558Z",
+    "deadline": "2026-10-04T12:04:27.558Z",
+    "window_hours": 72,
+    "target_slug": "rasuya-moni-d6",
+    "evidence": [
+      "slug_progress:rasuya-moni-d6",
+      "days_inactive:4.8"
+    ],
+    "assumptions": [
+      "Viewer has 5 unwatched episodes remaining in rasuya-moni-d6",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 3,
+  "actions_count": 3,
+  "facts": {
+    "signup_at": {
+      "value": "2026-03-02T20:40:09.543Z",
+      "source": "profile:2026-09-29T05:20:34.221Z",
+      "timestamp": "2026-03-02T20:40:09.543Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:a4602d91-8999-4bee-80f3-a3ddd96c3c06",
+      "timestamp": "2026-09-27T21:28:11.532Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "profile:2026-09-29T05:20:34.221Z",
+      "timestamp": "2026-09-29T05:20:34.221Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T05:20:34.221Z",
+      "timestamp": "2026-09-29T05:20:34.221Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T05:20:34.221Z",
+      "timestamp": "2026-09-29T05:20:34.221Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T05:20:34.221Z",
+      "timestamp": "2026-09-29T05:20:34.221Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:d1e6f012-0879-4900-b27a-378d6b65c9f3",
+      "timestamp": "2026-10-01T16:55:04.472Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:55:04.472Z",
+      "source": "event:d1e6f012-0879-4900-b27a-378d6b65c9f3",
+      "timestamp": "2026-10-01T16:55:04.472Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-26T17:50:30.529Z",
+      "source": "event:72150b34-678a-4e49-8e70-349c951dd0ef",
+      "timestamp": "2026-09-26T17:50:30.529Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-16T07:20:48.474Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

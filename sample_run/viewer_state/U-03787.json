@@ -1,0 +1,122 @@
+{
+  "user_id": "U-03787",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2025-06-10T21:02:15.684Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Action",
+    "Comedy"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T18:23:44.843Z",
+    "deadline": "2026-10-04T18:23:44.843Z",
+    "window_hours": 72,
+    "target_slug": "rigu-dhadi-d2",
+    "evidence": [
+      "slug_progress:rigu-dhadi-d2",
+      "days_inactive:13.3"
+    ],
+    "assumptions": [
+      "Viewer has 22 unwatched episodes remaining in rigu-dhadi-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-06-10T21:02:15.684Z",
+      "source": "profile:2026-09-28T23:25:36.419Z",
+      "timestamp": "2025-06-10T21:02:15.684Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-28T23:25:36.419Z",
+      "timestamp": "2026-09-28T23:25:36.419Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-28T23:25:36.419Z",
+      "timestamp": "2026-09-28T23:25:36.419Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T23:25:36.419Z",
+      "timestamp": "2026-09-28T23:25:36.419Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T23:25:36.419Z",
+      "timestamp": "2026-09-28T23:25:36.419Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T23:25:36.419Z",
+      "timestamp": "2026-09-28T23:25:36.419Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:e307d73e-44c3-4389-8092-fb3004e3c81d",
+      "timestamp": "2026-10-01T18:23:44.843Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T18:23:44.843Z",
+      "source": "event:e307d73e-44c3-4389-8092-fb3004e3c81d",
+      "timestamp": "2026-10-01T18:23:44.843Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-18T10:37:16.438Z",
+      "source": "event:a70ef670-768c-4785-82f5-d73595deb64b",
+      "timestamp": "2026-09-18T10:37:16.438Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d2",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:e7be9bfa-e92a-43d6-9a50-799dd5bb1e93 (latest user app setting)",
+      "timestamp": "2026-09-29T17:21:58.499Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:88398f40-a62d-4984-8a54-00c6f619280a (latest user app setting)",
+      "timestamp": "2026-09-29T17:21:58.835Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

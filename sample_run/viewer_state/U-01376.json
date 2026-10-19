@@ -1,0 +1,113 @@
+{
+  "user_id": "U-01376",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-12-30T09:06:09.568Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 3,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Comedy",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T17:03:08.472Z",
+    "deadline": "2026-10-04T17:03:08.472Z",
+    "window_hours": 72,
+    "target_slug": "rigu-d5",
+    "evidence": [
+      "slug_progress:rigu-d5",
+      "days_inactive:12.1"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in rigu-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-12-30T09:06:09.568Z",
+      "source": "profile:2026-09-29T17:21:06.572Z",
+      "timestamp": "2025-12-30T09:06:09.568Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:e0b60655-821e-4683-989c-801b35b929f2",
+      "timestamp": "2026-09-01T20:27:57.490Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-29T17:21:06.572Z",
+      "timestamp": "2026-09-29T17:21:06.572Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T17:21:06.572Z",
+      "timestamp": "2026-09-29T17:21:06.572Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T17:21:06.572Z",
+      "timestamp": "2026-09-29T17:21:06.572Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T17:21:06.572Z",
+      "timestamp": "2026-09-29T17:21:06.572Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:1891e9b7-915a-455b-898b-7e5adaa35689",
+      "timestamp": "2026-10-01T17:03:08.472Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T17:03:08.472Z",
+      "source": "event:1891e9b7-915a-455b-898b-7e5adaa35689",
+      "timestamp": "2026-10-01T17:03:08.472Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-25T06:26:38.371Z",
+      "source": "event:83ff05a8-db59-4b63-94e6-aca984e6f00f",
+      "timestamp": "2026-09-25T06:26:38.371Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-29T09:33:47.977Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

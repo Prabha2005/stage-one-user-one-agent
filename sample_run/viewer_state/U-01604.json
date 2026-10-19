@@ -1,0 +1,123 @@
+{
+  "user_id": "U-01604",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2025-09-09T22:13:00.273Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Drama",
+    "Thriller",
+    "Action"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:27:21.431Z",
+    "deadline": "2026-10-04T16:27:21.431Z",
+    "window_hours": 72,
+    "target_slug": "kolani-mari-d2",
+    "evidence": [
+      "slug_progress:kolani-mari-d2",
+      "days_inactive:30.1"
+    ],
+    "assumptions": [
+      "Viewer has 54 unwatched episodes remaining in kolani-mari-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-09-09T22:13:00.273Z",
+      "source": "profile:2026-09-28T19:41:04.853Z",
+      "timestamp": "2025-09-09T22:13:00.273Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:a3947d48-dab6-4298-81af-dc105e627872",
+      "timestamp": "2026-09-25T09:24:20.035Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-28T19:41:04.853Z",
+      "timestamp": "2026-09-28T19:41:04.853Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T19:41:04.853Z",
+      "timestamp": "2026-09-28T19:41:04.853Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T19:41:04.853Z",
+      "timestamp": "2026-09-28T19:41:04.853Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T19:41:04.853Z",
+      "timestamp": "2026-09-28T19:41:04.853Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:930a2868-5ec0-4f09-93c6-4d8f8308a4f0",
+      "timestamp": "2026-10-01T16:27:21.431Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:27:21.431Z",
+      "source": "event:930a2868-5ec0-4f09-93c6-4d8f8308a4f0",
+      "timestamp": "2026-10-01T16:27:21.431Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-05T14:35:28.471Z",
+      "source": "event:c3bbd3e3-dc3b-4e1b-98ac-246cc112e6aa",
+      "timestamp": "2026-09-05T14:35:28.471Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d2",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:537f98b6-667c-4e6c-8f20-f7f23f29d32c (latest user app setting)",
+      "timestamp": "2026-09-05T14:34:16.332Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:8b428c1e-b0cb-41e4-a461-34ef456cc9a6 (latest user app setting)",
+      "timestamp": "2026-09-05T14:34:35.911Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

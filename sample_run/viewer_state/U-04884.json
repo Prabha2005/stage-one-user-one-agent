@@ -1,0 +1,329 @@
+{
+  "user_id": "U-04884",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2026-04-01T18:57:10.548Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Action",
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:46:38.252Z",
+    "deadline": "2026-10-04T04:46:38.252Z",
+    "window_hours": 72,
+    "target_slug": "molo-d2",
+    "evidence": [
+      "slug_progress:molo-d2",
+      "days_inactive:4.7"
+    ],
+    "assumptions": [
+      "Viewer has 6 unwatched episodes remaining in molo-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-04-01T18:57:10.548Z",
+      "source": "profile:2026-09-29T13:20:37.045Z",
+      "timestamp": "2026-04-01T18:57:10.548Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T13:20:37.045Z",
+      "timestamp": "2026-09-29T13:20:37.045Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T13:20:37.045Z",
+      "timestamp": "2026-09-29T13:20:37.045Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T13:20:37.045Z",
+      "timestamp": "2026-09-29T13:20:37.045Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T13:20:37.045Z",
+      "timestamp": "2026-09-29T13:20:37.045Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T13:20:37.045Z",
+      "timestamp": "2026-09-29T13:20:37.045Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:9d7fcaa5-83c7-46e9-bd68-732d3bcc9c1b",
+      "timestamp": "2026-10-01T04:46:38.252Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T04:46:38.252Z",
+      "source": "event:9d7fcaa5-83c7-46e9-bd68-732d3bcc9c1b",
+      "timestamp": "2026-10-01T04:46:38.252Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-26T11:10:11.091Z",
+      "source": "event:1c3bc1d6-971c-4372-8719-744194fd9220",
+      "timestamp": "2026-09-26T11:10:11.091Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-10T14:50:23.921Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-10T14:50:23.921Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-10T14:50:53.142Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-13T02:47:36.596Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-13T03:50:31.219Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-13T03:50:53.818Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-13T03:51:08.877Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-13T16:05:40.817Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-13T16:05:54.219Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-13T16:06:34.249Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-13T16:06:53.546Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T06:10:35.288Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T11:08:03.123Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T11:08:20.975Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T11:10:11.091Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T11:21:09.296Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T11:32:10.285Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T11:43:11.235Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T11:50:39.659Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-28T13:16:31.775Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-28T13:16:36.859Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-28T13:17:01.814Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-28T16:10:57.188Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-28T16:11:01.830Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T04:46:38.252Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

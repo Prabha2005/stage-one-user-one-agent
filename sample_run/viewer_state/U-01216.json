@@ -1,0 +1,122 @@
+{
+  "user_id": "U-01216",
+  "arm": "holdout",
+  "subscription_status": "lapsed",
+  "signup_at": "2026-01-11T08:26:01.991Z",
+  "resolved_dialect": "NA",
+  "app_dialect": "NA",
+  "profile_dialect": "d7",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Action",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:05:18.160Z",
+    "deadline": "2026-10-04T15:05:18.160Z",
+    "window_hours": 72,
+    "target_slug": "ladi-chuba-d1",
+    "evidence": [
+      "slug_progress:ladi-chuba-d1",
+      "days_inactive:23.1"
+    ],
+    "assumptions": [
+      "Viewer has 11 unwatched episodes remaining in ladi-chuba-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-01-11T08:26:01.991Z",
+      "source": "profile:2026-09-29T03:11:16.969Z",
+      "timestamp": "2026-01-11T08:26:01.991Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "event:cb935df3-663e-4703-9b6b-eeec92394857",
+      "timestamp": "2026-09-01T20:40:49.265Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d7",
+      "source": "profile:2026-09-29T03:11:16.969Z",
+      "timestamp": "2026-09-29T03:11:16.969Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T03:11:16.969Z",
+      "timestamp": "2026-09-29T03:11:16.969Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T03:11:16.969Z",
+      "timestamp": "2026-09-29T03:11:16.969Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T03:11:16.969Z",
+      "timestamp": "2026-09-29T03:11:16.969Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "NA",
+      "source": "event:9f82a153-7efd-4dab-8647-5d8d5a8fbac7",
+      "timestamp": "2026-10-01T15:05:18.160Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:05:18.160Z",
+      "source": "event:9f82a153-7efd-4dab-8647-5d8d5a8fbac7",
+      "timestamp": "2026-10-01T15:05:18.160Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-08T12:22:14.764Z",
+      "source": "event:8b2c7a38-48b0-4d88-8167-5c8f1e7e464b",
+      "timestamp": "2026-09-08T12:22:14.764Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d7"
+      },
+      "resolution": "Used d7 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-04T10:24:15.148Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d7",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:9f82a153-7efd-4dab-8647-5d8d5a8fbac7 (latest user app setting)",
+      "timestamp": "2026-10-01T15:05:18.160Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "user_id": "U-01584",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-11-08T07:04:20.684Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [
+    "whatsapp"
+  ],
+  "total_plays": 5,
+  "total_completions": 3,
+  "completed_episodes_count": 3,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Action",
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G09",
+    "name": "weekly_habit_14d",
+    "started_at": "2026-10-01T04:45:58.706Z",
+    "deadline": "2026-10-15T04:45:58.706Z",
+    "window_hours": 336,
+    "target_slug": null,
+    "evidence": [
+      "subscription_status:active",
+      "recent_play_days_in_14d:1"
+    ],
+    "assumptions": [
+      "Active subscriber showing low engagement (plays on <=1 day in last 14d)"
+    ],
+    "confidence": 0.82,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-11-08T07:04:20.684Z",
+      "source": "profile:2026-09-29T06:45:42.921Z",
+      "timestamp": "2025-11-08T07:04:20.684Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:a512379e-e001-4c33-9650-3494fd1cdbfe",
+      "timestamp": "2026-09-10T09:06:24.106Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-29T06:45:42.921Z",
+      "timestamp": "2026-09-29T06:45:42.921Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T06:45:42.921Z",
+      "timestamp": "2026-09-29T06:45:42.921Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "event:8578c1fa-058b-4886-8087-1040a38da92c",
+      "timestamp": "2026-09-29T02:51:35.791Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T06:45:42.921Z",
+      "timestamp": "2026-09-29T06:45:42.921Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:5d2e74d3-ca74-4de5-a3b4-861a0b36eb00",
+      "timestamp": "2026-10-01T11:53:59.423Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T11:53:59.423Z",
+      "source": "event:5d2e74d3-ca74-4de5-a3b4-861a0b36eb00",
+      "timestamp": "2026-10-01T11:53:59.423Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T10:36:20.091Z",
+      "source": "event:1c466db9-91e8-41e1-9e22-0be8ecc2c1c7",
+      "timestamp": "2026-09-29T10:36:20.091Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-12T15:35:39.807Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-10-01T11:53:59.423Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

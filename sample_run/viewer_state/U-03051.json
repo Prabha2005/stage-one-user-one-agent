@@ -1,0 +1,132 @@
+{
+  "user_id": "U-03051",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-06-02T13:11:58.542Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 8,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 5,
+  "top_genres": [
+    "Crime",
+    "Family",
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T10:35:06.863Z",
+    "deadline": "2026-10-04T10:35:06.863Z",
+    "window_hours": 72,
+    "target_slug": "bharipa-lanaro-d4",
+    "evidence": [
+      "slug_progress:bharipa-lanaro-d4",
+      "days_inactive:29.0"
+    ],
+    "assumptions": [
+      "Viewer has 16 unwatched episodes remaining in bharipa-lanaro-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-06-02T13:11:58.542Z",
+      "source": "profile:2026-09-29T15:14:16.513Z",
+      "timestamp": "2026-06-02T13:11:58.542Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:28106471-de41-4486-91bc-3a7e6a39f251",
+      "timestamp": "2026-09-25T07:44:52.615Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T15:14:16.513Z",
+      "timestamp": "2026-09-29T15:14:16.513Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T15:14:16.513Z",
+      "timestamp": "2026-09-29T15:14:16.513Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T15:14:16.513Z",
+      "timestamp": "2026-09-29T15:14:16.513Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T15:14:16.513Z",
+      "timestamp": "2026-09-29T15:14:16.513Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:df07c579-6db5-4653-b5b8-340b5aec96f9",
+      "timestamp": "2026-10-01T10:35:06.863Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T10:35:06.863Z",
+      "source": "event:df07c579-6db5-4653-b5b8-340b5aec96f9",
+      "timestamp": "2026-10-01T10:35:06.863Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T02:09:26.944Z",
+      "source": "event:f9896309-84c0-4199-97a4-c4d3ea4e2912",
+      "timestamp": "2026-09-30T02:09:26.944Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA because the client UI renders in app_dialect",
+      "timestamp": "2026-09-01T15:56:30.880Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-01T15:56:30.880Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:a50f3aea-28b3-4666-bbc3-80f50eb7e722 (latest user app setting)",
+      "timestamp": "2026-09-02T04:53:12.222Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

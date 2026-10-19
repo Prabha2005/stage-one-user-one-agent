@@ -1,0 +1,114 @@
+{
+  "user_id": "U-01777",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2026-04-03T19:52:03.414Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 4,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Family",
+    "Action",
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:45:31.974Z",
+    "deadline": "2026-10-04T04:45:31.974Z",
+    "window_hours": 72,
+    "target_slug": "kova-sako-d5",
+    "evidence": [
+      "slug_progress:kova-sako-d5",
+      "days_inactive:29.5"
+    ],
+    "assumptions": [
+      "Viewer has 30 unwatched episodes remaining in kova-sako-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 3,
+  "actions_count": 2,
+  "facts": {
+    "signup_at": {
+      "value": "2026-04-03T19:52:03.414Z",
+      "source": "profile:2026-09-29T11:14:55.460Z",
+      "timestamp": "2026-04-03T19:52:03.414Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T11:14:55.460Z",
+      "timestamp": "2026-09-29T11:14:55.460Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-29T11:14:55.460Z",
+      "timestamp": "2026-09-29T11:14:55.460Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T11:14:55.460Z",
+      "timestamp": "2026-09-29T11:14:55.460Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T11:14:55.460Z",
+      "timestamp": "2026-09-29T11:14:55.460Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T11:14:55.460Z",
+      "timestamp": "2026-09-29T11:14:55.460Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:3e7616a1-5ec7-4e9f-9450-407599f79ecb",
+      "timestamp": "2026-10-01T16:14:33.697Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:14:33.697Z",
+      "source": "event:3e7616a1-5ec7-4e9f-9450-407599f79ecb",
+      "timestamp": "2026-10-01T16:14:33.697Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-16T14:02:12.996Z",
+      "source": "event:3d65226d-23c6-4707-8330-952bed43ee39",
+      "timestamp": "2026-09-16T14:02:12.996Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-14T01:57:34.959Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

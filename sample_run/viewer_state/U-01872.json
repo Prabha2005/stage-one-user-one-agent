@@ -1,0 +1,123 @@
+{
+  "user_id": "U-01872",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-09-05T18:27:02.391Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 9,
+  "total_completions": 6,
+  "completed_episodes_count": 6,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Romance",
+    "Drama",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:58:04.283Z",
+    "deadline": "2026-10-04T05:58:04.283Z",
+    "window_hours": 72,
+    "target_slug": "tidha-dakachu-d1",
+    "evidence": [
+      "slug_progress:tidha-dakachu-d1",
+      "days_inactive:9.0"
+    ],
+    "assumptions": [
+      "Viewer has 16 unwatched episodes remaining in tidha-dakachu-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-05T18:27:02.391Z",
+      "source": "event:84d19c0a-d6a7-475a-a58c-86d3c14822de",
+      "timestamp": "2026-09-05T18:27:02.391Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:c5d159ac-e684-4f26-98a9-6b3db4fcd69d",
+      "timestamp": "2026-09-15T22:23:05.338Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T10:14:07.400Z",
+      "timestamp": "2026-09-29T10:14:07.400Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T10:14:07.400Z",
+      "timestamp": "2026-09-29T10:14:07.400Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T10:14:07.400Z",
+      "timestamp": "2026-09-29T10:14:07.400Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T10:14:07.400Z",
+      "timestamp": "2026-09-29T10:14:07.400Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:5f54f2e7-9e84-45b5-b8da-feeccdef1e7a",
+      "timestamp": "2026-10-01T05:58:04.283Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T05:58:04.283Z",
+      "source": "event:5f54f2e7-9e84-45b5-b8da-feeccdef1e7a",
+      "timestamp": "2026-10-01T05:58:04.283Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T17:27:54.116Z",
+      "source": "event:4ec3d9ab-7180-4e27-b8a1-130aa3512425",
+      "timestamp": "2026-09-30T17:27:54.116Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T01:28:28.385Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-25T10:02:25.772Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

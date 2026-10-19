@@ -1,0 +1,132 @@
+{
+  "user_id": "U-00620",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-06-01T23:16:16.772Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 13,
+  "total_completions": 7,
+  "completed_episodes_count": 7,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Drama",
+    "Comedy",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:13:12.837Z",
+    "deadline": "2026-10-04T16:13:12.837Z",
+    "window_hours": 72,
+    "target_slug": "hama-chudibha-d1",
+    "evidence": [
+      "slug_progress:hama-chudibha-d1",
+      "days_inactive:17.4"
+    ],
+    "assumptions": [
+      "Viewer has 36 unwatched episodes remaining in hama-chudibha-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-06-01T23:16:16.772Z",
+      "source": "profile:2026-09-29T02:08:27.541Z",
+      "timestamp": "2025-06-01T23:16:16.772Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:7b1b6270-7769-46c5-ae50-cae74591ad46",
+      "timestamp": "2026-09-04T21:19:47.501Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T02:08:27.541Z",
+      "timestamp": "2026-09-29T02:08:27.541Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T02:08:27.541Z",
+      "timestamp": "2026-09-29T02:08:27.541Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T02:08:27.541Z",
+      "timestamp": "2026-09-29T02:08:27.541Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T02:08:27.541Z",
+      "timestamp": "2026-09-29T02:08:27.541Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:908a708e-c07c-42b4-bb2b-bc2392867ea6",
+      "timestamp": "2026-10-01T16:13:12.837Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:13:12.837Z",
+      "source": "event:908a708e-c07c-42b4-bb2b-bc2392867ea6",
+      "timestamp": "2026-10-01T16:13:12.837Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-19T02:09:02.935Z",
+      "source": "event:0feb152b-2067-4ba3-ad95-17e5dfd15ea4",
+      "timestamp": "2026-09-19T02:09:02.935Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d1",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:fb70afe3-9dc0-4057-90f0-9ee6506372ad (latest user app setting)",
+      "timestamp": "2026-09-24T07:37:55.931Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-24T07:37:55.931Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d1"
+      },
+      "resolution": "Switched to d1 from event:48160677-afe6-4906-9943-e8792e9f19d3 (latest user app setting)",
+      "timestamp": "2026-09-24T07:38:00.370Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

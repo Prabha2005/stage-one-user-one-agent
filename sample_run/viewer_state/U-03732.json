@@ -1,0 +1,123 @@
+{
+  "user_id": "U-03732",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2025-10-04T11:13:17.401Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 4,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Action",
+    "Drama",
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:45:09.417Z",
+    "deadline": "2026-10-04T04:45:09.417Z",
+    "window_hours": 72,
+    "target_slug": "tidaka-koni-d4",
+    "evidence": [
+      "slug_progress:tidaka-koni-d4",
+      "days_inactive:12.8"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in tidaka-koni-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-10-04T11:13:17.401Z",
+      "source": "profile:2026-09-29T01:07:47.952Z",
+      "timestamp": "2025-10-04T11:13:17.401Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T01:07:47.952Z",
+      "timestamp": "2026-09-29T01:07:47.952Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T01:07:47.952Z",
+      "timestamp": "2026-09-29T01:07:47.952Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:07:47.952Z",
+      "timestamp": "2026-09-29T01:07:47.952Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:07:47.952Z",
+      "timestamp": "2026-09-29T01:07:47.952Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T01:07:47.952Z",
+      "timestamp": "2026-09-29T01:07:47.952Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:c7e4c9a7-83e4-4b9c-8515-02087df35534",
+      "timestamp": "2026-10-01T04:45:09.417Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T04:45:09.417Z",
+      "source": "event:c7e4c9a7-83e4-4b9c-8515-02087df35534",
+      "timestamp": "2026-10-01T04:45:09.417Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T03:20:21.109Z",
+      "source": "event:231eca29-75dc-440a-8499-56a440b86e11",
+      "timestamp": "2026-09-30T03:20:21.109Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA because the client UI renders in app_dialect",
+      "timestamp": "2026-09-02T17:34:15.898Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:49f25e4a-cfb0-4ae1-bcc2-9fefb9c5b59b (latest user app setting)",
+      "timestamp": "2026-09-02T17:34:18.541Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

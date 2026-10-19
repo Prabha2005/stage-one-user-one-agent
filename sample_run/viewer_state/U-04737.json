@@ -1,0 +1,123 @@
+{
+  "user_id": "U-04737",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2024-12-16T13:37:42.906Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 17,
+  "total_completions": 5,
+  "completed_episodes_count": 5,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Action",
+    "Romance",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T01:37:41.575Z",
+    "deadline": "2026-10-04T01:37:41.575Z",
+    "window_hours": 72,
+    "target_slug": "dhapipa-gini-d2",
+    "evidence": [
+      "slug_progress:dhapipa-gini-d2",
+      "days_inactive:14.8"
+    ],
+    "assumptions": [
+      "Viewer has 55 unwatched episodes remaining in dhapipa-gini-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2024-12-16T13:37:42.906Z",
+      "source": "profile:2026-09-28T18:40:26.631Z",
+      "timestamp": "2024-12-16T13:37:42.906Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:82d14f7e-d42b-4d33-897a-cffc8e6e954d",
+      "timestamp": "2026-09-20T03:17:18.874Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-28T18:40:26.631Z",
+      "timestamp": "2026-09-28T18:40:26.631Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T18:40:26.631Z",
+      "timestamp": "2026-09-28T18:40:26.631Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T18:40:26.631Z",
+      "timestamp": "2026-09-28T18:40:26.631Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T18:40:26.631Z",
+      "timestamp": "2026-09-28T18:40:26.631Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:520fca0b-1d32-4312-8c5d-9fa02fe77bb2",
+      "timestamp": "2026-10-01T15:52:12.978Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:51:06.738Z",
+      "source": "event:94921eb5-e991-4e38-9ffe-ac1b6cf814d2",
+      "timestamp": "2026-10-01T15:51:06.738Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T17:52:12.821Z",
+      "source": "event:98087c5a-cac7-4d48-8ebf-6ab00e924f33",
+      "timestamp": "2026-09-30T17:52:12.821Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d2",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:94921eb5-e991-4e38-9ffe-ac1b6cf814d2 (latest user app setting)",
+      "timestamp": "2026-10-01T15:51:06.738Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:3adfd560-6624-4ff9-a609-53689cb41ce5 (latest user app setting)",
+      "timestamp": "2026-10-01T15:51:26.025Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

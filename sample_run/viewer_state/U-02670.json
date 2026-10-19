@@ -1,0 +1,135 @@
+{
+  "user_id": "U-02670",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-09-02T02:02:21.555Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 21,
+  "total_completions": 12,
+  "completed_episodes_count": 10,
+  "active_series_in_progress": 5,
+  "top_genres": [
+    "Family",
+    "Crime",
+    "Comedy"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:47:05.082Z",
+    "deadline": "2026-10-04T04:47:05.082Z",
+    "window_hours": 72,
+    "target_slug": "bhama-chunapi-d5",
+    "evidence": [
+      "slug_progress:bhama-chunapi-d5",
+      "days_inactive:26.7"
+    ],
+    "assumptions": [
+      "Viewer has 8 unwatched episodes remaining in bhama-chunapi-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 4,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-02T02:02:21.555Z",
+      "source": "event:8ea1ddff-3d14-489b-acd7-2e3c25b45379",
+      "timestamp": "2026-09-02T02:02:21.555Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:d152d603-116d-4966-8645-934dd4a06886",
+      "timestamp": "2026-09-11T03:44:29.029Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T20:05:46.096Z",
+      "timestamp": "2026-09-28T20:05:46.096Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T20:05:46.096Z",
+      "timestamp": "2026-09-28T20:05:46.096Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T20:05:46.096Z",
+      "timestamp": "2026-09-28T20:05:46.096Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:6383c26d-f6ea-442d-8b67-d19cd445834c",
+      "timestamp": "2026-10-01T16:30:15.629Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:30:15.629Z",
+      "source": "event:6383c26d-f6ea-442d-8b67-d19cd445834c",
+      "timestamp": "2026-10-01T16:30:15.629Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T03:44:08.593Z",
+      "source": "event:9cd2ff01-1e4d-4d30-8219-e7792faf2c82",
+      "timestamp": "2026-09-30T03:44:08.593Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-05T10:07:19.857Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d5",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:8a33ea7e-d45d-49ba-93f6-3c3562f857ad (latest user app setting)",
+      "timestamp": "2026-09-25T10:21:37.844Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d5"
+      },
+      "resolution": "Switched to d5 from event:3640766d-be03-4ee2-be0e-59e1e956eaaa (latest user app setting)",
+      "timestamp": "2026-09-25T10:22:00.292Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-28T10:19:50.722Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

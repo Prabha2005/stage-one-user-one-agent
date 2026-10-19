@@ -1,0 +1,148 @@
+{
+  "user_id": "U-03835",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-02-19T12:02:53.391Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:42:23.225Z",
+    "deadline": "2026-10-04T04:42:23.225Z",
+    "window_hours": 72,
+    "target_slug": "bagi-baya-d4",
+    "evidence": [
+      "slug_progress:bagi-baya-d4",
+      "days_inactive:27.7"
+    ],
+    "assumptions": [
+      "Viewer has 40 unwatched episodes remaining in bagi-baya-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-02-19T12:02:53.391Z",
+      "source": "profile:2026-09-28T22:44:38.103Z",
+      "timestamp": "2026-02-19T12:02:53.391Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:a3490101-5ede-4486-8e11-33f01b7d26f4",
+      "timestamp": "2026-09-11T02:23:00.339Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-28T22:44:38.103Z",
+      "timestamp": "2026-09-28T22:44:38.103Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T22:44:38.103Z",
+      "timestamp": "2026-09-28T22:44:38.103Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T22:44:38.103Z",
+      "timestamp": "2026-09-28T22:44:38.103Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T22:44:38.103Z",
+      "timestamp": "2026-09-28T22:44:38.103Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:6fbc3906-e3b4-42a7-93a1-499ac0987277",
+      "timestamp": "2026-10-01T04:42:23.225Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T04:42:23.225Z",
+      "source": "event:6fbc3906-e3b4-42a7-93a1-499ac0987277",
+      "timestamp": "2026-10-01T04:42:23.225Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-03T11:35:42.451Z",
+      "source": "event:87f72ad4-6e26-4b30-9f67-0c35b5f63f47",
+      "timestamp": "2026-09-03T11:35:42.451Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-02T17:15:41.448Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:b2d3a7f6-8b41-4044-a20f-811ff66f1ad2 (latest user app setting)",
+      "timestamp": "2026-09-21T17:56:54.120Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:f42b7f9a-7558-4390-82ae-49b54d8bbe8d (latest user app setting)",
+      "timestamp": "2026-09-21T17:57:23.669Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:5c001118-ff24-41de-9424-abcb3a0d7d7d (latest user app setting)",
+      "timestamp": "2026-09-23T12:13:45.144Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:8b0bff5d-4635-4a54-8b1e-1a8f87f6e4ed (latest user app setting)",
+      "timestamp": "2026-09-23T12:13:57.644Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

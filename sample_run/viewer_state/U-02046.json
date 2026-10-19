@@ -1,0 +1,193 @@
+{
+  "user_id": "U-02046",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2024-10-19T13:46:15.344Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:03:40.721Z",
+    "deadline": "2026-10-04T14:03:40.721Z",
+    "window_hours": 72,
+    "target_slug": "jakasa-dapi-d3",
+    "evidence": [
+      "slug_progress:jakasa-dapi-d3",
+      "days_inactive:15.2"
+    ],
+    "assumptions": [
+      "Viewer has 19 unwatched episodes remaining in jakasa-dapi-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2024-10-19T13:46:15.344Z",
+      "source": "profile:2026-09-28T18:42:51.096Z",
+      "timestamp": "2024-10-19T13:46:15.344Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:e54b2e25-09a7-4355-a5c4-a67be257f0ba",
+      "timestamp": "2026-10-01T14:05:59.553Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-28T18:42:51.096Z",
+      "timestamp": "2026-09-28T18:42:51.096Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T18:42:51.096Z",
+      "timestamp": "2026-09-28T18:42:51.096Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T18:42:51.096Z",
+      "timestamp": "2026-09-28T18:42:51.096Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T18:42:51.096Z",
+      "timestamp": "2026-09-28T18:42:51.096Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:e54b2e25-09a7-4355-a5c4-a67be257f0ba",
+      "timestamp": "2026-10-01T14:05:59.553Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:03:40.721Z",
+      "source": "event:b9f12995-86cf-4f85-9f64-7cf66bcd3574",
+      "timestamp": "2026-10-01T14:03:40.721Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-16T09:55:01.707Z",
+      "source": "event:2f1f5edd-52e9-44af-8391-e2f4c24f42fc",
+      "timestamp": "2026-09-16T09:55:01.707Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-07T13:19:07.727Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-07T13:19:24.220Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-10T12:21:24.128Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-16T09:54:22.490Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-16T09:54:42.680Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-16T09:55:01.707Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-16T10:05:32.401Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-16T10:16:02.200Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T14:03:40.721Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T14:05:59.553Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

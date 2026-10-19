@@ -1,0 +1,141 @@
+{
+  "user_id": "U-03044",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-10-30T18:07:57.632Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 15,
+  "total_completions": 8,
+  "completed_episodes_count": 8,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Family",
+    "Romance",
+    "Action"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:34:08.505Z",
+    "deadline": "2026-10-04T14:34:08.505Z",
+    "window_hours": 72,
+    "target_slug": "molo-d2",
+    "evidence": [
+      "slug_progress:molo-d2",
+      "days_inactive:4.3"
+    ],
+    "assumptions": [
+      "Viewer has 5 unwatched episodes remaining in molo-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-10-30T18:07:57.632Z",
+      "source": "profile:2026-09-29T16:17:46.612Z",
+      "timestamp": "2025-10-30T18:07:57.632Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:0b238e96-8bdb-491c-89e0-bc61861ff3a9",
+      "timestamp": "2026-09-27T09:43:11.672Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-29T16:17:46.612Z",
+      "timestamp": "2026-09-29T16:17:46.612Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T16:17:46.612Z",
+      "timestamp": "2026-09-29T16:17:46.612Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T16:17:46.612Z",
+      "timestamp": "2026-09-29T16:17:46.612Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T16:17:46.612Z",
+      "timestamp": "2026-09-29T16:17:46.612Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:8910a373-390a-4945-bc11-717aceaf3c03",
+      "timestamp": "2026-10-01T14:34:08.505Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:34:08.505Z",
+      "source": "event:8910a373-390a-4945-bc11-717aceaf3c03",
+      "timestamp": "2026-10-01T14:34:08.505Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T11:01:51.426Z",
+      "source": "event:1eab470c-387e-4c5f-b499-6aad7a744762",
+      "timestamp": "2026-09-30T11:01:51.426Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-24T17:00:46.332Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-25T18:10:16.987Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-29T16:25:23.631Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-30T03:10:47.827Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

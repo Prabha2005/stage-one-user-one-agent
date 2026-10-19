@@ -1,0 +1,123 @@
+{
+  "user_id": "U-01559",
+  "arm": "agent",
+  "subscription_status": "lapsed",
+  "signup_at": "2025-10-22T16:46:38.458Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 16,
+  "total_completions": 9,
+  "completed_episodes_count": 9,
+  "active_series_in_progress": 6,
+  "top_genres": [
+    "Romance",
+    "Thriller",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:30:10.402Z",
+    "deadline": "2026-10-04T07:30:10.402Z",
+    "window_hours": 72,
+    "target_slug": "nada-sada-d4",
+    "evidence": [
+      "slug_progress:nada-sada-d4",
+      "days_inactive:29.4"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in nada-sada-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 3,
+  "actions_count": 3,
+  "facts": {
+    "signup_at": {
+      "value": "2025-10-22T16:46:38.458Z",
+      "source": "profile:2026-09-29T15:01:28.766Z",
+      "timestamp": "2025-10-22T16:46:38.458Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "event:382bebd9-4c92-4a51-8fcc-faf73d34ddfc",
+      "timestamp": "2026-09-21T00:05:56.845Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T15:01:28.766Z",
+      "timestamp": "2026-09-29T15:01:28.766Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T15:01:28.766Z",
+      "timestamp": "2026-09-29T15:01:28.766Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T15:01:28.766Z",
+      "timestamp": "2026-09-29T15:01:28.766Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T15:01:28.766Z",
+      "timestamp": "2026-09-29T15:01:28.766Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:c181766d-5fd4-4f17-9cd8-0ce65474abdf",
+      "timestamp": "2026-10-01T17:04:22.184Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T17:04:22.184Z",
+      "source": "event:c181766d-5fd4-4f17-9cd8-0ce65474abdf",
+      "timestamp": "2026-10-01T17:04:22.184Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-10-01T16:21:05.147Z",
+      "source": "event:07f60999-093d-4b6e-85ed-81e01f1b4757",
+      "timestamp": "2026-10-01T16:21:05.147Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:bc6a4eba-183c-45dc-9818-8dd888d112c6 (latest user app setting)",
+      "timestamp": "2026-09-02T03:11:05.358Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:80261e66-845e-40f4-a601-91a9f10a007e (latest user app setting)",
+      "timestamp": "2026-09-02T03:11:35.033Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "user_id": "U-01214",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-11-15T01:43:50.990Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 12,
+  "total_completions": 5,
+  "completed_episodes_count": 5,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Family",
+    "Action",
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:39:00.445Z",
+    "deadline": "2026-10-04T06:39:00.445Z",
+    "window_hours": 72,
+    "target_slug": "kolani-mari-d2",
+    "evidence": [
+      "slug_progress:kolani-mari-d2",
+      "days_inactive:26.7"
+    ],
+    "assumptions": [
+      "Viewer has 54 unwatched episodes remaining in kolani-mari-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-11-15T01:43:50.990Z",
+      "source": "profile:2026-09-29T04:25:04.910Z",
+      "timestamp": "2025-11-15T01:43:50.990Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:90b43a85-07cf-4ce4-9ceb-fc34e7f2c14e",
+      "timestamp": "2026-09-24T23:05:08.187Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-29T04:25:04.910Z",
+      "timestamp": "2026-09-29T04:25:04.910Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T04:25:04.910Z",
+      "timestamp": "2026-09-29T04:25:04.910Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T04:25:04.910Z",
+      "timestamp": "2026-09-29T04:25:04.910Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T04:25:04.910Z",
+      "timestamp": "2026-09-29T04:25:04.910Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:2da323c2-e5e2-433e-ad91-838d2d51e5e8",
+      "timestamp": "2026-10-01T06:39:00.445Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T06:39:00.445Z",
+      "source": "event:2da323c2-e5e2-433e-ad91-838d2d51e5e8",
+      "timestamp": "2026-10-01T06:39:00.445Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-28T08:12:47.527Z",
+      "source": "event:dddf1a03-37dd-4480-8d49-f93c3871329b",
+      "timestamp": "2026-09-28T08:12:47.527Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-06T07:51:12.223Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-17T06:05:59.447Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-17T07:04:18.284Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

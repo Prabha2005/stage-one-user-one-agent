@@ -1,0 +1,141 @@
+{
+  "user_id": "U-04243",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-03-31T23:24:33.029Z",
+  "resolved_dialect": "d7",
+  "app_dialect": "d7",
+  "profile_dialect": "d7",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 18,
+  "total_completions": 13,
+  "completed_episodes_count": 13,
+  "active_series_in_progress": 6,
+  "top_genres": [
+    "Devotional",
+    "Romance",
+    "Action"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T08:56:52.682Z",
+    "deadline": "2026-10-04T08:56:52.682Z",
+    "window_hours": 72,
+    "target_slug": "guka-kosusa-d2",
+    "evidence": [
+      "slug_progress:guka-kosusa-d2",
+      "days_inactive:19.1"
+    ],
+    "assumptions": [
+      "Viewer has 37 unwatched episodes remaining in guka-kosusa-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-03-31T23:24:33.029Z",
+      "source": "profile:2026-09-29T05:08:20.915Z",
+      "timestamp": "2026-03-31T23:24:33.029Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:7ad30a4c-162e-40ec-b84b-e850c9b9083e",
+      "timestamp": "2026-09-02T17:51:08.720Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d7",
+      "source": "profile:2026-09-29T05:08:20.915Z",
+      "timestamp": "2026-09-29T05:08:20.915Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T05:08:20.915Z",
+      "timestamp": "2026-09-29T05:08:20.915Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T05:08:20.915Z",
+      "timestamp": "2026-09-29T05:08:20.915Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T05:08:20.915Z",
+      "timestamp": "2026-09-29T05:08:20.915Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d7",
+      "source": "event:cb615d02-91c3-4050-afef-d1e5142bf463",
+      "timestamp": "2026-10-01T08:56:52.682Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T08:56:52.682Z",
+      "source": "event:cb615d02-91c3-4050-afef-d1e5142bf463",
+      "timestamp": "2026-10-01T08:56:52.682Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-28T10:43:08.568Z",
+      "source": "event:e36a51cd-0a9f-40db-8084-f27d153761ba",
+      "timestamp": "2026-09-28T10:43:08.568Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d7"
+      },
+      "resolution": "Used d7 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-02T14:31:20.464Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d7"
+      },
+      "resolution": "Used d7 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-05T06:56:34.000Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d7"
+      },
+      "resolution": "Used d7 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-21T12:13:52.232Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d7"
+      },
+      "resolution": "Used d7 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-22T15:57:58.779Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

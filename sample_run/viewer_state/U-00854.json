@@ -1,0 +1,114 @@
+{
+  "user_id": "U-00854",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2024-12-18T10:45:43.981Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 9,
+  "total_completions": 3,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 5,
+  "top_genres": [
+    "Drama",
+    "Thriller",
+    "Comedy"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T13:47:27.443Z",
+    "deadline": "2026-10-04T13:47:27.443Z",
+    "window_hours": 72,
+    "target_slug": "roti-d1",
+    "evidence": [
+      "slug_progress:roti-d1",
+      "days_inactive:28.9"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in roti-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2024-12-18T10:45:43.981Z",
+      "source": "profile:2026-09-29T13:37:14.687Z",
+      "timestamp": "2024-12-18T10:45:43.981Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:93b45b66-66f9-4727-8807-12b52e5a459b",
+      "timestamp": "2026-09-09T04:43:50.047Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T13:37:14.687Z",
+      "timestamp": "2026-09-29T13:37:14.687Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T13:37:14.687Z",
+      "timestamp": "2026-09-29T13:37:14.687Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T13:37:14.687Z",
+      "timestamp": "2026-09-29T13:37:14.687Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T13:37:14.687Z",
+      "timestamp": "2026-09-29T13:37:14.687Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:302c937e-63cf-4e2b-aa5d-78d590f7712b",
+      "timestamp": "2026-10-01T13:47:27.443Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T13:47:27.443Z",
+      "source": "event:302c937e-63cf-4e2b-aa5d-78d590f7712b",
+      "timestamp": "2026-10-01T13:47:27.443Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-25T14:10:56.772Z",
+      "source": "event:04d25f29-93e0-4276-b0f0-d0843b6c84f4",
+      "timestamp": "2026-09-25T14:10:56.772Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-19T21:46:49.774Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

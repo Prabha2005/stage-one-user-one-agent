@@ -1,0 +1,159 @@
+{
+  "user_id": "U-01235",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-03-21T18:26:38.925Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 14,
+  "total_completions": 5,
+  "completed_episodes_count": 4,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Romance",
+    "Crime",
+    "Action"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T10:45:04.662Z",
+    "deadline": "2026-10-04T10:45:04.662Z",
+    "window_hours": 72,
+    "target_slug": "gineni-d4",
+    "evidence": [
+      "slug_progress:gineni-d4",
+      "days_inactive:20.7"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in gineni-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-03-21T18:26:38.925Z",
+      "source": "profile:2026-09-28T21:26:11.309Z",
+      "timestamp": "2025-03-21T18:26:38.925Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:bf24babe-baf5-4ba8-b4b7-e0b3136af886",
+      "timestamp": "2026-09-27T22:12:51.410Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-28T21:26:11.309Z",
+      "timestamp": "2026-09-28T21:26:11.309Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T21:26:11.309Z",
+      "timestamp": "2026-09-28T21:26:11.309Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T21:26:11.309Z",
+      "timestamp": "2026-09-28T21:26:11.309Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T21:26:11.309Z",
+      "timestamp": "2026-09-28T21:26:11.309Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:5ecd9137-87a4-416d-86e3-7e806907be3b",
+      "timestamp": "2026-10-01T10:45:04.662Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T10:45:04.662Z",
+      "source": "event:5ecd9137-87a4-416d-86e3-7e806907be3b",
+      "timestamp": "2026-10-01T10:45:04.662Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T15:03:33.018Z",
+      "source": "event:a6268f98-9bb9-4912-ac7e-66051100612d",
+      "timestamp": "2026-09-30T15:03:33.018Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:a88d05d7-ab5b-4cca-a276-1b8b0acbc999 (latest user app setting)",
+      "timestamp": "2026-09-11T08:16:25.335Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-11T08:16:25.335Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:603a6ec4-673e-4ede-9d06-f128f8a50239 (latest user app setting)",
+      "timestamp": "2026-09-11T08:16:52.742Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-18T09:19:59.078Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:15772c99-28d9-40c6-908d-1c913220dc5b (latest user app setting)",
+      "timestamp": "2026-09-22T02:57:15.536Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:a7a81d84-78bd-43c7-bb81-c997cd04e436 (latest user app setting)",
+      "timestamp": "2026-09-22T02:57:25.814Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

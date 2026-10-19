@@ -1,0 +1,139 @@
+{
+  "user_id": "U-00641",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2026-03-24T21:04:16.509Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:47:16.365Z",
+    "deadline": "2026-10-04T04:47:16.365Z",
+    "window_hours": 72,
+    "target_slug": "dhapipa-gini-d2",
+    "evidence": [
+      "slug_progress:dhapipa-gini-d2",
+      "days_inactive:8.7"
+    ],
+    "assumptions": [
+      "Viewer has 55 unwatched episodes remaining in dhapipa-gini-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-03-24T21:04:16.509Z",
+      "source": "profile:2026-09-28T21:38:54.675Z",
+      "timestamp": "2026-03-24T21:04:16.509Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-28T21:38:54.675Z",
+      "timestamp": "2026-09-28T21:38:54.675Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-28T21:38:54.675Z",
+      "timestamp": "2026-09-28T21:38:54.675Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T21:38:54.675Z",
+      "timestamp": "2026-09-28T21:38:54.675Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T21:38:54.675Z",
+      "timestamp": "2026-09-28T21:38:54.675Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T21:38:54.675Z",
+      "timestamp": "2026-09-28T21:38:54.675Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:a1830f97-2f4f-46d8-932d-fa4ca21bb9f3",
+      "timestamp": "2026-10-01T04:47:16.365Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T04:47:16.365Z",
+      "source": "event:a1830f97-2f4f-46d8-932d-fa4ca21bb9f3",
+      "timestamp": "2026-10-01T04:47:16.365Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-22T11:48:14.458Z",
+      "source": "event:697d6a6d-2b9d-4590-943a-f1bcf07a9170",
+      "timestamp": "2026-09-22T11:48:14.458Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d2",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA because the client UI renders in app_dialect",
+      "timestamp": "2026-09-16T02:33:46.936Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-16T02:33:46.936Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:5b6b906d-7937-4fe9-b61e-069c791440c7 (latest user app setting)",
+      "timestamp": "2026-09-16T02:34:12.301Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-18T15:00:46.944Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

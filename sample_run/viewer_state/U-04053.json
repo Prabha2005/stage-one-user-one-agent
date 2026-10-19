@@ -1,0 +1,92 @@
+{
+  "user_id": "U-04053",
+  "arm": "holdout",
+  "subscription_status": "lapsed",
+  "signup_at": "2025-05-15T15:36:48.651Z",
+  "resolved_dialect": "d2",
+  "app_dialect": null,
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 10,
+  "total_completions": 6,
+  "completed_episodes_count": 6,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Action",
+    "Romance",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T09:33:05.849Z",
+    "deadline": "2026-10-04T09:33:05.849Z",
+    "window_hours": 72,
+    "target_slug": "molo-d2",
+    "evidence": [
+      "slug_progress:molo-d2",
+      "days_inactive:6.9"
+    ],
+    "assumptions": [
+      "Viewer has 4 unwatched episodes remaining in molo-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-05-15T15:36:48.651Z",
+      "source": "profile:2026-09-28T23:57:07.161Z",
+      "timestamp": "2025-05-15T15:36:48.651Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "event:0df71b58-1b2c-4828-8ad5-99d048f32a2c",
+      "timestamp": "2026-09-07T06:11:21.477Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T23:57:07.161Z",
+      "timestamp": "2026-09-28T23:57:07.161Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T23:57:07.161Z",
+      "timestamp": "2026-09-28T23:57:07.161Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T23:57:07.161Z",
+      "timestamp": "2026-09-28T23:57:07.161Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T09:33:05.849Z",
+      "source": "event:ab1e9a78-5447-48f9-8415-094e6e9581c0",
+      "timestamp": "2026-10-01T09:33:05.849Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T16:21:37.299Z",
+      "source": "event:279e7406-f361-4fef-bdb4-23570b8b9626",
+      "timestamp": "2026-09-29T16:21:37.299Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

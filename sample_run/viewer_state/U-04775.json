@@ -1,0 +1,176 @@
+{
+  "user_id": "U-04775",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2026-02-14T19:24:20.330Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d6",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Devotional",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T20:13:34.637Z",
+    "deadline": "2026-10-03T20:13:34.637Z",
+    "window_hours": 72,
+    "target_slug": "rasuya-moni-d6",
+    "evidence": [
+      "slug_progress:rasuya-moni-d6",
+      "days_inactive:7.8"
+    ],
+    "assumptions": [
+      "Viewer has 8 unwatched episodes remaining in rasuya-moni-d6",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 5,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-02-14T19:24:20.330Z",
+      "source": "profile:2026-09-29T05:13:41.289Z",
+      "timestamp": "2026-02-14T19:24:20.330Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T05:13:41.289Z",
+      "timestamp": "2026-09-29T05:13:41.289Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "profile:2026-09-29T05:13:41.289Z",
+      "timestamp": "2026-09-29T05:13:41.289Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T05:13:41.289Z",
+      "timestamp": "2026-09-29T05:13:41.289Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T05:13:41.289Z",
+      "timestamp": "2026-09-29T05:13:41.289Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T05:13:41.289Z",
+      "timestamp": "2026-09-29T05:13:41.289Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:88bec182-6476-4fec-b153-b29ac8783326",
+      "timestamp": "2026-10-01T11:33:21.578Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T11:33:21.578Z",
+      "source": "event:88bec182-6476-4fec-b153-b29ac8783326",
+      "timestamp": "2026-10-01T11:33:21.578Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-23T02:01:04.421Z",
+      "source": "event:ced00db8-cbd9-4a49-ae3e-80b8182add8f",
+      "timestamp": "2026-09-23T02:01:04.421Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d6",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:84d6d434-32fb-4560-8f4c-c62dc7358bd2 (latest user app setting)",
+      "timestamp": "2026-09-26T07:17:36.113Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T07:18:01.183Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-26T12:08:20.283Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-30T20:13:34.637Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T01:32:26.469Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T07:12:11.143Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T07:15:43.826Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T11:33:21.578Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "user_id": "U-04810",
+  "arm": "agent",
+  "subscription_status": "lapsed",
+  "signup_at": "2025-11-23T20:51:12.351Z",
+  "resolved_dialect": "NA",
+  "app_dialect": "NA",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 8,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Romance",
+    "Drama",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T13:46:34.983Z",
+    "deadline": "2026-10-04T13:46:34.983Z",
+    "window_hours": 72,
+    "target_slug": "digi-mone-d3",
+    "evidence": [
+      "slug_progress:digi-mone-d3",
+      "days_inactive:22.3"
+    ],
+    "assumptions": [
+      "Viewer has 32 unwatched episodes remaining in digi-mone-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-11-23T20:51:12.351Z",
+      "source": "profile:2026-09-28T23:42:45.489Z",
+      "timestamp": "2025-11-23T20:51:12.351Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "event:35c13ca2-8d91-42bf-abbc-e7f75d89406c",
+      "timestamp": "2026-09-24T02:32:10.884Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-28T23:42:45.489Z",
+      "timestamp": "2026-09-28T23:42:45.489Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T23:42:45.489Z",
+      "timestamp": "2026-09-28T23:42:45.489Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T23:42:45.489Z",
+      "timestamp": "2026-09-28T23:42:45.489Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T23:42:45.489Z",
+      "timestamp": "2026-09-28T23:42:45.489Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "NA",
+      "source": "event:aded0b08-3001-4b70-91f6-924427c98c7c",
+      "timestamp": "2026-10-01T13:46:34.983Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T13:46:34.983Z",
+      "source": "event:aded0b08-3001-4b70-91f6-924427c98c7c",
+      "timestamp": "2026-10-01T13:46:34.983Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T11:48:20.841Z",
+      "source": "event:e91bcba1-cb25-41e3-93ac-d704a3d3f131",
+      "timestamp": "2026-09-29T11:48:20.841Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-10T16:24:21.730Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d3",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:aded0b08-3001-4b70-91f6-924427c98c7c (latest user app setting)",
+      "timestamp": "2026-10-01T13:46:34.983Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

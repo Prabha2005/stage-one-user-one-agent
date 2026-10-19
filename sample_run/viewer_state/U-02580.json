@@ -1,0 +1,81 @@
+{
+  "user_id": "U-02580",
+  "arm": "agent",
+  "subscription_status": "lapsed",
+  "signup_at": "2026-08-23T16:51:33.474Z",
+  "resolved_dialect": "d1",
+  "app_dialect": null,
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 0,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 0,
+  "top_genres": [],
+  "active_goal": {
+    "id": "G06",
+    "name": "reactivate_lapsed_14d",
+    "started_at": "2026-10-01T04:47:02.705Z",
+    "deadline": "2026-10-15T04:47:02.705Z",
+    "window_hours": 336,
+    "target_slug": null,
+    "evidence": [
+      "subscription_status:lapsed",
+      "source:profile:2026-09-29T15:55:27.957Z"
+    ],
+    "assumptions": [
+      "User had a prior paid subscription that expired"
+    ],
+    "confidence": 0.85,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-08-23T16:51:33.474Z",
+      "source": "profile:2026-09-29T15:55:27.957Z",
+      "timestamp": "2026-08-23T16:51:33.474Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "profile:2026-09-29T15:55:27.957Z",
+      "timestamp": "2026-09-29T15:55:27.957Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T15:55:27.957Z",
+      "timestamp": "2026-09-29T15:55:27.957Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T15:55:27.957Z",
+      "timestamp": "2026-09-29T15:55:27.957Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T15:55:27.957Z",
+      "timestamp": "2026-09-29T15:55:27.957Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T04:47:02.705Z",
+      "source": "event:f822f9c4-c9e3-4c7f-ba5d-9d147b9b127f",
+      "timestamp": "2026-10-01T04:47:02.705Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "user_id": "U-00584",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-08-08T11:53:06.296Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 3,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:44:04.283Z",
+    "deadline": "2026-10-04T16:44:04.283Z",
+    "window_hours": 72,
+    "target_slug": "yaka-naka-d5",
+    "evidence": [
+      "slug_progress:yaka-naka-d5",
+      "days_inactive:3.6"
+    ],
+    "assumptions": [
+      "Viewer has 57 unwatched episodes remaining in yaka-naka-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 2,
+  "facts": {
+    "signup_at": {
+      "value": "2026-08-08T11:53:06.296Z",
+      "source": "profile:2026-09-29T05:01:13.200Z",
+      "timestamp": "2026-08-08T11:53:06.296Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:4324b5cb-b99f-4a8b-a103-fdf339170eb5",
+      "timestamp": "2026-09-29T14:54:28.674Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-29T05:01:13.200Z",
+      "timestamp": "2026-09-29T05:01:13.200Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T05:01:13.200Z",
+      "timestamp": "2026-09-29T05:01:13.200Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T05:01:13.200Z",
+      "timestamp": "2026-09-29T05:01:13.200Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T05:01:13.200Z",
+      "timestamp": "2026-09-29T05:01:13.200Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:ff0c7764-8830-45c1-9303-cebed14e4fbb",
+      "timestamp": "2026-10-01T16:53:34.562Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:53:34.562Z",
+      "source": "event:ff0c7764-8830-45c1-9303-cebed14e4fbb",
+      "timestamp": "2026-10-01T16:53:34.562Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-28T01:51:28.898Z",
+      "source": "event:2ec371ad-aa17-43fc-8442-212fc279d42e",
+      "timestamp": "2026-09-28T01:51:28.898Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d5",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:0913c520-e8b6-4ead-9ff7-8cf3a7a09e0f (latest user app setting)",
+      "timestamp": "2026-09-28T01:50:23.462Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-28T01:50:23.462Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d5"
+      },
+      "resolution": "Switched to d5 from event:314c01ec-1add-41bc-b6be-63030b370ed6 (latest user app setting)",
+      "timestamp": "2026-09-28T01:50:48.858Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-10-01T16:44:04.283Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

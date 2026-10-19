@@ -1,0 +1,141 @@
+{
+  "user_id": "U-01885",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2024-12-07T13:34:33.640Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 17,
+  "total_completions": 10,
+  "completed_episodes_count": 8,
+  "active_series_in_progress": 6,
+  "top_genres": [
+    "Crime",
+    "Family",
+    "Action"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:37:32.685Z",
+    "deadline": "2026-10-04T06:37:32.685Z",
+    "window_hours": 72,
+    "target_slug": "nisu-sapapa-d4",
+    "evidence": [
+      "slug_progress:nisu-sapapa-d4",
+      "days_inactive:4.8"
+    ],
+    "assumptions": [
+      "Viewer has 37 unwatched episodes remaining in nisu-sapapa-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2024-12-07T13:34:33.640Z",
+      "source": "profile:2026-09-29T03:14:06.574Z",
+      "timestamp": "2024-12-07T13:34:33.640Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:81415a5f-a430-49c1-8f6e-f82b039ab60b",
+      "timestamp": "2026-09-16T23:02:02.607Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T03:14:06.574Z",
+      "timestamp": "2026-09-29T03:14:06.574Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T03:14:06.574Z",
+      "timestamp": "2026-09-29T03:14:06.574Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T03:14:06.574Z",
+      "timestamp": "2026-09-29T03:14:06.574Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T03:14:06.574Z",
+      "timestamp": "2026-09-29T03:14:06.574Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:23b9935e-fa9e-490f-8a6a-b94c9e1edc34",
+      "timestamp": "2026-10-01T06:37:32.685Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T06:37:32.685Z",
+      "source": "event:23b9935e-fa9e-490f-8a6a-b94c9e1edc34",
+      "timestamp": "2026-10-01T06:37:32.685Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-27T15:05:51.240Z",
+      "source": "event:223f6b1e-d718-4c97-8806-c2ff38ac10de",
+      "timestamp": "2026-09-27T15:05:51.240Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:ea0cfafa-1c33-46e7-b830-7c91d6186a2b (latest user app setting)",
+      "timestamp": "2026-09-02T16:56:44.005Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:ba518e8f-c24d-4b91-a96d-9db7e0462aab (latest user app setting)",
+      "timestamp": "2026-09-02T16:57:12.642Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-18T09:26:39.189Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T12:41:43.780Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

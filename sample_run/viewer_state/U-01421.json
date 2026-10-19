@@ -1,0 +1,121 @@
+{
+  "user_id": "U-01421",
+  "arm": "holdout",
+  "subscription_status": "lapsed",
+  "signup_at": "2026-01-06T22:01:52.391Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 6,
+  "total_completions": 3,
+  "completed_episodes_count": 3,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:06:10.147Z",
+    "deadline": "2026-10-04T14:06:10.147Z",
+    "window_hours": 72,
+    "target_slug": "bhariya-d2",
+    "evidence": [
+      "slug_progress:bhariya-d2",
+      "days_inactive:9.3"
+    ],
+    "assumptions": [
+      "Viewer has 55 unwatched episodes remaining in bhariya-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-01-06T22:01:52.391Z",
+      "source": "profile:2026-09-28T21:00:46.655Z",
+      "timestamp": "2026-01-06T22:01:52.391Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "event:79973f6d-dd8f-46dd-9fd8-30827c3c763e",
+      "timestamp": "2026-09-02T01:06:39.972Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-28T21:00:46.655Z",
+      "timestamp": "2026-09-28T21:00:46.655Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T21:00:46.655Z",
+      "timestamp": "2026-09-28T21:00:46.655Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T21:00:46.655Z",
+      "timestamp": "2026-09-28T21:00:46.655Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T21:00:46.655Z",
+      "timestamp": "2026-09-28T21:00:46.655Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:5eca285c-66cc-4559-9d01-1768f23e1686",
+      "timestamp": "2026-10-01T14:06:10.147Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:06:10.147Z",
+      "source": "event:5eca285c-66cc-4559-9d01-1768f23e1686",
+      "timestamp": "2026-10-01T14:06:10.147Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-22T06:10:29.733Z",
+      "source": "event:5e30b87c-f9ec-4dcf-903d-7b01c1466627",
+      "timestamp": "2026-09-22T06:10:29.733Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-10T11:30:12.293Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-17T17:40:34.924Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

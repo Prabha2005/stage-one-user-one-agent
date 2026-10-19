@@ -1,0 +1,148 @@
+{
+  "user_id": "U-03992",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2026-09-09T00:29:17.368Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Action",
+    "Comedy"
+  ],
+  "active_goal": {
+    "id": "G05",
+    "name": "first_paid_7d",
+    "started_at": "2026-10-01T15:07:19.365Z",
+    "deadline": "2026-10-08T15:07:19.365Z",
+    "window_hours": 168,
+    "target_slug": null,
+    "evidence": [
+      "subscription_status:never",
+      "source:event:d6664f18-34e3-4571-a225-33cd1bc137f7"
+    ],
+    "assumptions": [
+      "User has never subscribed to a paid plan"
+    ],
+    "confidence": 0.75,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-09T00:29:17.368Z",
+      "source": "event:d6664f18-34e3-4571-a225-33cd1bc137f7",
+      "timestamp": "2026-09-09T00:29:17.368Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "event:d6664f18-34e3-4571-a225-33cd1bc137f7",
+      "timestamp": "2026-09-09T00:29:17.368Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-29T01:33:49.708Z",
+      "timestamp": "2026-09-29T01:33:49.708Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:33:49.708Z",
+      "timestamp": "2026-09-29T01:33:49.708Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T01:33:49.708Z",
+      "timestamp": "2026-09-29T01:33:49.708Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T01:33:49.708Z",
+      "timestamp": "2026-09-29T01:33:49.708Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:b5a471e4-fc7f-40a9-a240-a5dd8b506663",
+      "timestamp": "2026-10-01T15:07:19.365Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:07:19.365Z",
+      "source": "event:b5a471e4-fc7f-40a9-a240-a5dd8b506663",
+      "timestamp": "2026-10-01T15:07:19.365Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T21:02:17.058Z",
+      "source": "event:b619218c-448f-4e77-a529-04c0b7fb57d1",
+      "timestamp": "2026-09-29T21:02:17.058Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d2",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-09T00:29:17.368Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d2",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-09T00:29:23.949Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d2",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-09T00:29:29.248Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d2",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-09T00:29:34.939Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d1",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:5db1e06d-50aa-4750-ab7d-1f3751e3685e (latest user app setting)",
+      "timestamp": "2026-09-11T13:44:18.217Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

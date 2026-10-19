@@ -1,0 +1,117 @@
+{
+  "user_id": "U-01672",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2026-09-11T08:23:18.867Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Action",
+    "Family",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T12:04:21.025Z",
+    "deadline": "2026-10-04T12:04:21.025Z",
+    "window_hours": 72,
+    "target_slug": "pima-pana-d3",
+    "evidence": [
+      "slug_progress:pima-pana-d3",
+      "days_inactive:19.9"
+    ],
+    "assumptions": [
+      "Viewer has 22 unwatched episodes remaining in pima-pana-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-11T08:23:18.867Z",
+      "source": "event:88e3e13d-cfcc-4938-96f4-3f8df01003e8",
+      "timestamp": "2026-09-11T08:23:18.867Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "event:88e3e13d-cfcc-4938-96f4-3f8df01003e8",
+      "timestamp": "2026-09-11T08:23:18.867Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T09:32:07.029Z",
+      "timestamp": "2026-09-29T09:32:07.029Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T09:32:07.029Z",
+      "timestamp": "2026-09-29T09:32:07.029Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T09:32:07.029Z",
+      "timestamp": "2026-09-29T09:32:07.029Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:a7a21ef3-a068-47d7-900a-34958426bb14",
+      "timestamp": "2026-10-01T12:04:21.025Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T12:04:21.025Z",
+      "source": "event:a7a21ef3-a068-47d7-900a-34958426bb14",
+      "timestamp": "2026-10-01T12:04:21.025Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-12T16:22:59.675Z",
+      "source": "event:fce5a2da-e552-43c4-93dd-21871dcf8ca8",
+      "timestamp": "2026-09-12T16:22:59.675Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-11T08:24:00.680Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T06:46:22.456Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

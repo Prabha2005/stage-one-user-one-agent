@@ -1,0 +1,141 @@
+{
+  "user_id": "U-03595",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2026-01-22T05:08:30.708Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 7,
+  "total_completions": 7,
+  "completed_episodes_count": 7,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Comedy",
+    "Thriller",
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:52:49.863Z",
+    "deadline": "2026-10-04T16:52:49.863Z",
+    "window_hours": 72,
+    "target_slug": "yane-tegi-d3",
+    "evidence": [
+      "slug_progress:yane-tegi-d3",
+      "days_inactive:13.1"
+    ],
+    "assumptions": [
+      "Viewer has 18 unwatched episodes remaining in yane-tegi-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 2,
+  "facts": {
+    "signup_at": {
+      "value": "2026-01-22T05:08:30.708Z",
+      "source": "profile:2026-09-29T01:31:24.250Z",
+      "timestamp": "2026-01-22T05:08:30.708Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T01:31:24.250Z",
+      "timestamp": "2026-09-29T01:31:24.250Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T01:31:24.250Z",
+      "timestamp": "2026-09-29T01:31:24.250Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:31:24.250Z",
+      "timestamp": "2026-09-29T01:31:24.250Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T01:31:24.250Z",
+      "timestamp": "2026-09-29T01:31:24.250Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T01:31:24.250Z",
+      "timestamp": "2026-09-29T01:31:24.250Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:660bbff8-15ae-41f7-b33a-beff3339136d",
+      "timestamp": "2026-10-01T18:13:20.558Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T18:13:20.558Z",
+      "source": "event:660bbff8-15ae-41f7-b33a-beff3339136d",
+      "timestamp": "2026-10-01T18:13:20.558Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-22T14:18:21.728Z",
+      "source": "event:60bc0f86-e0ad-4775-85bf-d0847cdda493",
+      "timestamp": "2026-09-22T14:18:21.728Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-05T04:49:43.954Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d3",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:beff9af9-3823-41fc-ab58-ec92d5e8f83f (latest user app setting)",
+      "timestamp": "2026-09-09T04:00:34.099Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d3"
+      },
+      "resolution": "Switched to d3 from event:aaffa22c-be6a-4beb-9a3c-39a954e3f7a7 (latest user app setting)",
+      "timestamp": "2026-09-09T04:00:54.640Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T14:48:15.267Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

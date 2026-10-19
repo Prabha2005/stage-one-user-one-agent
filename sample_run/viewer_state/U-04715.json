@@ -1,0 +1,123 @@
+{
+  "user_id": "U-04715",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2024-11-30T06:20:11.692Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 16,
+  "total_completions": 6,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Drama",
+    "Family",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T09:15:52.443Z",
+    "deadline": "2026-10-04T09:15:52.443Z",
+    "window_hours": 72,
+    "target_slug": "tidaka-koni-d4",
+    "evidence": [
+      "slug_progress:tidaka-koni-d4",
+      "days_inactive:10.8"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in tidaka-koni-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 3,
+  "actions_count": 3,
+  "facts": {
+    "signup_at": {
+      "value": "2024-11-30T06:20:11.692Z",
+      "source": "profile:2026-09-28T18:30:55.162Z",
+      "timestamp": "2024-11-30T06:20:11.692Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:9e7ced18-c0b7-4ac2-9a20-4bb3b61c08f5",
+      "timestamp": "2026-09-17T13:21:09.594Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-28T18:30:55.162Z",
+      "timestamp": "2026-09-28T18:30:55.162Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T18:30:55.162Z",
+      "timestamp": "2026-09-28T18:30:55.162Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T18:30:55.162Z",
+      "timestamp": "2026-09-28T18:30:55.162Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T18:30:55.162Z",
+      "timestamp": "2026-09-28T18:30:55.162Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:3584e2c5-5804-49b4-8fa6-458f00056c7d",
+      "timestamp": "2026-10-01T17:51:06.603Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T17:51:06.603Z",
+      "source": "event:3584e2c5-5804-49b4-8fa6-458f00056c7d",
+      "timestamp": "2026-10-01T17:51:06.603Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T04:49:27.402Z",
+      "source": "event:e610716a-c14b-466d-b6d7-e2b380a89a3e",
+      "timestamp": "2026-09-29T04:49:27.402Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-11T15:59:53.491Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-16T16:42:36.649Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

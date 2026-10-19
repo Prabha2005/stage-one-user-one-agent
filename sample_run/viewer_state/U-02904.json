@@ -1,0 +1,141 @@
+{
+  "user_id": "U-02904",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-08-12T13:45:19.236Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 13,
+  "total_completions": 11,
+  "completed_episodes_count": 11,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Romance",
+    "Family",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:14:41.505Z",
+    "deadline": "2026-10-04T14:14:41.505Z",
+    "window_hours": 72,
+    "target_slug": "yatite-roloda-d3",
+    "evidence": [
+      "slug_progress:yatite-roloda-d3",
+      "days_inactive:3.5"
+    ],
+    "assumptions": [
+      "Viewer has 17 unwatched episodes remaining in yatite-roloda-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-08-12T13:45:19.236Z",
+      "source": "profile:2026-09-29T10:30:08.965Z",
+      "timestamp": "2026-08-12T13:45:19.236Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:893ee749-2b6f-48b7-a399-369cfe206709",
+      "timestamp": "2026-09-16T22:06:15.978Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T10:30:08.965Z",
+      "timestamp": "2026-09-29T10:30:08.965Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T10:30:08.965Z",
+      "timestamp": "2026-09-29T10:30:08.965Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T10:30:08.965Z",
+      "timestamp": "2026-09-29T10:30:08.965Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T10:30:08.965Z",
+      "timestamp": "2026-09-29T10:30:08.965Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:c219e43e-310a-4bd3-98fc-889063a3e36e",
+      "timestamp": "2026-10-01T14:14:41.505Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:14:41.505Z",
+      "source": "event:c219e43e-310a-4bd3-98fc-889063a3e36e",
+      "timestamp": "2026-10-01T14:14:41.505Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T06:11:30.829Z",
+      "source": "event:66001029-6cf9-4136-a2cf-7af3eaa97dcd",
+      "timestamp": "2026-09-29T06:11:30.829Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-23T11:11:16.605Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-27T02:07:40.847Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d3",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:42511fd6-2bc8-4c8e-a0f1-23ec53d59542 (latest user app setting)",
+      "timestamp": "2026-09-29T12:24:41.400Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d3"
+      },
+      "resolution": "Switched to d3 from event:b257e882-daf2-475f-a759-460f1627a6a1 (latest user app setting)",
+      "timestamp": "2026-09-29T12:25:02.209Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

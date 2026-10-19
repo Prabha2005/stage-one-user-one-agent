@@ -1,0 +1,138 @@
+{
+  "user_id": "U-03229",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-12-05T06:49:14.979Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 13,
+  "total_completions": 10,
+  "completed_episodes_count": 10,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G09",
+    "name": "weekly_habit_14d",
+    "started_at": "2026-10-01T01:09:34.418Z",
+    "deadline": "2026-10-15T01:09:34.418Z",
+    "window_hours": 336,
+    "target_slug": null,
+    "evidence": [
+      "subscription_status:active",
+      "recent_play_days_in_14d:1"
+    ],
+    "assumptions": [
+      "Active subscriber showing low engagement (plays on <=1 day in last 14d)"
+    ],
+    "confidence": 0.82,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-12-05T06:49:14.979Z",
+      "source": "profile:2026-09-29T15:28:24.132Z",
+      "timestamp": "2025-12-05T06:49:14.979Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:6f727f83-fe14-46e5-8d45-e6609b14a8f2",
+      "timestamp": "2026-09-07T10:55:59.856Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T15:28:24.132Z",
+      "timestamp": "2026-09-29T15:28:24.132Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T15:28:24.132Z",
+      "timestamp": "2026-09-29T15:28:24.132Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T15:28:24.132Z",
+      "timestamp": "2026-09-29T15:28:24.132Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T15:28:24.132Z",
+      "timestamp": "2026-09-29T15:28:24.132Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:54386b85-b05a-4330-a560-24af8c701d19",
+      "timestamp": "2026-10-01T01:09:34.418Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T01:09:34.418Z",
+      "source": "event:54386b85-b05a-4330-a560-24af8c701d19",
+      "timestamp": "2026-10-01T01:09:34.418Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T14:10:15.886Z",
+      "source": "event:d0652809-ea56-4b21-bed3-bf32845c0ce5",
+      "timestamp": "2026-09-29T14:10:15.886Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-01T06:48:01.907Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-07T09:53:05.572Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:d35dfb5f-30a3-45cd-bba4-0cdcb28b70d5 (latest user app setting)",
+      "timestamp": "2026-09-07T19:08:15.961Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:39c264ba-2ea9-4062-b98f-f42a5373ae7b (latest user app setting)",
+      "timestamp": "2026-09-07T19:08:38.082Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

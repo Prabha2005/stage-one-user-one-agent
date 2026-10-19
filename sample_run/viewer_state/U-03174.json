@@ -1,0 +1,141 @@
+{
+  "user_id": "U-03174",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2025-08-05T07:19:20.070Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 22,
+  "total_completions": 12,
+  "completed_episodes_count": 9,
+  "active_series_in_progress": 6,
+  "top_genres": [
+    "Romance",
+    "Comedy",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T03:39:18.452Z",
+    "deadline": "2026-10-04T03:39:18.452Z",
+    "window_hours": 72,
+    "target_slug": "ririgi-d3",
+    "evidence": [
+      "slug_progress:ririgi-d3",
+      "days_inactive:3.2"
+    ],
+    "assumptions": [
+      "Viewer has 7 unwatched episodes remaining in ririgi-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-08-05T07:19:20.070Z",
+      "source": "profile:2026-09-28T18:31:56.483Z",
+      "timestamp": "2025-08-05T07:19:20.070Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:e0f38a8a-6f86-4345-a444-43f818518758",
+      "timestamp": "2026-09-15T15:06:16.304Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-28T18:31:56.483Z",
+      "timestamp": "2026-09-28T18:31:56.483Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T18:31:56.483Z",
+      "timestamp": "2026-09-28T18:31:56.483Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T18:31:56.483Z",
+      "timestamp": "2026-09-28T18:31:56.483Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T18:31:56.483Z",
+      "timestamp": "2026-09-28T18:31:56.483Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:7a417549-415e-497c-a773-e2d00e8a4ec5",
+      "timestamp": "2026-10-01T03:39:18.452Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T03:39:18.452Z",
+      "source": "event:7a417549-415e-497c-a773-e2d00e8a4ec5",
+      "timestamp": "2026-10-01T03:39:18.452Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-28T09:32:36.179Z",
+      "source": "event:6e48f622-7403-4773-989d-7a15b763c33c",
+      "timestamp": "2026-09-28T09:32:36.179Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-02T14:26:12.093Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-10T12:19:18.781Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-14T16:18:23.170Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-22T16:16:01.715Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "user_id": "U-01703",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-05-05T02:14:26.366Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 10,
+  "total_completions": 5,
+  "completed_episodes_count": 4,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Family",
+    "Romance",
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:45:00.665Z",
+    "deadline": "2026-10-04T04:45:00.665Z",
+    "window_hours": 72,
+    "target_slug": "bagi-baya-d4",
+    "evidence": [
+      "slug_progress:bagi-baya-d4",
+      "days_inactive:3.6"
+    ],
+    "assumptions": [
+      "Viewer has 39 unwatched episodes remaining in bagi-baya-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 3,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-05-05T02:14:26.366Z",
+      "source": "profile:2026-09-28T20:47:49.127Z",
+      "timestamp": "2025-05-05T02:14:26.366Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:ef105520-3dd0-4e83-9f53-b7d10a05a305",
+      "timestamp": "2026-10-01T05:28:14.359Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-28T20:47:49.127Z",
+      "timestamp": "2026-09-28T20:47:49.127Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T20:47:49.127Z",
+      "timestamp": "2026-09-28T20:47:49.127Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T20:47:49.127Z",
+      "timestamp": "2026-09-28T20:47:49.127Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T20:47:49.127Z",
+      "timestamp": "2026-09-28T20:47:49.127Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:4bf04969-d71e-4913-9c24-f6fe30343124",
+      "timestamp": "2026-10-01T15:42:29.448Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:42:29.448Z",
+      "source": "event:4bf04969-d71e-4913-9c24-f6fe30343124",
+      "timestamp": "2026-10-01T15:42:29.448Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-27T13:42:48.615Z",
+      "source": "event:9c8849d7-a327-499d-bf43-2d54a524c132",
+      "timestamp": "2026-09-27T13:42:48.615Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:9a677fd4-1287-44ec-bacc-c93849c18f7a (latest user app setting)",
+      "timestamp": "2026-09-04T04:34:35.318Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:e24cecf1-8e88-47ad-a4da-3a8800592a97 (latest user app setting)",
+      "timestamp": "2026-09-04T04:34:51.746Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-10T07:11:47.376Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-10T12:13:17.402Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

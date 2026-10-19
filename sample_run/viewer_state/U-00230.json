@@ -1,0 +1,123 @@
+{
+  "user_id": "U-00230",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-03-21T08:02:01.511Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 11,
+  "total_completions": 5,
+  "completed_episodes_count": 5,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Action",
+    "Family",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T11:54:19.369Z",
+    "deadline": "2026-10-04T11:54:19.369Z",
+    "window_hours": 72,
+    "target_slug": "yane-tegi-d3",
+    "evidence": [
+      "slug_progress:yane-tegi-d3",
+      "days_inactive:24.2"
+    ],
+    "assumptions": [
+      "Viewer has 20 unwatched episodes remaining in yane-tegi-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-03-21T08:02:01.511Z",
+      "source": "profile:2026-09-29T01:28:03.060Z",
+      "timestamp": "2025-03-21T08:02:01.511Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:03cb19a7-3166-498c-8569-a52e57c78bb6",
+      "timestamp": "2026-09-28T23:00:44.316Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T01:28:03.060Z",
+      "timestamp": "2026-09-29T01:28:03.060Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:28:03.060Z",
+      "timestamp": "2026-09-29T01:28:03.060Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:28:03.060Z",
+      "timestamp": "2026-09-29T01:28:03.060Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T01:28:03.060Z",
+      "timestamp": "2026-09-29T01:28:03.060Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:ff684686-d2d2-472a-88c4-4f6b35f617c2",
+      "timestamp": "2026-10-01T16:22:22.679Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:22:22.679Z",
+      "source": "event:ff684686-d2d2-472a-88c4-4f6b35f617c2",
+      "timestamp": "2026-10-01T16:22:22.679Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-23T08:55:01.695Z",
+      "source": "event:7e5dc16d-f903-4e2d-8da1-564b89ad4c2e",
+      "timestamp": "2026-09-23T08:55:01.695Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d3",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:434b9757-24f4-467e-a463-b5506f475484 (latest user app setting)",
+      "timestamp": "2026-10-01T11:54:19.369Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d3"
+      },
+      "resolution": "Switched to d3 from event:ff684686-d2d2-472a-88c4-4f6b35f617c2 (latest user app setting)",
+      "timestamp": "2026-10-01T16:22:22.679Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

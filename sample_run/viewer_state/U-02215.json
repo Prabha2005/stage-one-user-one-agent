@@ -1,0 +1,176 @@
+{
+  "user_id": "U-02215",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2025-08-29T02:12:02.767Z",
+  "resolved_dialect": "d6",
+  "app_dialect": "d6",
+  "profile_dialect": "d3",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Comedy",
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T08:24:02.717Z",
+    "deadline": "2026-10-04T08:24:02.717Z",
+    "window_hours": 72,
+    "target_slug": "pate-kari-d3",
+    "evidence": [
+      "slug_progress:pate-kari-d3",
+      "days_inactive:29.7"
+    ],
+    "assumptions": [
+      "Viewer has 18 unwatched episodes remaining in pate-kari-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-08-29T02:12:02.767Z",
+      "source": "profile:2026-09-29T17:41:05.382Z",
+      "timestamp": "2025-08-29T02:12:02.767Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T17:41:05.382Z",
+      "timestamp": "2026-09-29T17:41:05.382Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T17:41:05.382Z",
+      "timestamp": "2026-09-29T17:41:05.382Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T17:41:05.382Z",
+      "timestamp": "2026-09-29T17:41:05.382Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T17:41:05.382Z",
+      "timestamp": "2026-09-29T17:41:05.382Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T17:41:05.382Z",
+      "timestamp": "2026-09-29T17:41:05.382Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:b6502f32-1df1-4618-a1f5-91e03da48ae5",
+      "timestamp": "2026-10-01T08:24:02.717Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T08:24:02.717Z",
+      "source": "event:b6502f32-1df1-4618-a1f5-91e03da48ae5",
+      "timestamp": "2026-10-01T08:24:02.717Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-01T16:17:51.141Z",
+      "source": "event:360718be-d958-4009-9d8a-dd3be2685751",
+      "timestamp": "2026-09-01T16:17:51.141Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d3",
+        "current_app_dialect": "d6"
+      },
+      "resolution": "Switched to d6 from event:71587a46-3a0a-4b1d-889b-302b82adb9b5 (latest user app setting)",
+      "timestamp": "2026-09-10T16:34:19.740Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-14T15:33:39.943Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-14T15:33:51.233Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-14T15:34:12.806Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-23T11:38:49.623Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-23T11:39:08.303Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T08:24:02.717Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-10-01T08:24:02.717Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "user_id": "U-03637",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-09-06T02:00:04.791Z",
+  "resolved_dialect": "d6",
+  "app_dialect": "d6",
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 12,
+  "total_completions": 5,
+  "completed_episodes_count": 5,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Action",
+    "Devotional",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T00:59:03.573Z",
+    "deadline": "2026-10-04T00:59:03.573Z",
+    "window_hours": 72,
+    "target_slug": "lojane-pijasa-d6",
+    "evidence": [
+      "slug_progress:lojane-pijasa-d6",
+      "days_inactive:11.4"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in lojane-pijasa-d6",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 2,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-06T02:00:04.791Z",
+      "source": "event:8b60173a-8520-42f8-9f85-a538bb69e2e7",
+      "timestamp": "2026-09-06T02:00:04.791Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:04e3323b-6783-41be-bc8d-6e9524261349",
+      "timestamp": "2026-09-12T09:18:03.347Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T12:57:54.538Z",
+      "timestamp": "2026-09-29T12:57:54.538Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T12:57:54.538Z",
+      "timestamp": "2026-09-29T12:57:54.538Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T12:57:54.538Z",
+      "timestamp": "2026-09-29T12:57:54.538Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:7cae5afc-deec-4aed-9a6d-5b6d7600e8f3",
+      "timestamp": "2026-10-01T15:09:01.256Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:09:01.256Z",
+      "source": "event:7cae5afc-deec-4aed-9a6d-5b6d7600e8f3",
+      "timestamp": "2026-10-01T15:09:01.256Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T14:56:14.522Z",
+      "source": "event:ef2a0f0a-ecfb-465a-9a47-d4ae1a8fb737",
+      "timestamp": "2026-09-29T14:56:14.522Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-09T16:13:04.728Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

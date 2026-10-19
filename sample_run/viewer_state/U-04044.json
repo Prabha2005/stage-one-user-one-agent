@@ -1,0 +1,114 @@
+{
+  "user_id": "U-04044",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-01-12T17:36:02.672Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 6,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Romance",
+    "Drama",
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:31:06.781Z",
+    "deadline": "2026-10-04T05:31:06.781Z",
+    "window_hours": 72,
+    "target_slug": "bagi-baya-d4",
+    "evidence": [
+      "slug_progress:bagi-baya-d4",
+      "days_inactive:7.7"
+    ],
+    "assumptions": [
+      "Viewer has 38 unwatched episodes remaining in bagi-baya-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-01-12T17:36:02.672Z",
+      "source": "profile:2026-09-29T15:44:34.548Z",
+      "timestamp": "2025-01-12T17:36:02.672Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:53547993-d1cf-48f2-a554-7abeb61fd54e",
+      "timestamp": "2026-09-17T13:05:18.707Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T15:44:34.548Z",
+      "timestamp": "2026-09-29T15:44:34.548Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T15:44:34.548Z",
+      "timestamp": "2026-09-29T15:44:34.548Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T15:44:34.548Z",
+      "timestamp": "2026-09-29T15:44:34.548Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T15:44:34.548Z",
+      "timestamp": "2026-09-29T15:44:34.548Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:77e7b0cb-d356-4908-9ec0-f252a3f1a282",
+      "timestamp": "2026-10-01T05:31:06.781Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T05:31:06.781Z",
+      "source": "event:77e7b0cb-d356-4908-9ec0-f252a3f1a282",
+      "timestamp": "2026-10-01T05:31:06.781Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-24T13:17:38.721Z",
+      "source": "event:1f6c0ea8-e3b4-48ae-9dec-c1dffaad10fb",
+      "timestamp": "2026-09-24T13:17:38.721Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T01:11:07.173Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

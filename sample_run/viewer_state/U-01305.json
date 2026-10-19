@@ -1,0 +1,106 @@
+{
+  "user_id": "U-01305",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2026-09-22T16:22:49.762Z",
+  "resolved_dialect": "d6",
+  "app_dialect": "d6",
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:11:38.347Z",
+    "deadline": "2026-10-04T15:11:38.347Z",
+    "window_hours": 72,
+    "target_slug": "vaka-vachu-d6",
+    "evidence": [
+      "slug_progress:vaka-vachu-d6",
+      "days_inactive:8.8"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in vaka-vachu-d6",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-22T16:22:49.762Z",
+      "source": "event:4d78ccc8-f196-481c-8ca7-a40afa775d3d",
+      "timestamp": "2026-09-22T16:22:49.762Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "event:4d78ccc8-f196-481c-8ca7-a40afa775d3d",
+      "timestamp": "2026-09-22T16:22:49.762Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T08:21:46.755Z",
+      "timestamp": "2026-09-29T08:21:46.755Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T08:21:46.755Z",
+      "timestamp": "2026-09-29T08:21:46.755Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T08:21:46.755Z",
+      "timestamp": "2026-09-29T08:21:46.755Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:006a16b1-83f5-4945-bdbb-165265e3da84",
+      "timestamp": "2026-10-01T15:11:43.022Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:11:43.022Z",
+      "source": "event:006a16b1-83f5-4945-bdbb-165265e3da84",
+      "timestamp": "2026-10-01T15:11:43.022Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-22T20:55:20.875Z",
+      "source": "event:1e710c0b-0372-4c77-97d3-5de1bc24daeb",
+      "timestamp": "2026-09-22T20:55:20.875Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-10-01T15:11:43.022Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

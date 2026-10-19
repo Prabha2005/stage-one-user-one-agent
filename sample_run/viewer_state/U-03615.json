@@ -1,0 +1,141 @@
+{
+  "user_id": "U-03615",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-08-01T04:16:50.680Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 8,
+  "total_completions": 3,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Thriller",
+    "Drama",
+    "Action"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T23:50:55.292Z",
+    "deadline": "2026-10-03T23:50:55.292Z",
+    "window_hours": 72,
+    "target_slug": "tidha-dakachu-d1",
+    "evidence": [
+      "slug_progress:tidha-dakachu-d1",
+      "days_inactive:18.5"
+    ],
+    "assumptions": [
+      "Viewer has 17 unwatched episodes remaining in tidha-dakachu-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 3,
+  "actions_count": 3,
+  "facts": {
+    "signup_at": {
+      "value": "2026-08-01T04:16:50.680Z",
+      "source": "profile:2026-09-29T10:02:26.662Z",
+      "timestamp": "2026-08-01T04:16:50.680Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:919f5402-8f80-4bbe-8c5d-7966b76227a8",
+      "timestamp": "2026-09-18T17:56:25.426Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T10:02:26.662Z",
+      "timestamp": "2026-09-29T10:02:26.662Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T10:02:26.662Z",
+      "timestamp": "2026-09-29T10:02:26.662Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T10:02:26.662Z",
+      "timestamp": "2026-09-29T10:02:26.662Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T10:02:26.662Z",
+      "timestamp": "2026-09-29T10:02:26.662Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:9f93ac29-aee2-47a0-8428-8812498e6a67",
+      "timestamp": "2026-10-01T06:13:07.556Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T06:13:07.556Z",
+      "source": "event:9f93ac29-aee2-47a0-8428-8812498e6a67",
+      "timestamp": "2026-10-01T06:13:07.556Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-21T17:14:50.188Z",
+      "source": "event:d26c1f6e-60dd-48ce-9b8a-d31287c36b1f",
+      "timestamp": "2026-09-21T17:14:50.188Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d1",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:9131cfa3-0b6f-4904-985e-54a82e2f33af (latest user app setting)",
+      "timestamp": "2026-09-12T12:27:06.367Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d1"
+      },
+      "resolution": "Switched to d1 from event:be77d17e-0c3d-4185-b3f0-f7efb48c304f (latest user app setting)",
+      "timestamp": "2026-09-12T12:28:35.873Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-18T04:55:02.492Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-21T17:13:03.564Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

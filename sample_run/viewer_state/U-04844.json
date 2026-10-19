@@ -1,0 +1,121 @@
+{
+  "user_id": "U-04844",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-08-07T18:56:51.123Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Comedy"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:14:03.653Z",
+    "deadline": "2026-10-04T15:14:03.653Z",
+    "window_hours": 72,
+    "target_slug": "dapa-pini-d1",
+    "evidence": [
+      "slug_progress:dapa-pini-d1",
+      "days_inactive:11.0"
+    ],
+    "assumptions": [
+      "Viewer has 55 unwatched episodes remaining in dapa-pini-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-08-07T18:56:51.123Z",
+      "source": "profile:2026-09-28T23:29:57.608Z",
+      "timestamp": "2026-08-07T18:56:51.123Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:7c7cb635-ee12-4411-b2f6-7311c5c30f74",
+      "timestamp": "2026-09-06T06:12:57.549Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-28T23:29:57.608Z",
+      "timestamp": "2026-09-28T23:29:57.608Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T23:29:57.608Z",
+      "timestamp": "2026-09-28T23:29:57.608Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T23:29:57.608Z",
+      "timestamp": "2026-09-28T23:29:57.608Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T23:29:57.608Z",
+      "timestamp": "2026-09-28T23:29:57.608Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:5dcd024c-f3fb-4e41-8a55-ada02bda4f18",
+      "timestamp": "2026-10-01T15:14:03.653Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:14:03.653Z",
+      "source": "event:5dcd024c-f3fb-4e41-8a55-ada02bda4f18",
+      "timestamp": "2026-10-01T15:14:03.653Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-20T14:38:52.728Z",
+      "source": "event:6d2b96df-19c1-4b48-aca7-a9b7d02d0546",
+      "timestamp": "2026-09-20T14:38:52.728Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-17T09:54:34.209Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T09:19:39.086Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

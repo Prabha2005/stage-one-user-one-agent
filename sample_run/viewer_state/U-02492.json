@@ -1,0 +1,123 @@
+{
+  "user_id": "U-02492",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2025-09-26T05:39:48.352Z",
+  "resolved_dialect": "NA",
+  "app_dialect": "NA",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 8,
+  "total_completions": 5,
+  "completed_episodes_count": 5,
+  "active_series_in_progress": 5,
+  "top_genres": [
+    "Devotional",
+    "Comedy",
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T03:08:30.358Z",
+    "deadline": "2026-10-04T03:08:30.358Z",
+    "window_hours": 72,
+    "target_slug": "piropa-moguti-d2",
+    "evidence": [
+      "slug_progress:piropa-moguti-d2",
+      "days_inactive:25.4"
+    ],
+    "assumptions": [
+      "Viewer has 22 unwatched episodes remaining in piropa-moguti-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-09-26T05:39:48.352Z",
+      "source": "profile:2026-09-29T08:48:21.154Z",
+      "timestamp": "2025-09-26T05:39:48.352Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:b012e833-f7c9-4d72-83b5-a40ecc5ae96c",
+      "timestamp": "2026-09-08T05:57:33.914Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T08:48:21.154Z",
+      "timestamp": "2026-09-29T08:48:21.154Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T08:48:21.154Z",
+      "timestamp": "2026-09-29T08:48:21.154Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T08:48:21.154Z",
+      "timestamp": "2026-09-29T08:48:21.154Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T08:48:21.154Z",
+      "timestamp": "2026-09-29T08:48:21.154Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T04:19:42.339Z",
+      "source": "event:8507e319-9d36-44d5-9f8b-b3f5dba805e9",
+      "timestamp": "2026-10-01T04:19:42.339Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-22T16:47:08.967Z",
+      "source": "event:23a5e9b6-b75d-4bee-b1df-a4da402a581a",
+      "timestamp": "2026-09-22T16:47:08.967Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "NA",
+      "source": "event:fa284132-8a1b-4b47-adb1-193334734672",
+      "timestamp": "2026-09-15T10:14:55.655Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA because the client UI renders in app_dialect",
+      "timestamp": "2026-09-14T17:29:11.533Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d3",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA because the client UI renders in app_dialect",
+      "timestamp": "2026-09-15T10:14:55.655Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

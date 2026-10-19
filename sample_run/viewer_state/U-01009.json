@@ -1,0 +1,103 @@
+{
+  "user_id": "U-01009",
+  "arm": "holdout",
+  "subscription_status": "lapsed",
+  "signup_at": "2026-05-01T05:18:35.326Z",
+  "resolved_dialect": "d7",
+  "app_dialect": "d7",
+  "profile_dialect": "d6",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 0,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 0,
+  "top_genres": [],
+  "active_goal": {
+    "id": "G06",
+    "name": "reactivate_lapsed_14d",
+    "started_at": "2026-10-01T15:01:39.811Z",
+    "deadline": "2026-10-15T15:01:39.811Z",
+    "window_hours": 336,
+    "target_slug": null,
+    "evidence": [
+      "subscription_status:lapsed",
+      "source:profile:2026-09-29T12:01:20.773Z"
+    ],
+    "assumptions": [
+      "User had a prior paid subscription that expired"
+    ],
+    "confidence": 0.85,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-05-01T05:18:35.326Z",
+      "source": "profile:2026-09-29T12:01:20.773Z",
+      "timestamp": "2026-05-01T05:18:35.326Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "profile:2026-09-29T12:01:20.773Z",
+      "timestamp": "2026-09-29T12:01:20.773Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "profile:2026-09-29T12:01:20.773Z",
+      "timestamp": "2026-09-29T12:01:20.773Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T12:01:20.773Z",
+      "timestamp": "2026-09-29T12:01:20.773Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T12:01:20.773Z",
+      "timestamp": "2026-09-29T12:01:20.773Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T12:01:20.773Z",
+      "timestamp": "2026-09-29T12:01:20.773Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d7",
+      "source": "event:1a20e098-c4d2-4a65-9059-1a8c09f5e86e",
+      "timestamp": "2026-10-01T15:01:39.811Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:01:39.811Z",
+      "source": "event:1a20e098-c4d2-4a65-9059-1a8c09f5e86e",
+      "timestamp": "2026-10-01T15:01:39.811Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d6",
+        "app_setting": "d7"
+      },
+      "resolution": "Used d7 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T15:01:39.811Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

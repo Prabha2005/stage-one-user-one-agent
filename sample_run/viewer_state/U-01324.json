@@ -1,0 +1,132 @@
+{
+  "user_id": "U-01324",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-07-24T06:46:49.012Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 5,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 5,
+  "top_genres": [
+    "Devotional",
+    "Thriller",
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T12:47:29.039Z",
+    "deadline": "2026-10-04T12:47:29.039Z",
+    "window_hours": 72,
+    "target_slug": "yaka-naka-d5",
+    "evidence": [
+      "slug_progress:yaka-naka-d5",
+      "days_inactive:21.0"
+    ],
+    "assumptions": [
+      "Viewer has 59 unwatched episodes remaining in yaka-naka-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-07-24T06:46:49.012Z",
+      "source": "profile:2026-09-29T14:29:12.871Z",
+      "timestamp": "2025-07-24T06:46:49.012Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:5f891929-3c67-4646-8069-f2137cee070e",
+      "timestamp": "2026-09-23T23:07:19.891Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-29T14:29:12.871Z",
+      "timestamp": "2026-09-29T14:29:12.871Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T14:29:12.871Z",
+      "timestamp": "2026-09-29T14:29:12.871Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T14:29:12.871Z",
+      "timestamp": "2026-09-29T14:29:12.871Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T14:29:12.871Z",
+      "timestamp": "2026-09-29T14:29:12.871Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:81013c3f-38fa-4c72-b84e-096fb81a23e6",
+      "timestamp": "2026-10-01T12:47:29.039Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T12:47:29.039Z",
+      "source": "event:81013c3f-38fa-4c72-b84e-096fb81a23e6",
+      "timestamp": "2026-10-01T12:47:29.039Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-25T05:11:11.322Z",
+      "source": "event:b41358e9-4811-4ced-bf99-a41b749d63da",
+      "timestamp": "2026-09-25T05:11:11.322Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA because the client UI renders in app_dialect",
+      "timestamp": "2026-09-03T01:30:04.031Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d5"
+      },
+      "resolution": "Switched to d5 from event:98ef9248-40cf-4083-9952-8602142668ce (latest user app setting)",
+      "timestamp": "2026-09-03T01:30:28.590Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T17:18:36.423Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

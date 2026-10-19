@@ -1,0 +1,141 @@
+{
+  "user_id": "U-00211",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-06-26T23:11:51.382Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 5,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Romance",
+    "Devotional",
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:08:11.381Z",
+    "deadline": "2026-10-04T15:08:11.381Z",
+    "window_hours": 72,
+    "target_slug": "gisu-d2",
+    "evidence": [
+      "slug_progress:gisu-d2",
+      "days_inactive:26.2"
+    ],
+    "assumptions": [
+      "Viewer has 11 unwatched episodes remaining in gisu-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-06-26T23:11:51.382Z",
+      "source": "profile:2026-09-28T23:47:24.630Z",
+      "timestamp": "2026-06-26T23:11:51.382Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:33712fb5-57e6-482b-9f9a-ac842c6e604a",
+      "timestamp": "2026-09-20T06:57:55.916Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-28T23:47:24.630Z",
+      "timestamp": "2026-09-28T23:47:24.630Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T23:47:24.630Z",
+      "timestamp": "2026-09-28T23:47:24.630Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T23:47:24.630Z",
+      "timestamp": "2026-09-28T23:47:24.630Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T23:47:24.630Z",
+      "timestamp": "2026-09-28T23:47:24.630Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:557dd713-b7ed-4e95-afd6-7b6964db07e3",
+      "timestamp": "2026-10-01T15:08:11.381Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:08:11.381Z",
+      "source": "event:557dd713-b7ed-4e95-afd6-7b6964db07e3",
+      "timestamp": "2026-10-01T15:08:11.381Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T10:44:58.273Z",
+      "source": "event:24ce2282-bca1-4178-a6eb-9a04bf8f3be2",
+      "timestamp": "2026-09-30T10:44:58.273Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d2",
+        "app_setting": "NA"
+      },
+      "resolution": "Used NA because the client UI renders in app_dialect",
+      "timestamp": "2026-09-05T11:05:36.251Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:d9c8fbb2-0fe4-4d59-b2f7-7a8677a77cfe (latest user app setting)",
+      "timestamp": "2026-09-05T11:06:06.377Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d2",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:2cc97fee-13e3-41bf-84fa-2895a655046b (latest user app setting)",
+      "timestamp": "2026-09-24T16:55:55.360Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:4171f3b5-380b-40f2-98cd-416c9b20a7b5 (latest user app setting)",
+      "timestamp": "2026-09-24T16:56:05.048Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

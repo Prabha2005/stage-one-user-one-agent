@@ -1,0 +1,111 @@
+{
+  "user_id": "U-03828",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2026-03-17T01:02:35.408Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 0,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 0,
+  "top_genres": [],
+  "active_goal": {
+    "id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T01:41:23.049Z",
+    "deadline": "2026-10-04T01:41:23.049Z",
+    "window_hours": 72,
+    "target_slug": null,
+    "evidence": [
+      "total_completions:0"
+    ],
+    "assumptions": [
+      "Viewer has never completed any episode (90%+)"
+    ],
+    "confidence": 0.8,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-03-17T01:02:35.408Z",
+      "source": "profile:2026-09-29T15:51:40.159Z",
+      "timestamp": "2026-03-17T01:02:35.408Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T15:51:40.159Z",
+      "timestamp": "2026-09-29T15:51:40.159Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T15:51:40.159Z",
+      "timestamp": "2026-09-29T15:51:40.159Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T15:51:40.159Z",
+      "timestamp": "2026-09-29T15:51:40.159Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T15:51:40.159Z",
+      "timestamp": "2026-09-29T15:51:40.159Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T15:51:40.159Z",
+      "timestamp": "2026-09-29T15:51:40.159Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:9d1827d5-6fa8-422c-a10e-d0b34273c54c",
+      "timestamp": "2026-10-01T01:41:23.049Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T01:41:23.049Z",
+      "source": "event:9d1827d5-6fa8-422c-a10e-d0b34273c54c",
+      "timestamp": "2026-10-01T01:41:23.049Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d1",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:52109988-71da-41ba-a7b9-50693044e40a (latest user app setting)",
+      "timestamp": "2026-09-23T19:34:55.197Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d1"
+      },
+      "resolution": "Switched to d1 from event:fec82f50-6511-4f87-93e6-74d2c9802fe6 (latest user app setting)",
+      "timestamp": "2026-09-23T19:34:59.949Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

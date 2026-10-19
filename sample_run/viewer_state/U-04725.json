@@ -1,0 +1,112 @@
+{
+  "user_id": "U-04725",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2025-02-04T01:37:45.034Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:45:57.280Z",
+    "deadline": "2026-10-04T07:45:57.280Z",
+    "window_hours": 72,
+    "target_slug": "gima-bhadaba-d1",
+    "evidence": [
+      "slug_progress:gima-bhadaba-d1",
+      "days_inactive:14.6"
+    ],
+    "assumptions": [
+      "Viewer has 43 unwatched episodes remaining in gima-bhadaba-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-02-04T01:37:45.034Z",
+      "source": "profile:2026-09-28T19:10:55.206Z",
+      "timestamp": "2025-02-04T01:37:45.034Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:ecb1877d-6d13-4d43-85f4-600545842a01",
+      "timestamp": "2026-09-11T20:17:39.909Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-28T19:10:55.206Z",
+      "timestamp": "2026-09-28T19:10:55.206Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T19:10:55.206Z",
+      "timestamp": "2026-09-28T19:10:55.206Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T19:10:55.206Z",
+      "timestamp": "2026-09-28T19:10:55.206Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T19:10:55.206Z",
+      "timestamp": "2026-09-28T19:10:55.206Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:1c5fe731-2857-4f43-82d8-4924708afe94",
+      "timestamp": "2026-10-01T07:45:57.280Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T07:45:57.280Z",
+      "source": "event:1c5fe731-2857-4f43-82d8-4924708afe94",
+      "timestamp": "2026-10-01T07:45:57.280Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-16T17:59:35.067Z",
+      "source": "event:20effb3f-cd0d-4936-9f7c-2d18612e4642",
+      "timestamp": "2026-09-16T17:59:35.067Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-15T13:41:20.028Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

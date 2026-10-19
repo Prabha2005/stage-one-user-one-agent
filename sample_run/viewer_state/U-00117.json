@@ -1,0 +1,104 @@
+{
+  "user_id": "U-00117",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-02-22T17:01:00.371Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Drama",
+    "Thriller",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T23:16:09.749Z",
+    "deadline": "2026-10-03T23:16:09.749Z",
+    "window_hours": 72,
+    "target_slug": "patena-d1",
+    "evidence": [
+      "slug_progress:patena-d1",
+      "days_inactive:4.8"
+    ],
+    "assumptions": [
+      "Viewer has 19 unwatched episodes remaining in patena-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-02-22T17:01:00.371Z",
+      "source": "profile:2026-09-28T22:03:50.386Z",
+      "timestamp": "2026-02-22T17:01:00.371Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:a23183f6-37cb-4ca7-953a-fea3b8c20a74",
+      "timestamp": "2026-09-07T04:33:47.173Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-28T22:03:50.386Z",
+      "timestamp": "2026-09-28T22:03:50.386Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T22:03:50.386Z",
+      "timestamp": "2026-09-28T22:03:50.386Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T22:03:50.386Z",
+      "timestamp": "2026-09-28T22:03:50.386Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T22:03:50.386Z",
+      "timestamp": "2026-09-28T22:03:50.386Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:cdb47cbb-926c-42ba-88b9-ed6f8d39e0f1",
+      "timestamp": "2026-09-30T23:16:09.749Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-09-30T23:16:09.749Z",
+      "source": "event:cdb47cbb-926c-42ba-88b9-ed6f8d39e0f1",
+      "timestamp": "2026-09-30T23:16:09.749Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-26T05:07:44.268Z",
+      "source": "event:eed7502a-6dd3-4b3b-8acf-f9b83703a235",
+      "timestamp": "2026-09-26T05:07:44.268Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

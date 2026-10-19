@@ -1,0 +1,98 @@
+{
+  "user_id": "U-00591",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-09-09T08:03:40.532Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 4,
+  "total_completions": 4,
+  "completed_episodes_count": 3,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Devotional",
+    "Action",
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:05:45.368Z",
+    "deadline": "2026-10-04T15:05:45.368Z",
+    "window_hours": 72,
+    "target_slug": "gima-bhadaba-d1",
+    "evidence": [
+      "slug_progress:gima-bhadaba-d1",
+      "days_inactive:3.3"
+    ],
+    "assumptions": [
+      "Viewer has 43 unwatched episodes remaining in gima-bhadaba-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-09T08:03:40.532Z",
+      "source": "event:d031df07-1acc-4b3b-929a-c863a282e522",
+      "timestamp": "2026-09-09T08:03:40.532Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:245e2d2e-5291-44e1-97d7-099cba046517",
+      "timestamp": "2026-10-01T15:07:47.924Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T03:15:42.333Z",
+      "timestamp": "2026-09-29T03:15:42.333Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T03:15:42.333Z",
+      "timestamp": "2026-09-29T03:15:42.333Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T03:15:42.333Z",
+      "timestamp": "2026-09-29T03:15:42.333Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:245e2d2e-5291-44e1-97d7-099cba046517",
+      "timestamp": "2026-10-01T15:07:47.924Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:05:45.368Z",
+      "source": "event:49f66ce3-472a-4d8a-af5b-27e137c84ce9",
+      "timestamp": "2026-10-01T15:05:45.368Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T05:46:46.637Z",
+      "source": "event:9eb8c4d5-a5e0-4783-b5ac-4878204c4500",
+      "timestamp": "2026-09-30T05:46:46.637Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

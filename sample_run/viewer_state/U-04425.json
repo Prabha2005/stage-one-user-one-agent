@@ -1,0 +1,104 @@
+{
+  "user_id": "U-04425",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-02-27T08:15:23.960Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 6,
+  "total_completions": 3,
+  "completed_episodes_count": 3,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Drama",
+    "Thriller",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T08:15:36.252Z",
+    "deadline": "2026-10-04T08:15:36.252Z",
+    "window_hours": 72,
+    "target_slug": "raloja-d1",
+    "evidence": [
+      "slug_progress:raloja-d1",
+      "days_inactive:3.0"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in raloja-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-02-27T08:15:23.960Z",
+      "source": "profile:2026-09-29T15:07:52.185Z",
+      "timestamp": "2026-02-27T08:15:23.960Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:1ae38984-e93f-4593-bbab-8d88eb8b730a",
+      "timestamp": "2026-09-02T20:30:18.775Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T15:07:52.185Z",
+      "timestamp": "2026-09-29T15:07:52.185Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T15:07:52.185Z",
+      "timestamp": "2026-09-29T15:07:52.185Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T15:07:52.185Z",
+      "timestamp": "2026-09-29T15:07:52.185Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T15:07:52.185Z",
+      "timestamp": "2026-09-29T15:07:52.185Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:0b21a06e-365f-4528-b172-77d0ba1dd186",
+      "timestamp": "2026-10-01T13:57:55.568Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T13:57:55.568Z",
+      "source": "event:0b21a06e-365f-4528-b172-77d0ba1dd186",
+      "timestamp": "2026-10-01T13:57:55.568Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T01:41:21.705Z",
+      "source": "event:c34e9216-4f23-4a41-9594-f67b4aa33ad9",
+      "timestamp": "2026-09-29T01:41:21.705Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

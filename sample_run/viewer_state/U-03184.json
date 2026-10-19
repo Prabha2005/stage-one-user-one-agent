@@ -1,0 +1,141 @@
+{
+  "user_id": "U-03184",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-02-13T02:51:43.214Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 16,
+  "total_completions": 9,
+  "completed_episodes_count": 9,
+  "active_series_in_progress": 6,
+  "top_genres": [
+    "Romance",
+    "Action",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T02:42:02.741Z",
+    "deadline": "2026-10-04T02:42:02.741Z",
+    "window_hours": 72,
+    "target_slug": "dhapipa-gini-d2",
+    "evidence": [
+      "slug_progress:dhapipa-gini-d2",
+      "days_inactive:27.4"
+    ],
+    "assumptions": [
+      "Viewer has 55 unwatched episodes remaining in dhapipa-gini-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-02-13T02:51:43.214Z",
+      "source": "profile:2026-09-28T23:00:10.057Z",
+      "timestamp": "2026-02-13T02:51:43.214Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:23d2bdf7-313d-441b-99d2-51fd0dfe6d6c",
+      "timestamp": "2026-09-12T12:35:40.414Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-28T23:00:10.057Z",
+      "timestamp": "2026-09-28T23:00:10.057Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T23:00:10.057Z",
+      "timestamp": "2026-09-28T23:00:10.057Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T23:00:10.057Z",
+      "timestamp": "2026-09-28T23:00:10.057Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T23:00:10.057Z",
+      "timestamp": "2026-09-28T23:00:10.057Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:5f78aa6a-503e-475a-8300-4fa18a0fd877",
+      "timestamp": "2026-10-01T02:42:02.741Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T02:42:02.741Z",
+      "source": "event:5f78aa6a-503e-475a-8300-4fa18a0fd877",
+      "timestamp": "2026-10-01T02:42:02.741Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T04:07:59.998Z",
+      "source": "event:7fec6ab9-b35e-4119-934b-67e2df934bd2",
+      "timestamp": "2026-09-29T04:07:59.998Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d2",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:ba73c0f5-0732-458b-9d7d-aeaabc44572c (latest user app setting)",
+      "timestamp": "2026-09-17T04:52:08.396Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:14fdcac2-9664-4383-83bc-c30cd74462a3 (latest user app setting)",
+      "timestamp": "2026-09-17T04:52:59.033Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d2",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:0f055352-f6a1-48f4-a104-6f51ebbc02d4 (latest user app setting)",
+      "timestamp": "2026-09-26T11:16:37.218Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:e9b4f291-47e3-4e03-9ab4-4a9d6fa294a5 (latest user app setting)",
+      "timestamp": "2026-09-26T11:17:07.094Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

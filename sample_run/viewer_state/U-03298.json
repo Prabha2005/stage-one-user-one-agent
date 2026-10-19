@@ -1,0 +1,123 @@
+{
+  "user_id": "U-03298",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2025-09-30T10:21:22.373Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 12,
+  "total_completions": 6,
+  "completed_episodes_count": 6,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Devotional",
+    "Family",
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T23:38:20.154Z",
+    "deadline": "2026-10-03T23:38:20.154Z",
+    "window_hours": 72,
+    "target_slug": "bala-naja-d2",
+    "evidence": [
+      "slug_progress:bala-naja-d2",
+      "days_inactive:3.2"
+    ],
+    "assumptions": [
+      "Viewer has 10 unwatched episodes remaining in bala-naja-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 4,
+  "actions_count": 4,
+  "facts": {
+    "signup_at": {
+      "value": "2025-09-30T10:21:22.373Z",
+      "source": "profile:2026-09-29T01:48:10.311Z",
+      "timestamp": "2025-09-30T10:21:22.373Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:87c0f454-fbff-46e2-a8de-843e09e1e486",
+      "timestamp": "2026-09-23T06:29:32.780Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-29T01:48:10.311Z",
+      "timestamp": "2026-09-29T01:48:10.311Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:48:10.311Z",
+      "timestamp": "2026-09-29T01:48:10.311Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T01:48:10.311Z",
+      "timestamp": "2026-09-29T01:48:10.311Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T01:48:10.311Z",
+      "timestamp": "2026-09-29T01:48:10.311Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:1f6bff85-94ee-4fce-8902-0227843b3e7e",
+      "timestamp": "2026-10-01T07:25:30.489Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T07:25:30.489Z",
+      "source": "event:1f6bff85-94ee-4fce-8902-0227843b3e7e",
+      "timestamp": "2026-10-01T07:25:30.489Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T13:28:00.058Z",
+      "source": "event:c7512bba-aad4-4a01-8886-ef1e067aba76",
+      "timestamp": "2026-09-29T13:28:00.058Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d2",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:9b33e26c-7d92-42bf-99bf-7342b79c6cc2 (latest user app setting)",
+      "timestamp": "2026-09-21T16:32:52.399Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:1e9e12f7-badb-4938-bf69-07d2261797db (latest user app setting)",
+      "timestamp": "2026-09-21T16:33:19.941Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

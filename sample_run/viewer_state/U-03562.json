@@ -1,0 +1,113 @@
+{
+  "user_id": "U-03562",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2026-05-23T06:33:55.582Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 3,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Devotional",
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T13:23:48.715Z",
+    "deadline": "2026-10-04T13:23:48.715Z",
+    "window_hours": 72,
+    "target_slug": "haya-kani-d5",
+    "evidence": [
+      "slug_progress:haya-kani-d5",
+      "days_inactive:29.0"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in haya-kani-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-05-23T06:33:55.582Z",
+      "source": "profile:2026-09-29T11:08:26.416Z",
+      "timestamp": "2026-05-23T06:33:55.582Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T11:08:26.416Z",
+      "timestamp": "2026-09-29T11:08:26.416Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-29T11:08:26.416Z",
+      "timestamp": "2026-09-29T11:08:26.416Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T11:08:26.416Z",
+      "timestamp": "2026-09-29T11:08:26.416Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T11:08:26.416Z",
+      "timestamp": "2026-09-29T11:08:26.416Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T11:08:26.416Z",
+      "timestamp": "2026-09-29T11:08:26.416Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:72e0c146-98c8-481c-9e17-3c91b04ae9e2",
+      "timestamp": "2026-10-01T14:42:02.234Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:42:02.234Z",
+      "source": "event:72e0c146-98c8-481c-9e17-3c91b04ae9e2",
+      "timestamp": "2026-10-01T14:42:02.234Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-11T16:25:35.976Z",
+      "source": "event:8998f9b4-d497-4ea6-b866-31b83300dc95",
+      "timestamp": "2026-09-11T16:25:35.976Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-07T11:14:00.779Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

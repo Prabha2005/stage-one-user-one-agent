@@ -1,0 +1,105 @@
+{
+  "user_id": "U-00703",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-10-14T10:50:02.335Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Comedy",
+    "Romance",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G05",
+    "name": "first_paid_7d",
+    "started_at": "2026-10-01T05:02:33.087Z",
+    "deadline": "2026-10-08T05:02:33.087Z",
+    "window_hours": 168,
+    "target_slug": null,
+    "evidence": [
+      "subscription_status:never",
+      "source:profile:2026-09-29T15:41:29.389Z"
+    ],
+    "assumptions": [
+      "User has never subscribed to a paid plan"
+    ],
+    "confidence": 0.75,
+    "status": "SUCCEEDED",
+    "succeeded_at": "2026-10-01T05:04:30.420Z",
+    "success_reason": "Purchased paid plan at 2026-10-01T05:04:30.420Z"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-10-14T10:50:02.335Z",
+      "source": "profile:2026-09-29T15:41:29.389Z",
+      "timestamp": "2025-10-14T10:50:02.335Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:17dca1e5-7413-4951-8ca1-f3051963c547",
+      "timestamp": "2026-10-01T05:04:30.420Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-29T15:41:29.389Z",
+      "timestamp": "2026-09-29T15:41:29.389Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T15:41:29.389Z",
+      "timestamp": "2026-09-29T15:41:29.389Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T15:41:29.389Z",
+      "timestamp": "2026-09-29T15:41:29.389Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T15:41:29.389Z",
+      "timestamp": "2026-09-29T15:41:29.389Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:17dca1e5-7413-4951-8ca1-f3051963c547",
+      "timestamp": "2026-10-01T05:04:30.420Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T05:02:33.087Z",
+      "source": "event:f0aa16e5-9cd8-4e5c-b94a-ca18ac8c7372",
+      "timestamp": "2026-10-01T05:02:33.087Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T03:25:53.898Z",
+      "source": "event:55a8c5d6-21b8-4533-888f-300230441371",
+      "timestamp": "2026-09-29T03:25:53.898Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

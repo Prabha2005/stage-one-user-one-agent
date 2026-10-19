@@ -1,0 +1,122 @@
+{
+  "user_id": "U-03131",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2025-01-10T20:21:56.386Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 6,
+  "total_completions": 4,
+  "completed_episodes_count": 4,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Family",
+    "Action"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T09:40:52.950Z",
+    "deadline": "2026-10-04T09:40:52.950Z",
+    "window_hours": 72,
+    "target_slug": "tepa-lagi-d3",
+    "evidence": [
+      "slug_progress:tepa-lagi-d3",
+      "days_inactive:3.3"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in tepa-lagi-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-01-10T20:21:56.386Z",
+      "source": "profile:2026-09-29T01:19:24.776Z",
+      "timestamp": "2025-01-10T20:21:56.386Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:f10b8895-f49b-4e2c-b824-3a31e66222bb",
+      "timestamp": "2026-09-13T04:22:50.405Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T01:19:24.776Z",
+      "timestamp": "2026-09-29T01:19:24.776Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:19:24.776Z",
+      "timestamp": "2026-09-29T01:19:24.776Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T01:19:24.776Z",
+      "timestamp": "2026-09-29T01:19:24.776Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T01:19:24.776Z",
+      "timestamp": "2026-09-29T01:19:24.776Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:0ef67f3f-f921-43a7-85b4-13d214ae4160",
+      "timestamp": "2026-10-01T09:40:52.950Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T09:40:52.950Z",
+      "source": "event:0ef67f3f-f921-43a7-85b4-13d214ae4160",
+      "timestamp": "2026-10-01T09:40:52.950Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T06:43:31.982Z",
+      "source": "event:f87f1970-1374-4e51-95d1-028d03c3928b",
+      "timestamp": "2026-09-30T06:43:31.982Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-17T18:35:59.887Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-26T09:31:41.829Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "user_id": "U-03839",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2024-11-26T16:33:17.033Z",
+  "resolved_dialect": "d6",
+  "app_dialect": "d6",
+  "profile_dialect": "d6",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 18,
+  "total_completions": 7,
+  "completed_episodes_count": 7,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Action",
+    "Thriller",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T13:11:04.263Z",
+    "deadline": "2026-10-04T13:11:04.263Z",
+    "window_hours": 72,
+    "target_slug": "sajachu-jabha-d6",
+    "evidence": [
+      "slug_progress:sajachu-jabha-d6",
+      "days_inactive:25.0"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in sajachu-jabha-d6",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 2,
+  "facts": {
+    "signup_at": {
+      "value": "2024-11-26T16:33:17.033Z",
+      "source": "profile:2026-09-29T13:59:49.464Z",
+      "timestamp": "2024-11-26T16:33:17.033Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:ea4d0955-ec5c-465f-b5dc-39ce1943bf8a",
+      "timestamp": "2026-09-16T20:32:01.108Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "profile:2026-09-29T13:59:49.464Z",
+      "timestamp": "2026-09-29T13:59:49.464Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T13:59:49.464Z",
+      "timestamp": "2026-09-29T13:59:49.464Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T13:59:49.464Z",
+      "timestamp": "2026-09-29T13:59:49.464Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T13:59:49.464Z",
+      "timestamp": "2026-09-29T13:59:49.464Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:fc55510b-1716-4fe3-aa26-8b48503ed308",
+      "timestamp": "2026-10-01T15:15:18.832Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:15:18.832Z",
+      "source": "event:fc55510b-1716-4fe3-aa26-8b48503ed308",
+      "timestamp": "2026-10-01T15:15:18.832Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T13:41:21.872Z",
+      "source": "event:8194c911-a357-42e3-aa23-59a2ee4b5896",
+      "timestamp": "2026-09-29T13:41:21.872Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-21T09:31:11.738Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-27T18:09:19.512Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-30T11:22:15.598Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

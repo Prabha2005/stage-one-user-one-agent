@@ -1,0 +1,114 @@
+{
+  "user_id": "U-03375",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2025-05-04T01:32:44.728Z",
+  "resolved_dialect": "d5",
+  "app_dialect": "d5",
+  "profile_dialect": "d5",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 4,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Romance",
+    "Crime",
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:21:06.862Z",
+    "deadline": "2026-10-04T15:21:06.862Z",
+    "window_hours": 72,
+    "target_slug": "jamo-hasa-d5",
+    "evidence": [
+      "slug_progress:jamo-hasa-d5",
+      "days_inactive:5.5"
+    ],
+    "assumptions": [
+      "Viewer has 32 unwatched episodes remaining in jamo-hasa-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-05-04T01:32:44.728Z",
+      "source": "profile:2026-09-28T22:16:35.069Z",
+      "timestamp": "2025-05-04T01:32:44.728Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:188b36f3-4d6e-4646-bf11-2a65c98a3968",
+      "timestamp": "2026-09-12T15:59:52.709Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-28T22:16:35.069Z",
+      "timestamp": "2026-09-28T22:16:35.069Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T22:16:35.069Z",
+      "timestamp": "2026-09-28T22:16:35.069Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T22:16:35.069Z",
+      "timestamp": "2026-09-28T22:16:35.069Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T22:16:35.069Z",
+      "timestamp": "2026-09-28T22:16:35.069Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:c00bd618-87ff-466e-9b58-6e823cd06d08",
+      "timestamp": "2026-10-01T15:21:06.862Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:21:06.862Z",
+      "source": "event:c00bd618-87ff-466e-9b58-6e823cd06d08",
+      "timestamp": "2026-10-01T15:21:06.862Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-26T03:36:21.002Z",
+      "source": "event:e2082359-0efd-4e2e-8c69-ff1371237e82",
+      "timestamp": "2026-09-26T03:36:21.002Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d5"
+      },
+      "resolution": "Used d5 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-21T06:52:59.865Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

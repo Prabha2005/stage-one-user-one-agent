@@ -1,0 +1,132 @@
+{
+  "user_id": "U-00955",
+  "arm": "agent",
+  "subscription_status": "lapsed",
+  "signup_at": "2024-12-13T13:05:44.505Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 11,
+  "total_completions": 6,
+  "completed_episodes_count": 6,
+  "active_series_in_progress": 5,
+  "top_genres": [
+    "Family",
+    "Devotional",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:12:12.069Z",
+    "deadline": "2026-10-04T06:12:12.069Z",
+    "window_hours": 72,
+    "target_slug": "bhaja-moguba-d2",
+    "evidence": [
+      "slug_progress:bhaja-moguba-d2",
+      "days_inactive:19.7"
+    ],
+    "assumptions": [
+      "Viewer has 33 unwatched episodes remaining in bhaja-moguba-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2024-12-13T13:05:44.505Z",
+      "source": "profile:2026-09-29T05:30:11.066Z",
+      "timestamp": "2024-12-13T13:05:44.505Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "event:f57aedeb-c9af-4b86-9663-fd47672b3920",
+      "timestamp": "2026-09-03T12:09:58.031Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-29T05:30:11.066Z",
+      "timestamp": "2026-09-29T05:30:11.066Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T05:30:11.066Z",
+      "timestamp": "2026-09-29T05:30:11.066Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T05:30:11.066Z",
+      "timestamp": "2026-09-29T05:30:11.066Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T05:30:11.066Z",
+      "timestamp": "2026-09-29T05:30:11.066Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:39fcc7cf-eb07-4cdf-bae3-d066a2acb734",
+      "timestamp": "2026-10-01T06:12:12.069Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T06:12:12.069Z",
+      "source": "event:39fcc7cf-eb07-4cdf-bae3-d066a2acb734",
+      "timestamp": "2026-10-01T06:12:12.069Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T08:57:16.828Z",
+      "source": "event:c322e461-12a2-4e78-860c-bc2aca984233",
+      "timestamp": "2026-09-29T08:57:16.828Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-06T04:29:22.945Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-22T13:00:44.139Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-28T14:52:53.699Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

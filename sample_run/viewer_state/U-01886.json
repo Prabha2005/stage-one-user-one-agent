@@ -1,0 +1,132 @@
+{
+  "user_id": "U-01886",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-10-05T17:50:05.168Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 9,
+  "total_completions": 6,
+  "completed_episodes_count": 6,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Action",
+    "Comedy",
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:10:20.007Z",
+    "deadline": "2026-10-04T16:10:20.007Z",
+    "window_hours": 72,
+    "target_slug": "rigu-dhadi-d2",
+    "evidence": [
+      "slug_progress:rigu-dhadi-d2",
+      "days_inactive:9.1"
+    ],
+    "assumptions": [
+      "Viewer has 21 unwatched episodes remaining in rigu-dhadi-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-10-05T17:50:05.168Z",
+      "source": "profile:2026-09-29T00:34:06.701Z",
+      "timestamp": "2025-10-05T17:50:05.168Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:0929c22a-9560-4620-8d85-afc80039d1f8",
+      "timestamp": "2026-09-08T00:43:44.181Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-29T00:34:06.701Z",
+      "timestamp": "2026-09-29T00:34:06.701Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T00:34:06.701Z",
+      "timestamp": "2026-09-29T00:34:06.701Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T00:34:06.701Z",
+      "timestamp": "2026-09-29T00:34:06.701Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T00:34:06.701Z",
+      "timestamp": "2026-09-29T00:34:06.701Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:ced4edfa-52dd-4860-be08-dee0e79c388a",
+      "timestamp": "2026-10-01T16:10:20.007Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T16:10:20.007Z",
+      "source": "event:ced4edfa-52dd-4860-be08-dee0e79c388a",
+      "timestamp": "2026-10-01T16:10:20.007Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-23T17:28:48.371Z",
+      "source": "event:66ad85b2-6655-4148-9e5e-a9dff7cfb928",
+      "timestamp": "2026-09-23T17:28:48.371Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-22T14:51:06.798Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d5",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-22T16:48:23.461Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-24T13:56:31.608Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

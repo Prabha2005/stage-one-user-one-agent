@@ -1,0 +1,90 @@
+{
+  "user_id": "U-02453",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2025-10-08T14:45:19.640Z",
+  "resolved_dialect": "d1",
+  "app_dialect": null,
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Devotional",
+    "Action"
+  ],
+  "active_goal": {
+    "id": "G05",
+    "name": "first_paid_7d",
+    "started_at": "2026-10-01T03:56:22.558Z",
+    "deadline": "2026-10-08T03:56:22.558Z",
+    "window_hours": 168,
+    "target_slug": null,
+    "evidence": [
+      "subscription_status:never",
+      "source:profile:2026-09-28T18:43:50.129Z"
+    ],
+    "assumptions": [
+      "User has never subscribed to a paid plan"
+    ],
+    "confidence": 0.75,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-10-08T14:45:19.640Z",
+      "source": "profile:2026-09-28T18:43:50.129Z",
+      "timestamp": "2025-10-08T14:45:19.640Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-28T18:43:50.129Z",
+      "timestamp": "2026-09-28T18:43:50.129Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T18:43:50.129Z",
+      "timestamp": "2026-09-28T18:43:50.129Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T18:43:50.129Z",
+      "timestamp": "2026-09-28T18:43:50.129Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T18:43:50.129Z",
+      "timestamp": "2026-09-28T18:43:50.129Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T03:56:22.558Z",
+      "source": "event:5900a478-7bd1-4e87-a8df-6c556e8ed5af",
+      "timestamp": "2026-10-01T03:56:22.558Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-18T08:39:42.068Z",
+      "source": "event:713c7e82-dcf9-4974-aa4e-035196d26268",
+      "timestamp": "2026-09-18T08:39:42.068Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

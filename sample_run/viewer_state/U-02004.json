@@ -1,0 +1,114 @@
+{
+  "user_id": "U-02004",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-01-17T14:45:47.115Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 8,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Devotional",
+    "Action",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T03:15:02.575Z",
+    "deadline": "2026-10-04T03:15:02.575Z",
+    "window_hours": 72,
+    "target_slug": "bagugu-gigupi-d1",
+    "evidence": [
+      "slug_progress:bagugu-gigupi-d1",
+      "days_inactive:21.4"
+    ],
+    "assumptions": [
+      "Viewer has 8 unwatched episodes remaining in bagugu-gigupi-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-01-17T14:45:47.115Z",
+      "source": "profile:2026-09-29T07:35:27.992Z",
+      "timestamp": "2026-01-17T14:45:47.115Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:2cc24e01-eb65-453d-9875-5a8f5448333d",
+      "timestamp": "2026-09-07T11:17:34.556Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T07:35:27.992Z",
+      "timestamp": "2026-09-29T07:35:27.992Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T07:35:27.992Z",
+      "timestamp": "2026-09-29T07:35:27.992Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T07:35:27.992Z",
+      "timestamp": "2026-09-29T07:35:27.992Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T07:35:27.992Z",
+      "timestamp": "2026-09-29T07:35:27.992Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:cc2d4381-37c7-4cbc-8ab4-fd21cc06f307",
+      "timestamp": "2026-10-01T03:15:02.575Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T03:15:02.575Z",
+      "source": "event:cc2d4381-37c7-4cbc-8ab4-fd21cc06f307",
+      "timestamp": "2026-10-01T03:15:02.575Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T23:46:51.693Z",
+      "source": "event:1f1c4792-f0ad-4010-b831-ab35f85d5080",
+      "timestamp": "2026-09-29T23:46:51.693Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-10-01T03:15:02.575Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

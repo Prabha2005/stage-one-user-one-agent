@@ -1,0 +1,123 @@
+{
+  "user_id": "U-00555",
+  "arm": "holdout",
+  "subscription_status": "lapsed",
+  "signup_at": "2025-08-31T17:03:23.508Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Crime",
+    "Action",
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:47:22.260Z",
+    "deadline": "2026-10-04T04:47:22.260Z",
+    "window_hours": 72,
+    "target_slug": "tidaka-koni-d4",
+    "evidence": [
+      "slug_progress:tidaka-koni-d4",
+      "days_inactive:26.7"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in tidaka-koni-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-08-31T17:03:23.508Z",
+      "source": "profile:2026-09-29T07:43:56.050Z",
+      "timestamp": "2025-08-31T17:03:23.508Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "profile:2026-09-29T07:43:56.050Z",
+      "timestamp": "2026-09-29T07:43:56.050Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T07:43:56.050Z",
+      "timestamp": "2026-09-29T07:43:56.050Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T07:43:56.050Z",
+      "timestamp": "2026-09-29T07:43:56.050Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T07:43:56.050Z",
+      "timestamp": "2026-09-29T07:43:56.050Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T07:43:56.050Z",
+      "timestamp": "2026-09-29T07:43:56.050Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:b95c6c54-5593-44a3-894c-f1da0ec5ed01",
+      "timestamp": "2026-10-01T04:47:22.260Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T04:47:22.260Z",
+      "source": "event:b95c6c54-5593-44a3-894c-f1da0ec5ed01",
+      "timestamp": "2026-10-01T04:47:22.260Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-11T03:31:38.687Z",
+      "source": "event:5d903b0c-2439-488f-a198-9ae3a21fc05f",
+      "timestamp": "2026-09-11T03:31:38.687Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:fb2c1de5-4405-4ecb-958c-4515ccba70a3 (latest user app setting)",
+      "timestamp": "2026-09-11T03:30:17.401Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:c6b40516-dcac-4f23-9a03-118f3e85c387 (latest user app setting)",
+      "timestamp": "2026-09-11T03:30:25.985Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

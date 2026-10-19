@@ -1,0 +1,132 @@
+{
+  "user_id": "U-04202",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-11-20T16:03:49.631Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 16,
+  "total_completions": 11,
+  "completed_episodes_count": 6,
+  "active_series_in_progress": 5,
+  "top_genres": [
+    "Family",
+    "Drama",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:27:30.678Z",
+    "deadline": "2026-10-04T07:27:30.678Z",
+    "window_hours": 72,
+    "target_slug": "kasu-piva-d4",
+    "evidence": [
+      "slug_progress:kasu-piva-d4",
+      "days_inactive:24.1"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in kasu-piva-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-11-20T16:03:49.631Z",
+      "source": "profile:2026-09-28T22:23:11.282Z",
+      "timestamp": "2025-11-20T16:03:49.631Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:fea218e9-7f9d-4b04-ae5b-9ec59c87bd95",
+      "timestamp": "2026-09-04T04:02:39.754Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-28T22:23:11.282Z",
+      "timestamp": "2026-09-28T22:23:11.282Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T22:23:11.282Z",
+      "timestamp": "2026-09-28T22:23:11.282Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T22:23:11.282Z",
+      "timestamp": "2026-09-28T22:23:11.282Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T22:23:11.282Z",
+      "timestamp": "2026-09-28T22:23:11.282Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:918869a8-cff0-4d45-9b39-07cac02418e4",
+      "timestamp": "2026-10-01T07:27:30.678Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T07:27:30.678Z",
+      "source": "event:918869a8-cff0-4d45-9b39-07cac02418e4",
+      "timestamp": "2026-10-01T07:27:30.678Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T10:35:32.846Z",
+      "source": "event:ebe6a61d-8e9b-49fb-87b8-11f60c5b34cc",
+      "timestamp": "2026-09-30T10:35:32.846Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T17:08:11.667Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:8c1264d4-98e5-475a-8f8f-45ae971ecfa1 (latest user app setting)",
+      "timestamp": "2026-09-29T14:58:20.000Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d4"
+      },
+      "resolution": "Switched to d4 from event:5ae5e2ed-6e9c-426d-95df-94514c31f84a (latest user app setting)",
+      "timestamp": "2026-09-29T14:58:40.451Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

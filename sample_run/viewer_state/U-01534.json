@@ -1,0 +1,141 @@
+{
+  "user_id": "U-01534",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-08-16T01:31:58.077Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 7,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Thriller",
+    "Action",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T13:13:32.243Z",
+    "deadline": "2026-10-04T13:13:32.243Z",
+    "window_hours": 72,
+    "target_slug": "lomobha-moni-d3",
+    "evidence": [
+      "slug_progress:lomobha-moni-d3",
+      "days_inactive:19.2"
+    ],
+    "assumptions": [
+      "Viewer has 35 unwatched episodes remaining in lomobha-moni-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-08-16T01:31:58.077Z",
+      "source": "profile:2026-09-29T09:34:20.992Z",
+      "timestamp": "2025-08-16T01:31:58.077Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:8b876a74-5729-419e-82f2-211ff263979b",
+      "timestamp": "2026-09-03T06:04:37.197Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T09:34:20.992Z",
+      "timestamp": "2026-09-29T09:34:20.992Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T09:34:20.992Z",
+      "timestamp": "2026-09-29T09:34:20.992Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T09:34:20.992Z",
+      "timestamp": "2026-09-29T09:34:20.992Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T09:34:20.992Z",
+      "timestamp": "2026-09-29T09:34:20.992Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:01e60be2-c6df-4bc4-8f80-33265185b1a5",
+      "timestamp": "2026-10-01T13:13:32.243Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T13:13:32.243Z",
+      "source": "event:01e60be2-c6df-4bc4-8f80-33265185b1a5",
+      "timestamp": "2026-10-01T13:13:32.243Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-22T08:07:35.838Z",
+      "source": "event:8bef2204-b38e-424e-abf7-cf15f309e9bd",
+      "timestamp": "2026-09-22T08:07:35.838Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d3",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:fe5726ea-79a9-4c48-a6c0-205b9db414a4 (latest user app setting)",
+      "timestamp": "2026-09-02T20:51:01.227Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d3"
+      },
+      "resolution": "Switched to d3 from event:517fed5b-65cf-45fb-8642-bda1d1023c19 (latest user app setting)",
+      "timestamp": "2026-09-02T20:51:28.952Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d3",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:12fd89d6-fb53-40cc-9d2e-899b710609a0 (latest user app setting)",
+      "timestamp": "2026-09-12T08:02:39.066Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d3"
+      },
+      "resolution": "Switched to d3 from event:36601a57-6f19-4521-ba6d-67707eccd6bd (latest user app setting)",
+      "timestamp": "2026-09-12T08:03:01.620Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

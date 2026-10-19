@@ -1,0 +1,114 @@
+{
+  "user_id": "U-01486",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-01-26T22:18:27.990Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 6,
+  "total_completions": 4,
+  "completed_episodes_count": 4,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Action",
+    "Family",
+    "Devotional"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T01:08:34.850Z",
+    "deadline": "2026-10-04T01:08:34.850Z",
+    "window_hours": 72,
+    "target_slug": "labha-d1",
+    "evidence": [
+      "slug_progress:labha-d1",
+      "days_inactive:28.3"
+    ],
+    "assumptions": [
+      "Viewer has 6 unwatched episodes remaining in labha-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-01-26T22:18:27.990Z",
+      "source": "profile:2026-09-29T14:14:03.532Z",
+      "timestamp": "2026-01-26T22:18:27.990Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:3f03f9ee-0178-4c8f-a150-e1d36464ca15",
+      "timestamp": "2026-09-22T23:46:37.627Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T14:14:03.532Z",
+      "timestamp": "2026-09-29T14:14:03.532Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T14:14:03.532Z",
+      "timestamp": "2026-09-29T14:14:03.532Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T14:14:03.532Z",
+      "timestamp": "2026-09-29T14:14:03.532Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T14:14:03.532Z",
+      "timestamp": "2026-09-29T14:14:03.532Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:55827286-d6cd-4121-8b2d-a274e01e11ba",
+      "timestamp": "2026-10-01T09:24:00.525Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T09:24:00.525Z",
+      "source": "event:55827286-d6cd-4121-8b2d-a274e01e11ba",
+      "timestamp": "2026-10-01T09:24:00.525Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-26T15:47:24.224Z",
+      "source": "event:7e671cd3-a5c8-455e-8819-9ce6375c974d",
+      "timestamp": "2026-09-26T15:47:24.224Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-28T06:34:41.660Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

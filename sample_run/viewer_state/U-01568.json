@@ -1,0 +1,114 @@
+{
+  "user_id": "U-01568",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2025-07-11T08:02:38.622Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 4,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Thriller",
+    "Action",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T10:46:41.758Z",
+    "deadline": "2026-10-04T10:46:41.758Z",
+    "window_hours": 72,
+    "target_slug": "lomobha-moni-d3",
+    "evidence": [
+      "slug_progress:lomobha-moni-d3",
+      "days_inactive:13.8"
+    ],
+    "assumptions": [
+      "Viewer has 35 unwatched episodes remaining in lomobha-moni-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-07-11T08:02:38.622Z",
+      "source": "profile:2026-09-28T19:03:37.082Z",
+      "timestamp": "2025-07-11T08:02:38.622Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-28T19:03:37.082Z",
+      "timestamp": "2026-09-28T19:03:37.082Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-28T19:03:37.082Z",
+      "timestamp": "2026-09-28T19:03:37.082Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T19:03:37.082Z",
+      "timestamp": "2026-09-28T19:03:37.082Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T19:03:37.082Z",
+      "timestamp": "2026-09-28T19:03:37.082Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T19:03:37.082Z",
+      "timestamp": "2026-09-28T19:03:37.082Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:15341b7b-c176-46cd-bdb5-d4ba6e659c0f",
+      "timestamp": "2026-10-01T10:46:41.758Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T10:46:41.758Z",
+      "source": "event:15341b7b-c176-46cd-bdb5-d4ba6e659c0f",
+      "timestamp": "2026-10-01T10:46:41.758Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T12:24:46.337Z",
+      "source": "event:0e910d5a-381b-4153-b5e1-c9452a6ffc21",
+      "timestamp": "2026-09-29T12:24:46.337Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-29T12:24:17.880Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

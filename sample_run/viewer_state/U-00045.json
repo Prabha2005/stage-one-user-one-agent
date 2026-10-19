@@ -1,0 +1,122 @@
+{
+  "user_id": "U-00045",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2025-04-12T02:54:21.942Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 10,
+  "total_completions": 3,
+  "completed_episodes_count": 3,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Romance",
+    "Comedy"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:31:41.593Z",
+    "deadline": "2026-10-04T06:31:41.593Z",
+    "window_hours": 72,
+    "target_slug": "pate-kari-d3",
+    "evidence": [
+      "slug_progress:pate-kari-d3",
+      "days_inactive:15.7"
+    ],
+    "assumptions": [
+      "Viewer has 18 unwatched episodes remaining in pate-kari-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-04-12T02:54:21.942Z",
+      "source": "profile:2026-09-29T08:56:02.981Z",
+      "timestamp": "2025-04-12T02:54:21.942Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:173fc778-f125-43fa-a3c7-1e4fa9115893",
+      "timestamp": "2026-10-01T06:33:58.504Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T08:56:02.981Z",
+      "timestamp": "2026-09-29T08:56:02.981Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T08:56:02.981Z",
+      "timestamp": "2026-09-29T08:56:02.981Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T08:56:02.981Z",
+      "timestamp": "2026-09-29T08:56:02.981Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T08:56:02.981Z",
+      "timestamp": "2026-09-29T08:56:02.981Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:173fc778-f125-43fa-a3c7-1e4fa9115893",
+      "timestamp": "2026-10-01T06:33:58.504Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T06:31:41.593Z",
+      "source": "event:ac29e566-3b68-4378-b9bd-99a3445d0785",
+      "timestamp": "2026-10-01T06:31:41.593Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-28T07:07:15.402Z",
+      "source": "event:00299bd6-ad42-469f-bd7c-4e41a5e4197a",
+      "timestamp": "2026-09-28T07:07:15.402Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-04T07:46:43.669Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-20T16:24:58.013Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

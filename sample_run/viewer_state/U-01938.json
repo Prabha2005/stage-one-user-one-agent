@@ -1,0 +1,114 @@
+{
+  "user_id": "U-01938",
+  "arm": "holdout",
+  "subscription_status": "lapsed",
+  "signup_at": "2024-10-08T20:32:25.613Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d2",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 12,
+  "total_completions": 4,
+  "completed_episodes_count": 4,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Family",
+    "Romance",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T02:58:33.764Z",
+    "deadline": "2026-10-04T02:58:33.764Z",
+    "window_hours": 72,
+    "target_slug": "tero-koja-d2",
+    "evidence": [
+      "slug_progress:tero-koja-d2",
+      "days_inactive:16.4"
+    ],
+    "assumptions": [
+      "Viewer has 14 unwatched episodes remaining in tero-koja-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 3,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2024-10-08T20:32:25.613Z",
+      "source": "profile:2026-09-29T14:07:18.746Z",
+      "timestamp": "2024-10-08T20:32:25.613Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "event:e41704ed-ed3e-4d1a-8ed5-a5b5e372f9ac",
+      "timestamp": "2026-09-02T06:05:30.547Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "profile:2026-09-29T14:07:18.746Z",
+      "timestamp": "2026-09-29T14:07:18.746Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T14:07:18.746Z",
+      "timestamp": "2026-09-29T14:07:18.746Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T14:07:18.746Z",
+      "timestamp": "2026-09-29T14:07:18.746Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T14:07:18.746Z",
+      "timestamp": "2026-09-29T14:07:18.746Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:b9792519-69fe-4685-ae00-32d2e65c0ca2",
+      "timestamp": "2026-10-01T10:51:29.384Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T10:51:29.384Z",
+      "source": "event:b9792519-69fe-4685-ae00-32d2e65c0ca2",
+      "timestamp": "2026-10-01T10:51:29.384Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T04:05:22.947Z",
+      "source": "event:624f3275-ab88-4d63-b86f-f0ae47198ec3",
+      "timestamp": "2026-09-29T04:05:22.947Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d6",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-16T15:37:32.925Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

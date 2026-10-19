@@ -1,0 +1,93 @@
+{
+  "user_id": "U-04785",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2026-09-24T16:52:12.054Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 0,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 0,
+  "top_genres": [],
+  "active_goal": {
+    "id": "G01",
+    "name": "first_play_24h",
+    "started_at": "2026-10-01T05:16:28.715Z",
+    "deadline": "2026-10-02T05:16:28.715Z",
+    "window_hours": 24,
+    "target_slug": null,
+    "evidence": [
+      "signup_at:2026-09-24T16:52:12.054Z",
+      "total_plays:0"
+    ],
+    "assumptions": [
+      "Viewer is a newly registered user who has not activated playback"
+    ],
+    "confidence": 0.85,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-24T16:52:12.054Z",
+      "source": "event:c2bdbbae-8831-4ab0-be59-3341344bb365",
+      "timestamp": "2026-09-24T16:52:12.054Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "event:c2bdbbae-8831-4ab0-be59-3341344bb365",
+      "timestamp": "2026-09-24T16:52:12.054Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T04:59:19.279Z",
+      "timestamp": "2026-09-29T04:59:19.279Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T04:59:19.279Z",
+      "timestamp": "2026-09-29T04:59:19.279Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T04:59:19.279Z",
+      "timestamp": "2026-09-29T04:59:19.279Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T04:59:19.279Z",
+      "timestamp": "2026-09-29T04:59:19.279Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:80a0f2ea-0bca-4028-91bd-d54d28a101d9",
+      "timestamp": "2026-10-01T05:16:28.715Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T05:16:28.715Z",
+      "source": "event:80a0f2ea-0bca-4028-91bd-d54d28a101d9",
+      "timestamp": "2026-10-01T05:16:28.715Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

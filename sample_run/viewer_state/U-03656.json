@@ -1,0 +1,114 @@
+{
+  "user_id": "U-03656",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-07-18T01:20:06.930Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 4,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Family",
+    "Romance",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:03:53.799Z",
+    "deadline": "2026-10-04T15:03:53.799Z",
+    "window_hours": 72,
+    "target_slug": "koha-kagite-d4",
+    "evidence": [
+      "slug_progress:koha-kagite-d4",
+      "days_inactive:22.1"
+    ],
+    "assumptions": [
+      "Viewer has 45 unwatched episodes remaining in koha-kagite-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-07-18T01:20:06.930Z",
+      "source": "profile:2026-09-28T19:31:38.710Z",
+      "timestamp": "2026-07-18T01:20:06.930Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:252b8565-a93a-4cce-aff2-f4baefed34ad",
+      "timestamp": "2026-09-09T14:30:43.735Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-28T19:31:38.710Z",
+      "timestamp": "2026-09-28T19:31:38.710Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T19:31:38.710Z",
+      "timestamp": "2026-09-28T19:31:38.710Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T19:31:38.710Z",
+      "timestamp": "2026-09-28T19:31:38.710Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T19:31:38.710Z",
+      "timestamp": "2026-09-28T19:31:38.710Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:9d69b1ad-231e-4030-844c-f609112a76bf",
+      "timestamp": "2026-10-01T15:03:53.799Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:03:53.799Z",
+      "source": "event:9d69b1ad-231e-4030-844c-f609112a76bf",
+      "timestamp": "2026-10-01T15:03:53.799Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-17T10:19:19.938Z",
+      "source": "event:8e0fa4c9-8bb1-49ee-9f6a-d6b4e4016849",
+      "timestamp": "2026-09-17T10:19:19.938Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-12T07:15:04.445Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

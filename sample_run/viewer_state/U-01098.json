@@ -1,0 +1,141 @@
+{
+  "user_id": "U-01098",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-01-22T00:05:53.862Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 14,
+  "total_completions": 10,
+  "completed_episodes_count": 8,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Devotional",
+    "Action",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:34:02.433Z",
+    "deadline": "2026-10-04T14:34:02.433Z",
+    "window_hours": 72,
+    "target_slug": "gima-bhadaba-d1",
+    "evidence": [
+      "slug_progress:gima-bhadaba-d1",
+      "days_inactive:5.0"
+    ],
+    "assumptions": [
+      "Viewer has 40 unwatched episodes remaining in gima-bhadaba-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-01-22T00:05:53.862Z",
+      "source": "profile:2026-09-29T01:58:34.247Z",
+      "timestamp": "2026-01-22T00:05:53.862Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:bca1027c-1439-4dd0-aa3b-10d897fe8292",
+      "timestamp": "2026-09-09T12:42:53.851Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-29T01:58:34.247Z",
+      "timestamp": "2026-09-29T01:58:34.247Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:58:34.247Z",
+      "timestamp": "2026-09-29T01:58:34.247Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T01:58:34.247Z",
+      "timestamp": "2026-09-29T01:58:34.247Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T01:58:34.247Z",
+      "timestamp": "2026-09-29T01:58:34.247Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:5f9ae242-59f7-4cd0-b4be-1a4e52943aed",
+      "timestamp": "2026-10-01T14:57:14.509Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:57:14.509Z",
+      "source": "event:5f9ae242-59f7-4cd0-b4be-1a4e52943aed",
+      "timestamp": "2026-10-01T14:57:14.509Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-30T14:47:08.717Z",
+      "source": "event:d39ec9a7-3c90-4a3e-a10e-708ff758be05",
+      "timestamp": "2026-09-30T14:47:08.717Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d4",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-08T14:26:33.597Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d1",
+        "current_app_dialect": "NA"
+      },
+      "resolution": "Switched to NA from event:211de737-03ff-48a7-b818-c921e6b7216b (latest user app setting)",
+      "timestamp": "2026-09-20T14:59:33.802Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "NA",
+        "current_app_dialect": "d1"
+      },
+      "resolution": "Switched to d1 from event:6c098536-f3f8-478e-ae01-59f408f5a143 (latest user app setting)",
+      "timestamp": "2026-09-20T14:59:52.873Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-25T08:42:46.986Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

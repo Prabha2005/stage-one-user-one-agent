@@ -1,0 +1,114 @@
+{
+  "user_id": "U-03928",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2025-02-06T11:23:25.684Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": "d1",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "total_plays": 5,
+  "total_completions": 1,
+  "completed_episodes_count": 1,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Thriller",
+    "Devotional",
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T03:26:00.617Z",
+    "deadline": "2026-10-04T03:26:00.617Z",
+    "window_hours": 72,
+    "target_slug": "raja-badi-d1",
+    "evidence": [
+      "slug_progress:raja-badi-d1",
+      "days_inactive:24.4"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in raja-badi-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2025-02-06T11:23:25.684Z",
+      "source": "profile:2026-09-28T20:10:44.736Z",
+      "timestamp": "2025-02-06T11:23:25.684Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:5407891f-5133-4d67-b93a-72c620c22dc9",
+      "timestamp": "2026-09-03T01:25:40.458Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "profile:2026-09-28T20:10:44.736Z",
+      "timestamp": "2026-09-28T20:10:44.736Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T20:10:44.736Z",
+      "timestamp": "2026-09-28T20:10:44.736Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T20:10:44.736Z",
+      "timestamp": "2026-09-28T20:10:44.736Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T20:10:44.736Z",
+      "timestamp": "2026-09-28T20:10:44.736Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:1cc4d8ac-fb76-4fa3-9311-17edd8f20431",
+      "timestamp": "2026-10-01T03:26:00.617Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T03:26:00.617Z",
+      "source": "event:1cc4d8ac-fb76-4fa3-9311-17edd8f20431",
+      "timestamp": "2026-10-01T03:26:00.617Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-29T13:01:52.862Z",
+      "source": "event:052bfb84-aae8-470b-8e33-05daeccde4c2",
+      "timestamp": "2026-09-29T13:01:52.862Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d1"
+      },
+      "resolution": "Used d1 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-11T07:37:51.975Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

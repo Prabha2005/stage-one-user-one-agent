@@ -1,0 +1,69 @@
+{
+  "user_id": "U-04300",
+  "arm": "holdout",
+  "subscription_status": "never",
+  "signup_at": "2026-10-01T10:56:22.142Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": null,
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 0,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 0,
+  "top_genres": [],
+  "active_goal": {
+    "id": "G01",
+    "name": "first_play_24h",
+    "started_at": "2026-10-01T10:56:50.627Z",
+    "deadline": "2026-10-02T10:56:50.627Z",
+    "window_hours": 24,
+    "target_slug": null,
+    "evidence": [
+      "signup_at:2026-10-01T10:56:22.142Z",
+      "total_plays:0"
+    ],
+    "assumptions": [
+      "Viewer is a newly registered user who has not activated playback"
+    ],
+    "confidence": 0.85,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 0,
+  "facts": {
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:f722b362-c858-49df-8283-ccb4a730d79d",
+      "timestamp": "2026-10-01T10:56:51.706Z",
+      "confidence": 1.0
+    },
+    "signup_at": {
+      "value": "2026-10-01T10:56:22.142Z",
+      "source": "event:ca2b79af-46fa-410f-9846-872348b80bcf",
+      "timestamp": "2026-10-01T10:56:22.142Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "event:ca2b79af-46fa-410f-9846-872348b80bcf",
+      "timestamp": "2026-10-01T10:56:22.142Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T10:56:51.706Z",
+      "source": "event:f722b362-c858-49df-8283-ccb4a730d79d",
+      "timestamp": "2026-10-01T10:56:51.706Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

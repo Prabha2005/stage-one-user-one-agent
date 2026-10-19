@@ -1,0 +1,113 @@
+{
+  "user_id": "U-03295",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2025-07-02T16:55:44.805Z",
+  "resolved_dialect": "d6",
+  "app_dialect": "d6",
+  "profile_dialect": "d6",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 1,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Romance",
+    "Family"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:03:16.812Z",
+    "deadline": "2026-10-04T14:03:16.812Z",
+    "window_hours": 72,
+    "target_slug": "naka-d6",
+    "evidence": [
+      "slug_progress:naka-d6",
+      "days_inactive:12.3"
+    ],
+    "assumptions": [
+      "Viewer has 9 unwatched episodes remaining in naka-d6",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-07-02T16:55:44.805Z",
+      "source": "profile:2026-09-29T06:18:27.862Z",
+      "timestamp": "2025-07-02T16:55:44.805Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T06:18:27.862Z",
+      "timestamp": "2026-09-29T06:18:27.862Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "profile:2026-09-29T06:18:27.862Z",
+      "timestamp": "2026-09-29T06:18:27.862Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T06:18:27.862Z",
+      "timestamp": "2026-09-29T06:18:27.862Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T06:18:27.862Z",
+      "timestamp": "2026-09-29T06:18:27.862Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T06:18:27.862Z",
+      "timestamp": "2026-09-29T06:18:27.862Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:dddb0f4a-acd3-4e87-a376-b73954f390e0",
+      "timestamp": "2026-10-01T14:03:16.812Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:03:16.812Z",
+      "source": "event:dddb0f4a-acd3-4e87-a376-b73954f390e0",
+      "timestamp": "2026-10-01T14:03:16.812Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-19T07:06:50.621Z",
+      "source": "event:1e9e4af7-2f45-4c4d-9072-2794a6c12041",
+      "timestamp": "2026-09-19T07:06:50.621Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-19T07:04:22.594Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

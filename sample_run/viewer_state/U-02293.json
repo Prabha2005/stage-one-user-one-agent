@@ -1,0 +1,111 @@
+{
+  "user_id": "U-02293",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2026-02-25T15:37:55.993Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 0,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 0,
+  "top_genres": [],
+  "active_goal": {
+    "id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T04:46:22.340Z",
+    "deadline": "2026-10-04T04:46:22.340Z",
+    "window_hours": 72,
+    "target_slug": null,
+    "evidence": [
+      "total_completions:0"
+    ],
+    "assumptions": [
+      "Viewer has never completed any episode (90%+)"
+    ],
+    "confidence": 0.8,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-02-25T15:37:55.993Z",
+      "source": "profile:2026-09-29T10:24:58.741Z",
+      "timestamp": "2026-02-25T15:37:55.993Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-29T10:24:58.741Z",
+      "timestamp": "2026-09-29T10:24:58.741Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T10:24:58.741Z",
+      "timestamp": "2026-09-29T10:24:58.741Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T10:24:58.741Z",
+      "timestamp": "2026-09-29T10:24:58.741Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T10:24:58.741Z",
+      "timestamp": "2026-09-29T10:24:58.741Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T10:24:58.741Z",
+      "timestamp": "2026-09-29T10:24:58.741Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:8f60e7cd-a149-4920-88d0-37b94abb889c",
+      "timestamp": "2026-10-01T04:46:22.340Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T04:46:22.340Z",
+      "source": "event:8f60e7cd-a149-4920-88d0-37b94abb889c",
+      "timestamp": "2026-10-01T04:46:22.340Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d4",
+        "current_app_dialect": "d2"
+      },
+      "resolution": "Switched to d2 from event:e50938a5-1196-4f1b-95ab-898f53e3a4a9 (latest user app setting)",
+      "timestamp": "2026-09-23T04:54:09.291Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d4",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T04:46:22.340Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

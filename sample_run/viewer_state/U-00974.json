@@ -1,0 +1,114 @@
+{
+  "user_id": "U-00974",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-06-17T08:41:26.941Z",
+  "resolved_dialect": "d3",
+  "app_dialect": "d3",
+  "profile_dialect": "d3",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 5,
+  "total_completions": 3,
+  "completed_episodes_count": 3,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Romance",
+    "Thriller",
+    "Crime"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:09:36.260Z",
+    "deadline": "2026-10-04T15:09:36.260Z",
+    "window_hours": 72,
+    "target_slug": "yatite-roloda-d3",
+    "evidence": [
+      "slug_progress:yatite-roloda-d3",
+      "days_inactive:3.2"
+    ],
+    "assumptions": [
+      "Viewer has 21 unwatched episodes remaining in yatite-roloda-d3",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-06-17T08:41:26.941Z",
+      "source": "profile:2026-09-29T16:26:05.183Z",
+      "timestamp": "2026-06-17T08:41:26.941Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:b39b549d-23b5-4e35-9af3-bf4330f50043",
+      "timestamp": "2026-09-20T07:17:21.522Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "profile:2026-09-29T16:26:05.183Z",
+      "timestamp": "2026-09-29T16:26:05.183Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T16:26:05.183Z",
+      "timestamp": "2026-09-29T16:26:05.183Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T16:26:05.183Z",
+      "timestamp": "2026-09-29T16:26:05.183Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T16:26:05.183Z",
+      "timestamp": "2026-09-29T16:26:05.183Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:0dcdf3d1-546f-43d8-9058-fe5ba26d11aa",
+      "timestamp": "2026-10-01T15:09:36.260Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:09:36.260Z",
+      "source": "event:0dcdf3d1-546f-43d8-9058-fe5ba26d11aa",
+      "timestamp": "2026-10-01T15:09:36.260Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-28T11:26:52.483Z",
+      "source": "event:e4320a3a-67c9-422d-bbba-86a8377622b2",
+      "timestamp": "2026-09-28T11:26:52.483Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d1",
+        "app_setting": "d3"
+      },
+      "resolution": "Used d3 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-12T00:41:22.282Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

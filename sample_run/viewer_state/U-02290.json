@@ -1,0 +1,97 @@
+{
+  "user_id": "U-02290",
+  "arm": "agent",
+  "subscription_status": "lapsed",
+  "signup_at": "2026-09-17T15:45:26.441Z",
+  "resolved_dialect": "d1",
+  "app_dialect": "d1",
+  "profile_dialect": null,
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Drama",
+    "Thriller"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T12:21:56.972Z",
+    "deadline": "2026-10-04T12:21:56.972Z",
+    "window_hours": 72,
+    "target_slug": "rava-baya-d1",
+    "evidence": [
+      "slug_progress:rava-baya-d1",
+      "days_inactive:13.9"
+    ],
+    "assumptions": [
+      "Viewer has 1 unwatched episodes remaining in rava-baya-d1",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 2,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-17T15:45:26.441Z",
+      "source": "event:2cb630fa-8417-4b5a-8e84-eef90a0c365d",
+      "timestamp": "2026-09-17T15:45:26.441Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "event:3d0e0caa-c661-4002-b0dc-489f78089c9c",
+      "timestamp": "2026-09-20T15:45:24.593Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T10:26:15.263Z",
+      "timestamp": "2026-09-29T10:26:15.263Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T10:26:15.263Z",
+      "timestamp": "2026-09-29T10:26:15.263Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T10:26:15.263Z",
+      "timestamp": "2026-09-29T10:26:15.263Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:577b9923-e4a7-4a54-b191-fcaec7159c9c",
+      "timestamp": "2026-10-01T14:39:22.627Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:39:22.627Z",
+      "source": "event:577b9923-e4a7-4a54-b191-fcaec7159c9c",
+      "timestamp": "2026-10-01T14:39:22.627Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-28T06:41:30.615Z",
+      "source": "event:ceb218a2-b1e9-4d29-ad5f-9392ccb8c5ac",
+      "timestamp": "2026-09-28T06:41:30.615Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

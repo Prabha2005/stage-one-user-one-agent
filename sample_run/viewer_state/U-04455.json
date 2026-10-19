@@ -1,0 +1,141 @@
+{
+  "user_id": "U-04455",
+  "arm": "agent",
+  "subscription_status": "never",
+  "signup_at": "2025-02-26T16:35:55.921Z",
+  "resolved_dialect": "d6",
+  "app_dialect": "d6",
+  "profile_dialect": "d5",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 3,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 2,
+  "top_genres": [
+    "Action",
+    "Crime",
+    "Comedy"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:09:48.079Z",
+    "deadline": "2026-10-04T15:09:48.079Z",
+    "window_hours": 72,
+    "target_slug": "diti-kochu-d5",
+    "evidence": [
+      "slug_progress:diti-kochu-d5",
+      "days_inactive:11.9"
+    ],
+    "assumptions": [
+      "Viewer has 31 unwatched episodes remaining in diti-kochu-d5",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2025-02-26T16:35:55.921Z",
+      "source": "profile:2026-09-28T20:44:56.293Z",
+      "timestamp": "2025-02-26T16:35:55.921Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "never",
+      "source": "profile:2026-09-28T20:44:56.293Z",
+      "timestamp": "2026-09-28T20:44:56.293Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "profile:2026-09-28T20:44:56.293Z",
+      "timestamp": "2026-09-28T20:44:56.293Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-28T20:44:56.293Z",
+      "timestamp": "2026-09-28T20:44:56.293Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-28T20:44:56.293Z",
+      "timestamp": "2026-09-28T20:44:56.293Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-28T20:44:56.293Z",
+      "timestamp": "2026-09-28T20:44:56.293Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:562ffeb0-ff1f-470b-b46c-c5b1d2c2c93c",
+      "timestamp": "2026-10-01T15:09:48.079Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T15:09:48.079Z",
+      "source": "event:562ffeb0-ff1f-470b-b46c-c5b1d2c2c93c",
+      "timestamp": "2026-10-01T15:09:48.079Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-19T16:24:10.263Z",
+      "source": "event:9686e219-a9c5-481f-9727-4e716b037110",
+      "timestamp": "2026-09-19T16:24:10.263Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "previous_app_dialect": "d5",
+        "current_app_dialect": "d6"
+      },
+      "resolution": "Switched to d6 from event:dfedff22-25c2-4495-99b4-a1e11c6d4725 (latest user app setting)",
+      "timestamp": "2026-09-21T18:12:25.332Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-24T01:37:48.405Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 because the client UI renders in app_dialect",
+      "timestamp": "2026-09-24T01:38:13.351Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "profile": "d5",
+        "app_setting": "d6"
+      },
+      "resolution": "Used d6 because the client UI renders in app_dialect",
+      "timestamp": "2026-10-01T15:09:48.079Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "user_id": "U-03882",
+  "arm": "agent",
+  "subscription_status": "active",
+  "signup_at": "2026-09-05T10:47:33.277Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 2,
+  "total_completions": 2,
+  "completed_episodes_count": 2,
+  "active_series_in_progress": 1,
+  "top_genres": [
+    "Romance"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:38:38.924Z",
+    "deadline": "2026-10-04T14:38:38.924Z",
+    "window_hours": 72,
+    "target_slug": "raja-d4",
+    "evidence": [
+      "slug_progress:raja-d4",
+      "days_inactive:7.2"
+    ],
+    "assumptions": [
+      "Viewer has 28 unwatched episodes remaining in raja-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 1,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-05T10:47:33.277Z",
+      "source": "event:27bd59ea-3f36-470c-b355-14e86adccc6d",
+      "timestamp": "2026-09-05T10:47:33.277Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:7dec0c4d-cfd5-460c-a994-ca7fa5bfe263",
+      "timestamp": "2026-09-05T10:58:15.407Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T10:01:02.539Z",
+      "timestamp": "2026-09-29T10:01:02.539Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T10:01:02.539Z",
+      "timestamp": "2026-09-29T10:01:02.539Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T10:01:02.539Z",
+      "timestamp": "2026-09-29T10:01:02.539Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T10:01:02.539Z",
+      "timestamp": "2026-09-29T10:01:02.539Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:c9bfdad3-8911-4464-bc21-cd934a15fa6b",
+      "timestamp": "2026-10-01T14:38:38.924Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T14:38:38.924Z",
+      "source": "event:c9bfdad3-8911-4464-bc21-cd934a15fa6b",
+      "timestamp": "2026-10-01T14:38:38.924Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-24T10:06:11.473Z",
+      "source": "event:d0decffe-32cf-4c95-abb2-6e84e006daff",
+      "timestamp": "2026-09-24T10:06:11.473Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

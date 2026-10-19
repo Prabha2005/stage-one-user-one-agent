@@ -1,0 +1,108 @@
+{
+  "user_id": "U-01359",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-09-11T01:49:20.781Z",
+  "resolved_dialect": "d2",
+  "app_dialect": "d2",
+  "profile_dialect": null,
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 3,
+  "total_completions": 0,
+  "completed_episodes_count": 0,
+  "active_series_in_progress": 3,
+  "top_genres": [
+    "Romance",
+    "Devotional",
+    "Drama"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T11:41:57.262Z",
+    "deadline": "2026-10-04T11:41:57.262Z",
+    "window_hours": 72,
+    "target_slug": "guka-kosusa-d2",
+    "evidence": [
+      "slug_progress:guka-kosusa-d2",
+      "days_inactive:20.4"
+    ],
+    "assumptions": [
+      "Viewer has 41 unwatched episodes remaining in guka-kosusa-d2",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-09-11T01:49:20.781Z",
+      "source": "event:a31379a9-9851-40f9-a4f6-eca75749e4f5",
+      "timestamp": "2026-09-11T01:49:20.781Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:f3df7115-60b2-4be3-9eff-7a37406b070b",
+      "timestamp": "2026-09-18T17:26:44.872Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T09:51:57.658Z",
+      "timestamp": "2026-09-29T09:51:57.658Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T09:51:57.658Z",
+      "timestamp": "2026-09-29T09:51:57.658Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T09:51:57.658Z",
+      "timestamp": "2026-09-29T09:51:57.658Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:921dd0a7-8a52-4008-88d2-24d2d09f434f",
+      "timestamp": "2026-10-01T11:41:57.262Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T11:41:57.262Z",
+      "source": "event:921dd0a7-8a52-4008-88d2-24d2d09f434f",
+      "timestamp": "2026-10-01T11:41:57.262Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-24T07:29:32.638Z",
+      "source": "event:b8241647-cb21-4aa9-b0fa-d63c6f75cc3e",
+      "timestamp": "2026-09-24T07:29:32.638Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d2"
+      },
+      "resolution": "Used d2 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-17T08:43:08.428Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}

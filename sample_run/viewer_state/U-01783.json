@@ -1,0 +1,123 @@
+{
+  "user_id": "U-01783",
+  "arm": "holdout",
+  "subscription_status": "active",
+  "signup_at": "2026-07-17T12:57:44.008Z",
+  "resolved_dialect": "d4",
+  "app_dialect": "d4",
+  "profile_dialect": "d4",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "total_plays": 6,
+  "total_completions": 3,
+  "completed_episodes_count": 3,
+  "active_series_in_progress": 4,
+  "top_genres": [
+    "Romance",
+    "Crime",
+    "Comedy"
+  ],
+  "active_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T11:14:21.926Z",
+    "deadline": "2026-10-04T11:14:21.926Z",
+    "window_hours": 72,
+    "target_slug": "radi-d4",
+    "evidence": [
+      "slug_progress:radi-d4",
+      "days_inactive:27.0"
+    ],
+    "assumptions": [
+      "Viewer has 57 unwatched episodes remaining in radi-d4",
+      "Viewer stopped watching series for >= 3 days"
+    ],
+    "confidence": 0.88,
+    "status": "OPEN"
+  },
+  "goal_history_count": 0,
+  "decisions_count": 1,
+  "actions_count": 0,
+  "facts": {
+    "signup_at": {
+      "value": "2026-07-17T12:57:44.008Z",
+      "source": "profile:2026-09-29T03:39:44.118Z",
+      "timestamp": "2026-07-17T12:57:44.008Z",
+      "confidence": 1.0
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "event:5678257e-5559-456c-ab7f-7b5a23caf95b",
+      "timestamp": "2026-09-03T14:01:44.465Z",
+      "confidence": 1.0
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "profile:2026-09-29T03:39:44.118Z",
+      "timestamp": "2026-09-29T03:39:44.118Z",
+      "confidence": 1.0
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "profile:2026-09-29T03:39:44.118Z",
+      "timestamp": "2026-09-29T03:39:44.118Z",
+      "confidence": 1.0
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "profile:2026-09-29T03:39:44.118Z",
+      "timestamp": "2026-09-29T03:39:44.118Z",
+      "confidence": 1.0
+    },
+    "profile_snapshot": {
+      "value": "loaded",
+      "source": "profile:2026-09-29T03:39:44.118Z",
+      "timestamp": "2026-09-29T03:39:44.118Z",
+      "confidence": 1.0
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:28bce024-bad6-47ac-857b-3b6446915b61",
+      "timestamp": "2026-10-01T11:14:21.926Z",
+      "confidence": 1.0
+    },
+    "last_app_open_at": {
+      "value": "2026-10-01T11:14:21.926Z",
+      "source": "event:28bce024-bad6-47ac-857b-3b6446915b61",
+      "timestamp": "2026-10-01T11:14:21.926Z",
+      "confidence": 1.0
+    },
+    "last_play_at": {
+      "value": "2026-09-22T01:16:05.366Z",
+      "source": "event:9aa29c69-22e3-48fb-8f5c-0c6853d67895",
+      "timestamp": "2026-09-22T01:16:05.366Z",
+      "confidence": 1.0
+    }
+  },
+  "conflicts": [
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d3",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-18T02:10:38.128Z"
+    },
+    {
+      "fact": "dialect",
+      "sources": {
+        "campaign_deeplink": "d2",
+        "app_setting": "d4"
+      },
+      "resolution": "Used d4 (app setting takes precedence over campaign link for rendered content)",
+      "timestamp": "2026-09-27T04:30:40.114Z"
+    }
+  ],
+  "learnings": {
+    "preferred_genres": [],
+    "engagement_tier": "unknown",
+    "notes": []
+  }
+}
